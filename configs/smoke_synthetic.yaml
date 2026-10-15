@@ -1,0 +1,8 @@
+id: smoke-synthetic
+exp_root: experiments/_smoke
+seed: 0
+scale: 2
+device: cpu
+model: {name: ecbsr, kwargs: {m: 2, ch: 8}}
+data: {synthetic: true, n: 64, patch: 32, workers: 0}
+train: {iters: 20, batch: 4, lr: 5.0e-4, log_every: 5, ckpt_every: 10}

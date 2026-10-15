@@ -1,0 +1,9 @@
+# torch/torchvision installed separately from the CUDA wheel index (see scripts/setup_windows.ps1)
+numpy
+opencv-python-headless
+pyyaml
+onnx
+onnxscript
+onnxruntime
+lpips
+pytest
