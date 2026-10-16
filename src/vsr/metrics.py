@@ -3,12 +3,14 @@ import numpy as np
 
 
 def rgb_to_y(img):
-    """img: HxWx3 uint8/float in [0,255] RGB -> Y (BT.601, 16-235) float64."""
+    """img: HxWx3 uint8/float in [0,255] RGB -> Y (BT.709 full range, 0-255) float64."""
     img = img.astype(np.float64)
-    return 16.0 + (65.481 * img[..., 0] + 128.553 * img[..., 1] + 24.966 * img[..., 2]) / 255.0
+    return 0.2126 * img[..., 0] + 0.7152 * img[..., 1] + 0.0722 * img[..., 2]
 
 
 def psnr_y(a, b, border=0):
+    if border != 0:
+        raise ValueError("ADR 0003 requires no border crop")
     ya, yb = rgb_to_y(a), rgb_to_y(b)
     if border:
         ya, yb = ya[border:-border, border:-border], yb[border:-border, border:-border]
@@ -17,6 +19,10 @@ def psnr_y(a, b, border=0):
 
 
 def ssim_y(a, b, border=0):
+    if border != 0:
+        raise ValueError("ADR 0003 requires no border crop")
+    if min(a.shape[:2]) < 11 or a.shape != b.shape:
+        raise ValueError("matching shapes and at least 11 pixels required")
     x, y = rgb_to_y(a), rgb_to_y(b)
     if border:
         x, y = x[border:-border, border:-border], y[border:-border, border:-border]

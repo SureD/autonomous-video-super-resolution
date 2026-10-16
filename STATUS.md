@@ -8,7 +8,7 @@ Real-time VSR at ≥60 FPS end-to-end on RTX 3070 8GB (TensorRT FP16), 540p→10
 
 ## Current question
 
-Which candidate students fit the 60 FPS budget (exp001), and then which training-side changes (KD, reparam, degradation, export-aware training, temporal loss) improve quality at fixed inference cost?
+Which candidate students warrant deployment measurement after preliminary screening (exp001), and then which training-side changes (KD, reparam, degradation, export-aware training, temporal loss) improve quality at fixed inference cost?
 
 ## Hypotheses
 
@@ -50,12 +50,24 @@ Which candidate students fit the 60 FPS budget (exp001), and then which training
 
 ## Blockers
 
-1. GitHub repo `SureD/autonomous-video-super-resolution` not created/visible; `gh` not logged in on agent box. No remote; H1–H5 exist only as docs/issues drafts.
+1. ~~GitHub repo missing~~ **Resolved (live 2026-10-15):** [SureD/autonomous-video-super-resolution](https://github.com/SureD/autonomous-video-super-resolution) exists; H1–H5 are issues #1–#5; exp001 is #6. Agent-box checkout now has `origin` (HTTPS). Local `main` and `origin/main` share the same tree; commit histories differ (local linear vs remote import). `gh` still not logged in on the agent box, so pushes need Cursor GitHub / cloud agent / user auth.
 2. All GPU runs (exp001+) require the user at dscs2pc.
-3. Training/eval datasets (REDS / Vimeo-90K / consumer H.264 clips) not staged on dscs2pc (path unknown).
+3. Training/eval datasets (REDS / Vimeo-90K / consumer H.264 clips) not staged on dscs2pc (path unknown). Sample clips (BBB + Xiph 1080p + Vid4) are prepared on the agent box under `/workspace/data/prepared/` for transfer later.
 4. TensorRT/trtexec install status on dscs2pc unknown.
 
 ## Do not do yet
 
 - Rent cloud GPUs.
-- Training experiments before exp001 picks a budget-compliant student.
+- Deployment claims before a separate ADR 0001 pipeline measurement; exp001 only screens candidates.
+
+## Changes by Codex implementer
+
+- Added ADR 0002 and shared Pillow antialiased bicubic for frame-folder training,
+  preparation, and clean evaluation; eval now includes a bicubic PSNR-Y/SSIM-Y floor.
+- Added configurable exp002 Charbonnier runner, provisional ECBSR config, artifact
+  capture, and regression tests. No research results or latency eligibility claimed.
+- This environment has Pillow/NumPy but lacks torch, cv2, yaml, and pytest.
+  `python3 -m pytest -q` failed before collection: `No module named pytest`.
+  Synthetic two-iteration exp002 attempt failed on import: `No module named cv2`.
+  Dependency-light resize/preparation checks: 2 passed, 0 failed; compileall and
+  diff whitespace checks passed. Full tests, training, real data and GPU checks pending.

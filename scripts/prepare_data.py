@@ -9,12 +9,9 @@ Output layout (per clip, under --out/<name>/):
   meta.json                         everything needed to reproduce + per-folder frame-hash digests
 and appends one line to --out/manifest.jsonl.
 
-Dependencies: ffmpeg/ffprobe on PATH, numpy, Pillow (cv2 optional, only for --down cv2).
+Dependencies: ffmpeg/ffprobe on PATH, numpy, Pillow.
 
---down  pil     Pillow BICUBIC (antialiased, a=-0.5; closest to MATLAB imresize)   [default]
-        cv2     cv2.INTER_CUBIC (a=-0.75, NO antialias) -- same as src/vsr/data.py bicubic_down used in training
-        ffmpeg  swscale bicubic (flags=bicubic+accurate_rnd+full_chroma_int)
-The method is recorded in meta.json; train and eval must use the same one (see docs/datasets.md).
+Clean LR uses the shared Pillow antialiased bicubic protocol (ADR 0002).
 
 Examples
   python scripts/prepare_data.py --src data/raw/xiph_rush_hour_1080p25_f0-47.y4m --name rush_hour \
@@ -27,6 +24,8 @@ Examples
 import argparse, datetime, glob, hashlib, json, os, shutil, subprocess, sys
 from concurrent.futures import ProcessPoolExecutor
 
+import _path  # noqa
+from vsr.resize import bicubic_down, KERNEL
 import numpy as np
 from PIL import Image
 
@@ -108,25 +107,15 @@ def extract_hr(src, hr_dir, a, w, h):
 # ---------- bicubic downsample ----------
 def _down_one(args):
     src, dst, s, method = args
-    if method == "pil":
-        im = Image.open(src).convert("RGB")
-        im.resize((im.width // s, im.height // s), Image.BICUBIC).save(dst)
-    elif method == "cv2":
-        import cv2
-        im = cv2.imread(src)
-        cv2.imwrite(dst, cv2.resize(im, (im.shape[1] // s, im.shape[0] // s), interpolation=cv2.INTER_CUBIC))
-    else:
-        raise ValueError(method)
+    if method != "pil":
+        raise ValueError("only the shared pil downsample protocol is supported")
+    with Image.open(src) as im:
+        Image.fromarray(bicubic_down(np.array(im.convert("RGB")), s)).save(dst)
 
 
 def downsample(hr_dir, lr_dir, s, method, jobs):
     os.makedirs(lr_dir, exist_ok=True)
     files = sorted(os.listdir(hr_dir))
-    if method == "ffmpeg":
-        run(["ffmpeg", "-v", "error", "-y", "-i", os.path.join(hr_dir, "%05d.png"), "-vf",
-             f"scale=iw/{s}:ih/{s}:flags=bicubic+accurate_rnd+full_chroma_int", "-pix_fmt", "rgb24",
-             "-start_number", "1", os.path.join(lr_dir, "%05d.png")])
-        return
     with ProcessPoolExecutor(jobs) as ex:
         list(ex.map(_down_one, [(os.path.join(hr_dir, f), os.path.join(lr_dir, f), s, method) for f in files], chunksize=4))
 
@@ -171,7 +160,7 @@ def main():
     p.add_argument("--name", required=True)
     p.add_argument("--out", default="data/prepared")
     p.add_argument("--scale", type=int, default=2)
-    p.add_argument("--down", choices=["pil", "cv2", "ffmpeg"], default="pil")
+    p.add_argument("--down", choices=["pil"], default="pil")
     p.add_argument("--hr-height", type=int, default=0, help="resize source to this height first (Lanczos), 0 = keep")
     p.add_argument("--ss", type=float, default=0, help="start time (s) for video input")
     p.add_argument("--start-frame", type=int, default=0, help="first frame for folder input")
@@ -203,7 +192,7 @@ def main():
         "src": a.src, "src_sha256": sha256_file(a.src) if os.path.isfile(a.src) else None,
         "provenance": find_license(a.src, a.raw_manifest, a.provenance or None),
         "frames": n, "fps": fps, "scale": s, "hr_hw": list(HW), "lr_hw": [HW[0] // s, HW[1] // s],
-        "downsample": a.down, "ffmpeg": ffmpeg_version(), "args": vars(a),
+        "downsample": KERNEL, "ffmpeg": ffmpeg_version(), "args": vars(a),
         "folders": {"HR": folder_digest(hr), f"LR_x{s}": folder_digest(lr)}, "codec": {},
     }
     for codec, crfs in (("h264", a.h264_crf), ("av1", a.av1_crf)):

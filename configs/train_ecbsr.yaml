@@ -8,5 +8,5 @@ data:
   h264_prob: 0.0             # >0 enables ffmpeg H.264 re-encode of LR (H3)
   crf_range: [18, 35]
   workers: 4
-  epoch_len: 20000
+  # All frames participate; train.iters is the optimization budget.
 train: {iters: 200000, batch: 16, lr: 5.0e-4, lr_min: 1.0e-6, log_every: 100, ckpt_every: 5000}

@@ -4,17 +4,13 @@ import cv2
 import numpy as np
 import torch
 from torch.utils.data import Dataset
+from vsr.resize import bicubic_down
 
 IMG_EXT = (".png", ".jpg", ".jpeg", ".bmp")
 
 
 def list_frames(root):
     return sorted(p for p in glob.glob(os.path.join(root, "**", "*"), recursive=True) if p.lower().endswith(IMG_EXT))
-
-
-def bicubic_down(img, scale):
-    h, w = img.shape[:2]
-    return cv2.resize(img, (w // scale, h // scale), interpolation=cv2.INTER_CUBIC)
 
 
 def h264_roundtrip(img, crf=23, ffmpeg="ffmpeg"):
@@ -48,13 +44,13 @@ class FrameFolderSR(Dataset):
         if not self.files:
             raise FileNotFoundError(f"no frames under {root}")
         self.scale, self.patch, self.h264_prob, self.crf_range, self.augment = scale, patch, h264_prob, crf_range, augment
-        self.length = length or len(self.files)
+        self.length = len(self.files)  # epoch_len never truncates the population
 
     def __len__(self):
         return self.length
 
     def __getitem__(self, i):
-        img = cv2.cvtColor(cv2.imread(self.files[i % len(self.files)]), cv2.COLOR_BGR2RGB)
+        img = cv2.cvtColor(cv2.imread(self.files[i]), cv2.COLOR_BGR2RGB)
         s, p = self.scale, self.patch * self.scale
         h, w = img.shape[:2]
         if self.patch and h >= p and w >= p:
