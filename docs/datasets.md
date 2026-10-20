@@ -36,7 +36,7 @@
 | **Xiph – Netflix 4096×2160 10-bit** (Boat, Tango, FoodMarket, …) | https://media.xiph.org/video/derf/ → `ElFuente/…y4m`, `Chimera/…y4m` | ~26.5 MB/frame (4096×2160×1.5×2 B, computed), 300 frames ≈ 8 GB (computed) | `ElFuente/Netflix_Boat_Copyright.txt` (fetched): **CC BY-NC-ND 4.0**. The `Chimera/…_Copyright.txt` URLs returned 404 → Chimera clips' terms **unverified** | 4096×2160 59.94 fps 10-bit 4:2:0 | 4K eval candidate (non-commercial research only; ND risk) | Not downloaded |
 | **Pexels videos** | https://www.pexels.com/license/ (fetched) | n/a | Free to use and modify, attribution not required; **cannot redistribute** on other stock/wallpaper platforms. Whether *ML training* is permitted: **not stated on that page – unverified**; Pexels API/website terms for bulk download not checked | up to 4K clips, mostly H.264 | Optional manual "consumer content" hold-out (small, hand-picked, never republished) | not tested |
 | **Pixabay videos** | https://pixabay.com/service/license-summary/ (fetched) | n/a | Free use, no attribution, modification allowed; no standalone redistribution; "full Content License is the only legally binding" – ML-training clause **unverified** | up to 4K, H.264 | same as Pexels | not tested |
-| **Self-made compressed eval set** | built by `prepare_data.py` from the clean 1080p GT above | ≈0.7–1 MB per 960×540 PNG frame per variant (measured) | inherits the source licence | LR 960×540 → H.264 (libx264, preset medium, yuv420p, BT.709 tags) CRF 18/23/28/33 and AV1 (libsvtav1 preset 6) CRF 35/45, decoded back to PNG | **Test (H3 / compression robustness)**; also training-time degradation pool | ✔ see §3 |
+| **Self-made compressed eval set** | built by `prepare_data.py` from the clean 1080p GT above | ≈0.7–1 MB per 960×540 PNG frame per variant (measured) | inherits the source licence | LR 960×540 → H.264 (libx264, preset medium, yuv420p, BT.709 tags) CRF 18/23/28/33 and AV1 (libsvtav1 preset 6) CRF 35/45, decoded back to PNG | **Test (H3 / compression robustness)**; evaluation only; never a training degradation pool | ✔ see §3 |
 
 ## 2. What was downloaded (agent box, `/workspace/data`, 2026-10-15 10:34–10:36 CST)
 
@@ -74,11 +74,12 @@ python scripts/prepare_data.py --src data/bbb/bbb_sunflower_1080p_30fps_normal.m
     --scale 2 --provenance bbb1080 --h264-crf 23
 python scripts/prepare_data.py --src <4k video> --name x --hr-height 2160 --scale 2     # 1080p->4K task
 ```
-`--down pil|cv2|ffmpeg` selects the bicubic implementation (default `pil`; `ffmpeg` path tested; `cv2` path untested because cv2 is not installed on the box). **Caveat:** `src/vsr/data.py` (training) uses `cv2.INTER_CUBIC` (a=−0.75, no antialias), which is *not* identical to PIL's antialiased bicubic. Before exp002 we must choose one function for both training LR synthesis and eval LR, and record it in the ADR. Until then eval folders built with `--down pil` and a model trained with cv2 bicubic would have a train/test degradation mismatch.
+`--down pil` is the sole supported kernel. Training, preparation, and evaluation share
+`vsr.resize.bicubic_down` (ADR 0002); regenerate older non-Pillow derivatives.
 
 ## 4. Evaluation protocol sketch (extends ADR 0001; still a proposal)
 
-Common: Y-channel (BT.709 full-range RGB→Y) PSNR/SSIM on the **full frame, no border crop**; LPIPS(alex); tLPIPS; flow-warp error; report per-clip means and the mean±std *over clips* (frames within a clip are not independent). Frame-by-frame bicubic ×2 upsample is the reference baseline (42.51 dB RGB PSNR on `rush_hour` frames 0,8,…,40, see above). Latency is measured separately (exp001).
+Common: Y-channel (BT.709 full-range RGB→Y) PSNR/SSIM on the **full frame, no border crop**; LPIPS(alex); tLPIPS; flow-warp error; report per-clip means and the mean±std *over clips* (frames within a clip are not independent). Frame-by-frame bicubic ×2 upsample is the reference baseline (42.51 dB RGB PSNR on `rush_hour` frames 0,8,…,40, see above). Latency screening is measured separately (exp001); deployment remains unverified. See ADR 0003 for the locked metric contract.
 
 | ID | Task | GT | LR | Clips (current) | Purpose |
 |---|---|---|---|---|---|
@@ -126,4 +127,12 @@ The PC's free disk is **unknown** (not checked – no access allowed). Transfer 
 - Licences of Elephants Dream / Spring / Cosmos Laundromat / Sprite Fright; Netflix Chimera clips; Xiph hdgreetings clips (`dinner`, `factory`, `life` → `www.hdgreetings.com/copyright.txt` not fetched); Twitch capture sizes/resolution.
 - Pexels/Pixabay: explicit permission for ML training; bulk-download terms.
 - Whether ToS `ToS-4k-1920.mov.zip` is true 4K (name suggests 1920 wide).
-- `prepare_data.py --down cv2` path (no cv2 on the box); AV1 decoding relied on the box's ffmpeg 7.1.5 (libdav1d/libaom availability implicitly OK because decode worked).
+- AV1 decoding relied on the box's ffmpeg 7.1.5 (libdav1d/libaom availability implicitly OK because decode worked). `--down` accepts only `pil`; the old `cv2` choice is gone (ADR 0002).
+
+## H3 implementation limits
+
+The optional on-the-fly H.264 path is single cropped-frame augmentation only,
+not sequence-coherent H3 training. It does not match preparation color/GOP settings
+and provides no AV1 training path. H3 remains unimplemented pending disjoint
+full-sequence training pools, aligned crops, fixed color/preset/GOP, and exact
+CRF 30 evaluation (not among the currently staged 18/23/28/33 variants).

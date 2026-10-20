@@ -1,0 +1,12 @@
+# Provisional ECBSR candidate; deployment measurement must confirm the hardware budget.
+seed: 0
+scale: 2
+device: cpu
+threads: 1
+border: 0
+model: {name: ecbsr, kwargs: {scale: 2, m: 4, ch: 16}}
+data:
+  root: data/train_hr
+  val_root: data/val_hr
+  patch: 96
+train: {iters: 200000, batch: 16, lr: 5.0e-4}

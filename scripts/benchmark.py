@@ -1,4 +1,4 @@
-"""PyTorch FP16 latency/FPS benchmark (CUDA events + warmup), ONNX export, optional TensorRT (trtexec).
+"""Preliminary screening only; no deployment pass criterion. PyTorch FP16 latency/FPS benchmark (CUDA events + warmup), ONNX export, optional TensorRT (trtexec).
 
 Example: python scripts/benchmark.py --models espcn fsrcnn ecbsr plain --out experiments/exp001-latency-baselines/results
 Measures network-only latency for 960x540 -> 1920x1080 (x2, batch 1). Optional --e2e adds H2D upload of a uint8
@@ -25,15 +25,17 @@ def export_onnx(model, path, h, w, dynamic=False):
 
 @torch.no_grad()
 def bench_torch(model, h, w, dtype, warmup, iters, e2e, channels_last=False):
+    if iters < 1 or warmup < 0:
+        raise ValueError("positive iters and nonnegative warmup required")
     dev = torch.device("cuda")
     model = model.to(dev, dtype).eval()
-    if channels_last:
-        model = model.to(memory_format=torch.channels_last)
+    layout = torch.channels_last if channels_last else torch.contiguous_format
+    model = model.to(memory_format=layout)
     frame = torch.randint(0, 255, (h, w, 3), dtype=torch.uint8).pin_memory()
-    x = torch.rand(1, 3, h, w, device=dev, dtype=dtype)
+    x = torch.rand(1, 3, h, w, device=dev, dtype=dtype).contiguous(memory_format=layout)
     def step():
         if e2e:
-            g = frame.to(dev, non_blocking=True).permute(2, 0, 1)[None].to(dtype).div_(255)
+            g = frame.to(dev, non_blocking=True).permute(2, 0, 1)[None].to(dtype).div_(255).contiguous(memory_format=layout)
             y = model(g)
             return y.clamp_(0, 1).mul_(255).round_().to(torch.uint8).permute(0, 2, 3, 1).cpu()
         return model(x)
@@ -41,14 +43,28 @@ def bench_torch(model, h, w, dtype, warmup, iters, e2e, channels_last=False):
         step()
     torch.cuda.synchronize()
     s, e = torch.cuda.Event(enable_timing=True), torch.cuda.Event(enable_timing=True)
-    times = []
+    samples = []
     for _ in range(iters):
-        s.record(); step(); e.record(); torch.cuda.synchronize()
-        times.append(s.elapsed_time(e))
-    times.sort()
-    mean = sum(times) / len(times)
-    return {"mean_ms": mean, "median_ms": times[len(times) // 2], "p95_ms": times[int(0.95 * len(times)) - 1],
-            "fps_mean": 1000.0 / mean}
+        torch.cuda.synchronize()
+        t0 = time.perf_counter()
+        s.record(); output = step(); e.record(); torch.cuda.synchronize()
+        wall_ms = (time.perf_counter() - t0) * 1000
+        samples.append({"wall_ms": wall_ms, "cuda_event_ms": s.elapsed_time(e)})
+        del output
+    return summarize_samples(samples, channels_last)
+
+
+def summarize_samples(samples, channels_last=False):
+    import math
+    def summary(key):
+        values = sorted(s[key] for s in samples)
+        mean = sum(values) / len(values)
+        return dict(mean_ms=mean, median_ms=__import__('statistics').median(values),
+                    p95_ms=values[math.ceil(.95*len(values))-1], fps_mean=1000/mean)
+    return dict(**summary('wall_ms'), wall=summary('wall_ms'), cuda_event=summary('cuda_event_ms'),
+                samples=samples, layout='channels_last' if channels_last else 'contiguous NCHW',
+                scope='preallocated RGB input; network or selected copies only; excludes decode/display')
+
 
 
 def main():
@@ -56,6 +72,7 @@ def main():
     ap.add_argument("--models", nargs="+", default=["espcn", "fsrcnn", "ecbsr", "plain"])
     ap.add_argument("--height", type=int, default=540); ap.add_argument("--width", type=int, default=960)
     ap.add_argument("--warmup", type=int, default=50); ap.add_argument("--iters", type=int, default=300)
+    ap.add_argument("--repeats", type=int, default=3)
     ap.add_argument("--dtype", default="fp16", choices=["fp16", "fp32"])
     ap.add_argument("--e2e", action="store_true", help="include uint8 H2D/normalize/D2H in the timed region")
     ap.add_argument("--out", default="experiments/exp001-latency-baselines/results")
@@ -63,6 +80,8 @@ def main():
     ap.add_argument("--trt", action="store_true", help="run trtexec --fp16 if found (implies --onnx)")
     ap.add_argument("--trtexec", default="trtexec")
     a = ap.parse_args()
+    if a.repeats < 1 or a.iters < 1 or a.warmup < 0:
+        ap.error("positive repeats/iters and nonnegative warmup required")
     os.makedirs(a.out, exist_ok=True)
     have_cuda = torch.cuda.is_available()
     env = {"time": datetime.datetime.now().astimezone().isoformat(), "host": platform.node(), "os": platform.platform(),
@@ -78,9 +97,9 @@ def main():
         r = {"params": sum(p.numel() for p in m.parameters())}
         if have_cuda:
             dt = torch.float16 if a.dtype == "fp16" else torch.float32
-            r["torch_net"] = bench_torch(m, a.height, a.width, dt, a.warmup, a.iters, e2e=False)
+            r["torch_net"] = [bench_torch(m, a.height, a.width, dt, a.warmup, a.iters, e2e=False) for _ in range(a.repeats)]
             if a.e2e:
-                r["torch_e2e_copy"] = bench_torch(m, a.height, a.width, dt, a.warmup, a.iters, e2e=True)
+                r["torch_e2e_copy"] = [bench_torch(m, a.height, a.width, dt, a.warmup, a.iters, e2e=True) for _ in range(a.repeats)]
         else:
             r["torch_net"] = "skipped: no CUDA"
         if a.onnx or a.trt:
