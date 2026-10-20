@@ -1,0 +1,3281 @@
+{
+  "utc": "2026-10-17T02:54:15.330662+00:00",
+  "clips": [
+    {
+      "clip": "vid4_calendar",
+      "available_frames": 41,
+      "sampled_indices_zero_based": [
+        0,
+        10,
+        20,
+        30,
+        40
+      ],
+      "fps": 25.0,
+      "meta": {
+        "name": "vid4_calendar",
+        "created": "2026-10-15T10:36:43+08:00",
+        "src": "data/vid4/calendar/original",
+        "src_sha256": null,
+        "provenance": {
+          "name": "vid4",
+          "source_url": "https://people.csail.mit.edu/celiu/CVPR2011/videoSR.zip",
+          "license": "NO LICENSE STATED on author page (research benchmark; treat as research-use only)",
+          "license_evidence": "https://people.csail.mit.edu/celiu/CVPR2011/default.html",
+          "sha256": "ce7087aa787838ec0fdd33f5eab82cdca5d6c7d91bb4cd5cf6807ea3cfda6cc2",
+          "partial": null
+        },
+        "frames": 41,
+        "fps": 25.0,
+        "scale": 2,
+        "hr_hw": [
+          576,
+          720
+        ],
+        "lr_hw": [
+          288,
+          360
+        ],
+        "downsample": "pil",
+        "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+        "args": {
+          "src": "data/vid4/calendar/original",
+          "name": "vid4_calendar",
+          "out": "data/prepared",
+          "scale": 2,
+          "down": "pil",
+          "hr_height": 0,
+          "ss": 0,
+          "start_frame": 0,
+          "frames": 0,
+          "fps": 25.0,
+          "h264_crf": "23",
+          "av1_crf": "",
+          "jobs": 8,
+          "raw_manifest": "data/manifests/manifest_raw.jsonl",
+          "keep_existing": false
+        },
+        "folders": {
+          "HR": {
+            "n": 41,
+            "sha256": "4a65d82b2c644acc043c4fe26c7121ff799c3395bc3ee280fc4f042e623caeb4"
+          },
+          "LR_x2": {
+            "n": 41,
+            "sha256": "7ff2cc2eeaa179f901f20dde7fae0e8083efa97f6982d21ae728b36b60bcd4ea"
+          },
+          "LR_x2_h264_crf23": {
+            "n": 41,
+            "sha256": "80508c6b91a88e2a5c0e17766367c2ee346d61634b6e4ef3c9af0830c0fefd78"
+          }
+        },
+        "codec": {
+          "h264_crf23": {
+            "encoder": "libx264 preset=medium",
+            "crf": 23,
+            "mp4_bytes": 123914,
+            "bitrate_kbps": 604.5,
+            "mp4_sha256": "d0532a165abb697ce5997811120d1c1c613df8a52c58282e2d199cce212b4f5a"
+          }
+        }
+      },
+      "codec_crf23": {
+        "sha256": "686f8b8eaf0ded93f784899a8c77adcb44abfd2934cdf9732f9da998411a423d",
+        "bytes": 635132
+      },
+      "codec_crf33": {
+        "sha256": "65c0a861cea06febb7ec5d85554e1547fa01bc7626d36a6cf7840dfa7c6c5055",
+        "bytes": 123873
+      }
+    },
+    {
+      "clip": "vid4_city",
+      "available_frames": 34,
+      "sampled_indices_zero_based": [
+        0,
+        8,
+        16,
+        25,
+        33
+      ],
+      "fps": 25.0,
+      "meta": {
+        "name": "vid4_city",
+        "created": "2026-10-15T10:36:47+08:00",
+        "src": "data/vid4/city/original",
+        "src_sha256": null,
+        "provenance": {
+          "name": "vid4",
+          "source_url": "https://people.csail.mit.edu/celiu/CVPR2011/videoSR.zip",
+          "license": "NO LICENSE STATED on author page (research benchmark; treat as research-use only)",
+          "license_evidence": "https://people.csail.mit.edu/celiu/CVPR2011/default.html",
+          "sha256": "ce7087aa787838ec0fdd33f5eab82cdca5d6c7d91bb4cd5cf6807ea3cfda6cc2",
+          "partial": null
+        },
+        "frames": 34,
+        "fps": 25.0,
+        "scale": 2,
+        "hr_hw": [
+          576,
+          704
+        ],
+        "lr_hw": [
+          288,
+          352
+        ],
+        "downsample": "pil",
+        "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+        "args": {
+          "src": "data/vid4/city/original",
+          "name": "vid4_city",
+          "out": "data/prepared",
+          "scale": 2,
+          "down": "pil",
+          "hr_height": 0,
+          "ss": 0,
+          "start_frame": 0,
+          "frames": 0,
+          "fps": 25.0,
+          "h264_crf": "23",
+          "av1_crf": "",
+          "jobs": 8,
+          "raw_manifest": "data/manifests/manifest_raw.jsonl",
+          "keep_existing": false
+        },
+        "folders": {
+          "HR": {
+            "n": 34,
+            "sha256": "9bda85486967e41e8eb635b0038fe2214a00dbb096c0419947e27e356c5178d7"
+          },
+          "LR_x2": {
+            "n": 34,
+            "sha256": "b115aff870c3f2f4817d450692e1df03b2fbc6d03f8a98ebb52974140b939999"
+          },
+          "LR_x2_h264_crf23": {
+            "n": 34,
+            "sha256": "6fa9a0579a4ce1f6489fa58d5bc35a0a6136e94b2bd678afca0d7a0b093d6ea2"
+          }
+        },
+        "codec": {
+          "h264_crf23": {
+            "encoder": "libx264 preset=medium",
+            "crf": 23,
+            "mp4_bytes": 80701,
+            "bitrate_kbps": 474.7,
+            "mp4_sha256": "c457fde12954acd3afcff0638711a195f9cb57295e926d01122e2a88d84a91c2"
+          }
+        }
+      },
+      "codec_crf23": {
+        "sha256": "f8d11d8da2511ffac21a04c463cddf34d65d37b1e9f79cdb543cfc7a9ae33bf4",
+        "bytes": 292430
+      },
+      "codec_crf33": {
+        "sha256": "e7b76b9fa89030ca56e09da15ce38afbaa3c307f1f69e22347a8eb6d3c3faf74",
+        "bytes": 60781
+      }
+    },
+    {
+      "clip": "vid4_foliage",
+      "available_frames": 49,
+      "sampled_indices_zero_based": [
+        0,
+        12,
+        24,
+        36,
+        48
+      ],
+      "fps": 25.0,
+      "meta": {
+        "name": "vid4_foliage",
+        "created": "2026-10-15T10:36:51+08:00",
+        "src": "data/vid4/foliage/original",
+        "src_sha256": null,
+        "provenance": {
+          "name": "vid4",
+          "source_url": "https://people.csail.mit.edu/celiu/CVPR2011/videoSR.zip",
+          "license": "NO LICENSE STATED on author page (research benchmark; treat as research-use only)",
+          "license_evidence": "https://people.csail.mit.edu/celiu/CVPR2011/default.html",
+          "sha256": "ce7087aa787838ec0fdd33f5eab82cdca5d6c7d91bb4cd5cf6807ea3cfda6cc2",
+          "partial": null
+        },
+        "frames": 49,
+        "fps": 25.0,
+        "scale": 2,
+        "hr_hw": [
+          480,
+          720
+        ],
+        "lr_hw": [
+          240,
+          360
+        ],
+        "downsample": "pil",
+        "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+        "args": {
+          "src": "data/vid4/foliage/original",
+          "name": "vid4_foliage",
+          "out": "data/prepared",
+          "scale": 2,
+          "down": "pil",
+          "hr_height": 0,
+          "ss": 0,
+          "start_frame": 0,
+          "frames": 0,
+          "fps": 25.0,
+          "h264_crf": "23",
+          "av1_crf": "",
+          "jobs": 8,
+          "raw_manifest": "data/manifests/manifest_raw.jsonl",
+          "keep_existing": false
+        },
+        "folders": {
+          "HR": {
+            "n": 49,
+            "sha256": "5c0757d2cb7502f760a0011404e8e92bf475169e0f8cb64ddb6a134269a5145a"
+          },
+          "LR_x2": {
+            "n": 49,
+            "sha256": "1b81cedf01b6d6c35830fe7d8b98dc8e9e7b2cc74ba5ddbaeb8887ce2c16c714"
+          },
+          "LR_x2_h264_crf23": {
+            "n": 49,
+            "sha256": "846db716be115e395dde496dfb57d95735c95cace7e6b68822e1884daa00a4c8"
+          }
+        },
+        "codec": {
+          "h264_crf23": {
+            "encoder": "libx264 preset=medium",
+            "crf": 23,
+            "mp4_bytes": 172725,
+            "bitrate_kbps": 705.0,
+            "mp4_sha256": "84e566b53f5305619cdbdc40a603e743f791ec8c15ef40fdbc9a50dd288b447c"
+          }
+        }
+      },
+      "codec_crf23": {
+        "sha256": "2372784347a923c7dcef0e64a8cad66c9c3f27e6adc193bd365cc69e79447332",
+        "bytes": 625987
+      },
+      "codec_crf33": {
+        "sha256": "295547830c9e177a81402bf83b355af7a916d38c07579cbd22de1fcedfeaee82",
+        "bytes": 119430
+      }
+    },
+    {
+      "clip": "vid4_walk",
+      "available_frames": 47,
+      "sampled_indices_zero_based": [
+        0,
+        12,
+        23,
+        34,
+        46
+      ],
+      "fps": 25.0,
+      "meta": {
+        "name": "vid4_walk",
+        "created": "2026-10-15T10:36:56+08:00",
+        "src": "data/vid4/walk/original",
+        "src_sha256": null,
+        "provenance": {
+          "name": "vid4",
+          "source_url": "https://people.csail.mit.edu/celiu/CVPR2011/videoSR.zip",
+          "license": "NO LICENSE STATED on author page (research benchmark; treat as research-use only)",
+          "license_evidence": "https://people.csail.mit.edu/celiu/CVPR2011/default.html",
+          "sha256": "ce7087aa787838ec0fdd33f5eab82cdca5d6c7d91bb4cd5cf6807ea3cfda6cc2",
+          "partial": null
+        },
+        "frames": 47,
+        "fps": 25.0,
+        "scale": 2,
+        "hr_hw": [
+          480,
+          720
+        ],
+        "lr_hw": [
+          240,
+          360
+        ],
+        "downsample": "pil",
+        "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+        "args": {
+          "src": "data/vid4/walk/original",
+          "name": "vid4_walk",
+          "out": "data/prepared",
+          "scale": 2,
+          "down": "pil",
+          "hr_height": 0,
+          "ss": 0,
+          "start_frame": 0,
+          "frames": 0,
+          "fps": 25.0,
+          "h264_crf": "23",
+          "av1_crf": "",
+          "jobs": 8,
+          "raw_manifest": "data/manifests/manifest_raw.jsonl",
+          "keep_existing": false
+        },
+        "folders": {
+          "HR": {
+            "n": 47,
+            "sha256": "0d0793a5c0dfae4244c08f756cec0a1354b350a4cc66a60e486895009646c6c5"
+          },
+          "LR_x2": {
+            "n": 47,
+            "sha256": "0535545759b74669b3a624ab91f3a900aa13e61ce3bbd64efdd6ff72f1b609ef"
+          },
+          "LR_x2_h264_crf23": {
+            "n": 47,
+            "sha256": "0f4d386e1ff64f532a54ea3db8c6dd76f4493e238d7f77c85c2dd9e0e81c1753"
+          }
+        },
+        "codec": {
+          "h264_crf23": {
+            "encoder": "libx264 preset=medium",
+            "crf": 23,
+            "mp4_bytes": 159409,
+            "bitrate_kbps": 678.3,
+            "mp4_sha256": "3e72f27b115190ba40ff27d404051136af22a233c5a42454cb342b68a3565e51"
+          }
+        }
+      },
+      "codec_crf23": {
+        "sha256": "38f2e979f32f887d1954674bb9fac28b5516ca19ae76ca64c82b66c9376c2485",
+        "bytes": 452924
+      },
+      "codec_crf33": {
+        "sha256": "955ec44bfaa640fee9effab2c4f71bb1c22d81f3078346550834e7d411527a68",
+        "bytes": 136424
+      }
+    },
+    {
+      "clip": "sunflower",
+      "available_frames": 48,
+      "sampled_indices_zero_based": [
+        0,
+        12,
+        24,
+        35,
+        47
+      ],
+      "fps": 25.0,
+      "meta": {
+        "name": "sunflower",
+        "created": "2026-10-15T10:35:57+08:00",
+        "src": "data/raw/xiph_sunflower_1080p25_f0-47.y4m",
+        "src_sha256": "cf036dacc74c7107890b25610cefebcc9b9729764176587381d75fc2fa16af45",
+        "provenance": {
+          "name": "sunflower",
+          "source_url": "https://media.xiph.org/video/derf/y4m/sunflower_1080p25.y4m",
+          "license": "TUM 1080p set: ReadMe says 'Restrictions of use: No restrictions; Copyright: No Copyright' (https://media.xiph.org/video/derf/ftp.ldv.e-technik.tu-muenchen.de/pub/test_sequences/1080p/ReadMe_1080p.txt)",
+          "license_evidence": "TUM 1080p set: ReadMe says 'Restrictions of use: No restrictions; Copyright: No Copyright' (https://media.xiph.org/video/derf/ftp.ldv.e-technik.tu-muenchen.de/pub/test_sequences/1080p/ReadMe_1080p.txt)",
+          "sha256": "cf036dacc74c7107890b25610cefebcc9b9729764176587381d75fc2fa16af45",
+          "partial": {
+            "start": 0,
+            "frames": 48
+          }
+        },
+        "frames": 48,
+        "fps": 25.0,
+        "scale": 2,
+        "hr_hw": [
+          1080,
+          1920
+        ],
+        "lr_hw": [
+          540,
+          960
+        ],
+        "downsample": "pil",
+        "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+        "args": {
+          "src": "data/raw/xiph_sunflower_1080p25_f0-47.y4m",
+          "name": "sunflower",
+          "out": "data/prepared",
+          "scale": 2,
+          "down": "pil",
+          "hr_height": 0,
+          "ss": 0,
+          "start_frame": 0,
+          "frames": 0,
+          "fps": 0,
+          "h264_crf": "18,23,28,33",
+          "av1_crf": "35,45",
+          "jobs": 8,
+          "raw_manifest": "data/manifests/manifest_raw.jsonl",
+          "keep_existing": false
+        },
+        "folders": {
+          "HR": {
+            "n": 48,
+            "sha256": "915e9675ebec64620bb616141f46b4dfa2014670f262e7693d452ddd18fbcf04"
+          },
+          "LR_x2": {
+            "n": 48,
+            "sha256": "edc649a6f9c916bdedf26b81157778448f5318a0ef2ded52438fa393b041b2f4"
+          },
+          "LR_x2_h264_crf18": {
+            "n": 48,
+            "sha256": "bd8555e0c76794a2141ffa25f79616633ce07c0fdb49d856795635bc0ef4c413"
+          },
+          "LR_x2_h264_crf23": {
+            "n": 48,
+            "sha256": "df112e255ae9d02c42cfa2443a418a76b9881b9b067700cf3fce3684fed96c51"
+          },
+          "LR_x2_h264_crf28": {
+            "n": 48,
+            "sha256": "6f7a8cb3255b34f58ef7141913185e292007ed9c9f55c1a2e80e2efc80c37cb3"
+          },
+          "LR_x2_h264_crf33": {
+            "n": 48,
+            "sha256": "f447f19d4605889db378d86388e7d0f4cc52dcb0fbf20ab2c92d00c7c2db8974"
+          },
+          "LR_x2_av1_crf35": {
+            "n": 48,
+            "sha256": "1d1bf415c21189c0229751c8d5c7fd0bcb9e87abcd04c1c752f03f4989832c12"
+          },
+          "LR_x2_av1_crf45": {
+            "n": 48,
+            "sha256": "11d027e0d6cd93084e0a1b82211ee21434c62c4e3b10707c49ccf2aefb94076a"
+          }
+        },
+        "codec": {
+          "h264_crf18": {
+            "encoder": "libx264 preset=medium",
+            "crf": 18,
+            "mp4_bytes": 481006,
+            "bitrate_kbps": 2004.2,
+            "mp4_sha256": "65de1f47ab6c625f12501b57ccaaa16a0536abdeff14acbd0c6f4035e57b4c09"
+          },
+          "h264_crf23": {
+            "encoder": "libx264 preset=medium",
+            "crf": 23,
+            "mp4_bytes": 240280,
+            "bitrate_kbps": 1001.2,
+            "mp4_sha256": "3a920a9b81047e9827f93e3b080cbd9618b2fe09dc9d781837c53757de84e816"
+          },
+          "h264_crf28": {
+            "encoder": "libx264 preset=medium",
+            "crf": 28,
+            "mp4_bytes": 126403,
+            "bitrate_kbps": 526.7,
+            "mp4_sha256": "20699f59f2c2a8e8c031e384b2b49e80e2e060a9e0fe4be4f836ff27750e2ae0"
+          },
+          "h264_crf33": {
+            "encoder": "libx264 preset=medium",
+            "crf": 33,
+            "mp4_bytes": 69349,
+            "bitrate_kbps": 289.0,
+            "mp4_sha256": "a51d5c387cd703cf41f4fa153e3a6971dc8f2b4ffb88a51d0ba58527041d3de8"
+          },
+          "av1_crf35": {
+            "encoder": "libsvtav1 preset=6",
+            "crf": 35,
+            "mp4_bytes": 133461,
+            "bitrate_kbps": 556.1,
+            "mp4_sha256": "4d79356220ed31b81a1f5c78c010c95f96e08b7f95210e458db69f8eccab05a8"
+          },
+          "av1_crf45": {
+            "encoder": "libsvtav1 preset=6",
+            "crf": 45,
+            "mp4_bytes": 73161,
+            "bitrate_kbps": 304.8,
+            "mp4_sha256": "8b3123098d48d04a9b91fb3a8ab69fecbe3fdb1503837ea671b46cdc4ebb8c3d"
+          }
+        }
+      },
+      "codec_crf23": {
+        "sha256": "581dfadfa269f5b8cc913b897a72cf69ab895e3e3ba51ac60339b171ded115cc",
+        "bytes": 694609
+      },
+      "codec_crf33": {
+        "sha256": "25cf6a8cab980c6faec78f749606a1861f272d6377dd9a10e1e7e8c2b0078149",
+        "bytes": 201943
+      }
+    },
+    {
+      "clip": "rush_hour",
+      "available_frames": 48,
+      "sampled_indices_zero_based": [
+        0,
+        12,
+        24,
+        35,
+        47
+      ],
+      "fps": 25.0,
+      "meta": {
+        "name": "rush_hour",
+        "created": "2026-10-15T10:35:34+08:00",
+        "src": "data/raw/xiph_rush_hour_1080p25_f0-47.y4m",
+        "src_sha256": "46662f2f6f3f4c8a2422d0ec763164f58c406a5bd7fd5c22b6cfd945073abc67",
+        "provenance": {
+          "name": "rush_hour",
+          "source_url": "https://media.xiph.org/video/derf/y4m/rush_hour_1080p25.y4m",
+          "license": "TUM 1080p set: ReadMe says 'Restrictions of use: No restrictions; Copyright: No Copyright' (https://media.xiph.org/video/derf/ftp.ldv.e-technik.tu-muenchen.de/pub/test_sequences/1080p/ReadMe_1080p.txt)",
+          "license_evidence": "TUM 1080p set: ReadMe says 'Restrictions of use: No restrictions; Copyright: No Copyright' (https://media.xiph.org/video/derf/ftp.ldv.e-technik.tu-muenchen.de/pub/test_sequences/1080p/ReadMe_1080p.txt)",
+          "sha256": "46662f2f6f3f4c8a2422d0ec763164f58c406a5bd7fd5c22b6cfd945073abc67",
+          "partial": {
+            "start": 0,
+            "frames": 48
+          }
+        },
+        "frames": 48,
+        "fps": 25.0,
+        "scale": 2,
+        "hr_hw": [
+          1080,
+          1920
+        ],
+        "lr_hw": [
+          540,
+          960
+        ],
+        "downsample": "pil",
+        "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+        "args": {
+          "src": "data/raw/xiph_rush_hour_1080p25_f0-47.y4m",
+          "name": "rush_hour",
+          "out": "data/prepared",
+          "scale": 2,
+          "down": "pil",
+          "hr_height": 0,
+          "ss": 0,
+          "start_frame": 0,
+          "frames": 0,
+          "fps": 0,
+          "h264_crf": "18,23,28,33",
+          "av1_crf": "35,45",
+          "jobs": 8,
+          "raw_manifest": "data/manifests/manifest_raw.jsonl",
+          "keep_existing": false
+        },
+        "folders": {
+          "HR": {
+            "n": 48,
+            "sha256": "811f2f755746472d0a56a2cd22cd8ce9c7656affc9a24af40e5228689fdec6a9"
+          },
+          "LR_x2": {
+            "n": 48,
+            "sha256": "11bae5057009d9467e276a74ccfa64fc6c22429129bac0f3c1e646f231cf21dc"
+          },
+          "LR_x2_h264_crf18": {
+            "n": 48,
+            "sha256": "ba02b21f0e359685baf28d20fd7034090274b83910037856d41a38a08a1462e2"
+          },
+          "LR_x2_h264_crf23": {
+            "n": 48,
+            "sha256": "b75868a59bf7e646143ac8442e29d2e965975c9eab071e9f2bc57b2b590d586f"
+          },
+          "LR_x2_h264_crf28": {
+            "n": 48,
+            "sha256": "3aaac408400c979c3cfe2b4507c91315e28a792b6361158739854c691b267dab"
+          },
+          "LR_x2_h264_crf33": {
+            "n": 48,
+            "sha256": "5735a0ceaff3baa475f8598ec1768710f510c9536ca5b580b00989118d4d96db"
+          },
+          "LR_x2_av1_crf35": {
+            "n": 48,
+            "sha256": "959d88ceb2b538edb7012716310722eb6ec25a0c5e6c73d2687d7e82e2520d92"
+          },
+          "LR_x2_av1_crf45": {
+            "n": 48,
+            "sha256": "01657af5c99a8e05bbc32b5c3ec7d1da85840e53713e9b57372bf93622bf6ec1"
+          }
+        },
+        "codec": {
+          "h264_crf18": {
+            "encoder": "libx264 preset=medium",
+            "crf": 18,
+            "mp4_bytes": 728669,
+            "bitrate_kbps": 3036.1,
+            "mp4_sha256": "d061bbbec3d0ae9f72f3527d3bcad06c5e4b4d020e86152ea2686456e4dcd5b1"
+          },
+          "h264_crf23": {
+            "encoder": "libx264 preset=medium",
+            "crf": 23,
+            "mp4_bytes": 365020,
+            "bitrate_kbps": 1520.9,
+            "mp4_sha256": "c8bfc97efaeb360ea1affbfa42e0699a6394fc771091c333e6e859b0ddce0218"
+          },
+          "h264_crf28": {
+            "encoder": "libx264 preset=medium",
+            "crf": 28,
+            "mp4_bytes": 192936,
+            "bitrate_kbps": 803.9,
+            "mp4_sha256": "c47e4460bcf11c316e4de5bfe560dc884a24fff9389fb074458541fad561e393"
+          },
+          "h264_crf33": {
+            "encoder": "libx264 preset=medium",
+            "crf": 33,
+            "mp4_bytes": 106315,
+            "bitrate_kbps": 443.0,
+            "mp4_sha256": "79da96bc2b3353824afdb60e09b85d330f6e017178b78b2d94c98ee3f4954751"
+          },
+          "av1_crf35": {
+            "encoder": "libsvtav1 preset=6",
+            "crf": 35,
+            "mp4_bytes": 211324,
+            "bitrate_kbps": 880.5,
+            "mp4_sha256": "c5283780f0d0ebe47c4ba3507b4f5460bce67c703d2a60cda69fa2cfdd32667a"
+          },
+          "av1_crf45": {
+            "encoder": "libsvtav1 preset=6",
+            "crf": 45,
+            "mp4_bytes": 108116,
+            "bitrate_kbps": 450.5,
+            "mp4_sha256": "e61368dbc6555446b656f0362a3269aec4702ac65ecedb66cb62bbff6756a44d"
+          }
+        }
+      },
+      "codec_crf23": {
+        "sha256": "40830894adeebac90075b783789e9c7d1ca7e87af23f8016ea1b4684dfbd7368",
+        "bytes": 1135896
+      },
+      "codec_crf33": {
+        "sha256": "4f819b5ffd892e7e7a3d2732080d4781c7ff85284f2666588ce3ec2e28226b9a",
+        "bytes": 329551
+      }
+    },
+    {
+      "clip": "bbb_t120",
+      "available_frames": 48,
+      "sampled_indices_zero_based": [
+        0,
+        12,
+        24,
+        35,
+        47
+      ],
+      "fps": 30.0,
+      "meta": {
+        "name": "bbb_t120",
+        "created": "2026-10-15T10:38:20+08:00",
+        "src": "data/bbb/bbb_sunflower_1080p_30fps_normal.mp4",
+        "src_sha256": "ae51005850b0ff757fe60c3dd7a12d754d3cd2397d87d939b55235e457f97658",
+        "provenance": {
+          "name": "bbb1080",
+          "source_url": "https://download.blender.org/demo/movies/BBB/bbb_sunflower_1080p_30fps_normal.mp4.zip",
+          "license": "CC-BY 3.0 (https://peach.blender.org/about/); attribution: (c) copyright 2008, Blender Foundation / www.bigbuckbunny.org",
+          "license_evidence": "CC-BY 3.0 (https://peach.blender.org/about/); attribution: (c) copyright 2008, Blender Foundation / www.bigbuckbunny.org",
+          "sha256": "e320fef389ec749117d0c1583945039266a40f25483881c2ff0d33207e62b362",
+          "partial": null
+        },
+        "frames": 48,
+        "fps": 30.0,
+        "scale": 2,
+        "hr_hw": [
+          1080,
+          1920
+        ],
+        "lr_hw": [
+          540,
+          960
+        ],
+        "downsample": "pil",
+        "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+        "args": {
+          "src": "data/bbb/bbb_sunflower_1080p_30fps_normal.mp4",
+          "name": "bbb_t120",
+          "out": "data/prepared",
+          "scale": 2,
+          "down": "pil",
+          "hr_height": 0,
+          "ss": 120.0,
+          "start_frame": 0,
+          "frames": 48,
+          "fps": 0,
+          "h264_crf": "18,23,28,33",
+          "av1_crf": "35,45",
+          "jobs": 8,
+          "raw_manifest": "data/manifests/manifest_raw.jsonl",
+          "provenance": "bbb1080",
+          "keep_existing": false
+        },
+        "folders": {
+          "HR": {
+            "n": 48,
+            "sha256": "03261f5d992142a29837f3e3454ca402c1f59075481c8af38ad573ff4a361db1"
+          },
+          "LR_x2": {
+            "n": 48,
+            "sha256": "d154fc08e77035cf8529ef8704ac3bc3e943b33cccb8aa9a5c59a09800ebec58"
+          },
+          "LR_x2_h264_crf18": {
+            "n": 48,
+            "sha256": "30ced3579eca8359096619e9c3195e8d3d5d2d8825eef2a13b05fcf18b3dfe2a"
+          },
+          "LR_x2_h264_crf23": {
+            "n": 48,
+            "sha256": "92d6a9f5cff996e78e60bd26f3dbe9b709b1f8cac90088bfb2c8f8f1d0526069"
+          },
+          "LR_x2_h264_crf28": {
+            "n": 48,
+            "sha256": "85d572a664462e7506752b190e7e8f2c8d5eb67df92f1d0f6e7788c149eea733"
+          },
+          "LR_x2_h264_crf33": {
+            "n": 48,
+            "sha256": "be455ed3b4033532f590eb17c13ba56e0e2e9b071b412c9b3d584475a824e262"
+          },
+          "LR_x2_av1_crf35": {
+            "n": 48,
+            "sha256": "e23179e6174a72ecff6ee301043a00a10e3c9d91194c2a533336b11a842e2849"
+          },
+          "LR_x2_av1_crf45": {
+            "n": 48,
+            "sha256": "d43d661b5c9f484f313043d5e22870eb4c226633f93024c7993b13c51a6c7387"
+          }
+        },
+        "codec": {
+          "h264_crf18": {
+            "encoder": "libx264 preset=medium",
+            "crf": 18,
+            "mp4_bytes": 456852,
+            "bitrate_kbps": 2284.3,
+            "mp4_sha256": "bb05ff70f8b85ce3c1c572a049303a3cdc27cd2d4c905f6ce56323888bea8e16"
+          },
+          "h264_crf23": {
+            "encoder": "libx264 preset=medium",
+            "crf": 23,
+            "mp4_bytes": 260049,
+            "bitrate_kbps": 1300.2,
+            "mp4_sha256": "2dbe430c824273a7da37eea8aa761e210cc7dc66328d6fd39fd692cc5f271489"
+          },
+          "h264_crf28": {
+            "encoder": "libx264 preset=medium",
+            "crf": 28,
+            "mp4_bytes": 148997,
+            "bitrate_kbps": 745.0,
+            "mp4_sha256": "bc70d81cfa02e84e564a62391654c2159220125dd144dcdff4dc96f1dd5bead3"
+          },
+          "h264_crf33": {
+            "encoder": "libx264 preset=medium",
+            "crf": 33,
+            "mp4_bytes": 87000,
+            "bitrate_kbps": 435.0,
+            "mp4_sha256": "23188e6613e8518634de85f22b0cb1207b84cd28368278beae906285ec48803a"
+          },
+          "av1_crf35": {
+            "encoder": "libsvtav1 preset=6",
+            "crf": 35,
+            "mp4_bytes": 216776,
+            "bitrate_kbps": 1083.9,
+            "mp4_sha256": "f07a7409ab54e693e8d0ead2ae2caab39003c1d5bb33d550ce6746972f9a5e65"
+          },
+          "av1_crf45": {
+            "encoder": "libsvtav1 preset=6",
+            "crf": 45,
+            "mp4_bytes": 133366,
+            "bitrate_kbps": 666.8,
+            "mp4_sha256": "ec7bb649e756f4a6599fbc90b7dacbac3784c7e3d2a00ca1037f311bd2900bdc"
+          }
+        }
+      },
+      "codec_crf23": {
+        "sha256": "1d6967088913c880771bd96dc1ab07286c0b48071864c1bdd2039b029d9540c5",
+        "bytes": 825000
+      },
+      "codec_crf33": {
+        "sha256": "a8fd9eabceed56d8a3a2f801ee7b70754ed586cc239f7d6db15a777ed24eb148",
+        "bytes": 263585
+      }
+    },
+    {
+      "clip": "sintel_trailer",
+      "available_frames": 48,
+      "sampled_indices_zero_based": [
+        0,
+        12,
+        24,
+        35,
+        47
+      ],
+      "fps": 24.0,
+      "meta": {
+        "name": "sintel_trailer",
+        "created": "2026-10-15T10:36:24+08:00",
+        "src": "data/raw/xiph_sintel_trailer_1080p24_f300-347.y4m",
+        "src_sha256": "c0279f5f465d846b593e101253b0e6310b0343bc639d0d187ea4f6dbb24e7d94",
+        "provenance": {
+          "name": "sintel_trailer",
+          "source_url": "https://media.xiph.org/video/derf/y4m/sintel_trailer_2k_1080p24.y4m",
+          "license": "CC-BY 3.0 (https://durian.blender.org/sharing/); attribution: (c) copyright 2010, Blender Foundation / durian.blender.org",
+          "license_evidence": "CC-BY 3.0 (https://durian.blender.org/sharing/); attribution: (c) copyright 2010, Blender Foundation / durian.blender.org",
+          "sha256": "c0279f5f465d846b593e101253b0e6310b0343bc639d0d187ea4f6dbb24e7d94",
+          "partial": {
+            "start": 300,
+            "frames": 48
+          }
+        },
+        "frames": 48,
+        "fps": 24.0,
+        "scale": 2,
+        "hr_hw": [
+          1080,
+          1920
+        ],
+        "lr_hw": [
+          540,
+          960
+        ],
+        "downsample": "pil",
+        "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+        "args": {
+          "src": "data/raw/xiph_sintel_trailer_1080p24_f300-347.y4m",
+          "name": "sintel_trailer",
+          "out": "data/prepared",
+          "scale": 2,
+          "down": "pil",
+          "hr_height": 0,
+          "ss": 0,
+          "start_frame": 0,
+          "frames": 0,
+          "fps": 0,
+          "h264_crf": "18,23,28,33",
+          "av1_crf": "35,45",
+          "jobs": 8,
+          "raw_manifest": "data/manifests/manifest_raw.jsonl",
+          "keep_existing": false
+        },
+        "folders": {
+          "HR": {
+            "n": 48,
+            "sha256": "9dc1c9b95346042694614031840f9561968e6c36c7e9a7179667b3d28b9a8959"
+          },
+          "LR_x2": {
+            "n": 48,
+            "sha256": "be7cc6880fc964c398c6a621d524207d2490df586374821a148debb798b0f075"
+          },
+          "LR_x2_h264_crf18": {
+            "n": 48,
+            "sha256": "1e4c6cc510116b21966d9afab448968748b175283d51934895e1d0aeaa5dfc2d"
+          },
+          "LR_x2_h264_crf23": {
+            "n": 48,
+            "sha256": "967e445e8c461765865ce680f28cd73a15cff8dc547aa5ebcc0d301f854a8313"
+          },
+          "LR_x2_h264_crf28": {
+            "n": 48,
+            "sha256": "065bacb9102f2bc0dd4e7766b3fdc135febe12fba11a52b5f9488b2fd6b5259b"
+          },
+          "LR_x2_h264_crf33": {
+            "n": 48,
+            "sha256": "5e33483f406eb8f98d013428bd95d86bc9865957e469fb18e44856593ddb2ea9"
+          },
+          "LR_x2_av1_crf35": {
+            "n": 48,
+            "sha256": "86b5be9a80376bada02bfa8990ad4aa96084b606eda041aec08c2fb67e4e053d"
+          },
+          "LR_x2_av1_crf45": {
+            "n": 48,
+            "sha256": "61611a537ad64597d4ff340da9e7934e0c9fb107dc154ddcc10d7ffebcf6c78e"
+          }
+        },
+        "codec": {
+          "h264_crf18": {
+            "encoder": "libx264 preset=medium",
+            "crf": 18,
+            "mp4_bytes": 454338,
+            "bitrate_kbps": 1817.4,
+            "mp4_sha256": "151cec8378712ac776d468748a35c2f35f43988aabae74169b8dcaecfd588925"
+          },
+          "h264_crf23": {
+            "encoder": "libx264 preset=medium",
+            "crf": 23,
+            "mp4_bytes": 202524,
+            "bitrate_kbps": 810.1,
+            "mp4_sha256": "ecfad62a9fb2ee2e2defc2ffe5d8e4f8c3236d2364bad9aada961aa70f14ad93"
+          },
+          "h264_crf28": {
+            "encoder": "libx264 preset=medium",
+            "crf": 28,
+            "mp4_bytes": 93707,
+            "bitrate_kbps": 374.8,
+            "mp4_sha256": "22916fd497958cbd0bb20cfa4f351364f366551e8f03271ba88463af9aece92f"
+          },
+          "h264_crf33": {
+            "encoder": "libx264 preset=medium",
+            "crf": 33,
+            "mp4_bytes": 48950,
+            "bitrate_kbps": 195.8,
+            "mp4_sha256": "b257da7394a074e6bbe83e72f57b2ee0fe5ce36a504f2905ec5f6b31a912e073"
+          },
+          "av1_crf35": {
+            "encoder": "libsvtav1 preset=6",
+            "crf": 35,
+            "mp4_bytes": 103299,
+            "bitrate_kbps": 413.2,
+            "mp4_sha256": "5a89dd581e947f33e4ef0f083c80b0cde579a0d657541934efcd219ba59ece86"
+          },
+          "av1_crf45": {
+            "encoder": "libsvtav1 preset=6",
+            "crf": 45,
+            "mp4_bytes": 49744,
+            "bitrate_kbps": 199.0,
+            "mp4_sha256": "4a9150ae33a3bec91eda7904e76d3001df51b6a9af1fbfe38683b79e47ae4439"
+          }
+        }
+      },
+      "codec_crf23": {
+        "sha256": "057bd70ccbdceb814e63251714340518d82dbacffbb40f6775e538db3798ee52",
+        "bytes": 948655
+      },
+      "codec_crf33": {
+        "sha256": "ed0f95e1bad16a708e932cd83dbbd1bc06b0a2c40a0d668ec4a0acc7a0fb91b8",
+        "bytes": 189024
+      }
+    }
+  ],
+  "samples": [
+    {
+      "id": "vid4_calendar/00001",
+      "clip": "vid4_calendar",
+      "frame": "00001",
+      "source_path": "/workspace/data/prepared/vid4_calendar/HR/00001.png",
+      "source_sha256": "52efbe1b09a76886b50f9a0058146d1d98987ef220378ac8385eaa74b0411093",
+      "native_wh": [
+        720,
+        576
+      ],
+      "crop_xyxy": [
+        264,
+        192,
+        456,
+        384
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/vid4_calendar/00001/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/vid4_calendar/00001/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/vid4_calendar/00001/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/vid4_calendar/00001/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/vid4_calendar/00001/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/vid4_calendar/00001/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/vid4_calendar/00001/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/vid4_calendar/00001/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/vid4_calendar/00001/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/vid4_calendar/00001/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/vid4_calendar/00001/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/vid4_calendar/00001/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/vid4_calendar/00001/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/vid4_calendar/00001/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/vid4_calendar/00001/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/vid4_calendar/00001/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/vid4_calendar/00001/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/vid4_calendar/00001/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "vid4_calendar/00011",
+      "clip": "vid4_calendar",
+      "frame": "00011",
+      "source_path": "/workspace/data/prepared/vid4_calendar/HR/00011.png",
+      "source_sha256": "cbe82d15f43bb3da1e263f74ba33110c626fc76ec36f528fc865a6044b0d187e",
+      "native_wh": [
+        720,
+        576
+      ],
+      "crop_xyxy": [
+        264,
+        192,
+        456,
+        384
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/vid4_calendar/00011/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/vid4_calendar/00011/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/vid4_calendar/00011/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/vid4_calendar/00011/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/vid4_calendar/00011/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/vid4_calendar/00011/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/vid4_calendar/00011/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/vid4_calendar/00011/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/vid4_calendar/00011/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/vid4_calendar/00011/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/vid4_calendar/00011/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/vid4_calendar/00011/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/vid4_calendar/00011/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/vid4_calendar/00011/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/vid4_calendar/00011/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/vid4_calendar/00011/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/vid4_calendar/00011/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/vid4_calendar/00011/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "vid4_calendar/00021",
+      "clip": "vid4_calendar",
+      "frame": "00021",
+      "source_path": "/workspace/data/prepared/vid4_calendar/HR/00021.png",
+      "source_sha256": "9737163deb6942af53d6e606b199d79094202f0163ac6de0e0d42ed267db65c1",
+      "native_wh": [
+        720,
+        576
+      ],
+      "crop_xyxy": [
+        264,
+        192,
+        456,
+        384
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/vid4_calendar/00021/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/vid4_calendar/00021/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/vid4_calendar/00021/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/vid4_calendar/00021/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/vid4_calendar/00021/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/vid4_calendar/00021/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/vid4_calendar/00021/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/vid4_calendar/00021/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/vid4_calendar/00021/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/vid4_calendar/00021/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/vid4_calendar/00021/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/vid4_calendar/00021/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/vid4_calendar/00021/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/vid4_calendar/00021/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/vid4_calendar/00021/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/vid4_calendar/00021/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/vid4_calendar/00021/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/vid4_calendar/00021/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "vid4_calendar/00031",
+      "clip": "vid4_calendar",
+      "frame": "00031",
+      "source_path": "/workspace/data/prepared/vid4_calendar/HR/00031.png",
+      "source_sha256": "4c9dd0a12bd0e1290dd6cbb989108a865d240f16d5d7c4e72df7d9c99c8c9a66",
+      "native_wh": [
+        720,
+        576
+      ],
+      "crop_xyxy": [
+        264,
+        192,
+        456,
+        384
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/vid4_calendar/00031/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/vid4_calendar/00031/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/vid4_calendar/00031/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/vid4_calendar/00031/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/vid4_calendar/00031/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/vid4_calendar/00031/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/vid4_calendar/00031/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/vid4_calendar/00031/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/vid4_calendar/00031/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/vid4_calendar/00031/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/vid4_calendar/00031/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/vid4_calendar/00031/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/vid4_calendar/00031/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/vid4_calendar/00031/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/vid4_calendar/00031/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/vid4_calendar/00031/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/vid4_calendar/00031/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/vid4_calendar/00031/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "vid4_calendar/00041",
+      "clip": "vid4_calendar",
+      "frame": "00041",
+      "source_path": "/workspace/data/prepared/vid4_calendar/HR/00041.png",
+      "source_sha256": "d123f54e4169a994bb6d3bd1ef4ae1f5c167f3e3e0f554ba9631e8ed90870e02",
+      "native_wh": [
+        720,
+        576
+      ],
+      "crop_xyxy": [
+        264,
+        192,
+        456,
+        384
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/vid4_calendar/00041/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/vid4_calendar/00041/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/vid4_calendar/00041/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/vid4_calendar/00041/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/vid4_calendar/00041/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/vid4_calendar/00041/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/vid4_calendar/00041/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/vid4_calendar/00041/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/vid4_calendar/00041/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/vid4_calendar/00041/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/vid4_calendar/00041/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/vid4_calendar/00041/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/vid4_calendar/00041/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/vid4_calendar/00041/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/vid4_calendar/00041/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/vid4_calendar/00041/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/vid4_calendar/00041/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/vid4_calendar/00041/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "vid4_city/00001",
+      "clip": "vid4_city",
+      "frame": "00001",
+      "source_path": "/workspace/data/prepared/vid4_city/HR/00001.png",
+      "source_sha256": "e6103a97a74cbcfafbd561c97e84b23f3c59c54efcd70ca8f182caaf257dc16a",
+      "native_wh": [
+        704,
+        576
+      ],
+      "crop_xyxy": [
+        256,
+        192,
+        448,
+        384
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/vid4_city/00001/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/vid4_city/00001/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/vid4_city/00001/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/vid4_city/00001/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/vid4_city/00001/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/vid4_city/00001/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/vid4_city/00001/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/vid4_city/00001/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/vid4_city/00001/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/vid4_city/00001/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/vid4_city/00001/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/vid4_city/00001/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/vid4_city/00001/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/vid4_city/00001/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/vid4_city/00001/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/vid4_city/00001/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/vid4_city/00001/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/vid4_city/00001/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "vid4_city/00009",
+      "clip": "vid4_city",
+      "frame": "00009",
+      "source_path": "/workspace/data/prepared/vid4_city/HR/00009.png",
+      "source_sha256": "7b555680cf0a14f4e7c6aeab30bc11c33751c01a302c99c6f8126b2064b1e4ec",
+      "native_wh": [
+        704,
+        576
+      ],
+      "crop_xyxy": [
+        256,
+        192,
+        448,
+        384
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/vid4_city/00009/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/vid4_city/00009/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/vid4_city/00009/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/vid4_city/00009/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/vid4_city/00009/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/vid4_city/00009/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/vid4_city/00009/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/vid4_city/00009/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/vid4_city/00009/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/vid4_city/00009/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/vid4_city/00009/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/vid4_city/00009/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/vid4_city/00009/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/vid4_city/00009/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/vid4_city/00009/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/vid4_city/00009/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/vid4_city/00009/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/vid4_city/00009/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "vid4_city/00017",
+      "clip": "vid4_city",
+      "frame": "00017",
+      "source_path": "/workspace/data/prepared/vid4_city/HR/00017.png",
+      "source_sha256": "3e9a4189f20c406b81d0792cd6745874717a21efa6adfe55f6b3aae977079303",
+      "native_wh": [
+        704,
+        576
+      ],
+      "crop_xyxy": [
+        256,
+        192,
+        448,
+        384
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/vid4_city/00017/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/vid4_city/00017/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/vid4_city/00017/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/vid4_city/00017/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/vid4_city/00017/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/vid4_city/00017/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/vid4_city/00017/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/vid4_city/00017/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/vid4_city/00017/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/vid4_city/00017/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/vid4_city/00017/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/vid4_city/00017/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/vid4_city/00017/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/vid4_city/00017/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/vid4_city/00017/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/vid4_city/00017/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/vid4_city/00017/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/vid4_city/00017/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "vid4_city/00026",
+      "clip": "vid4_city",
+      "frame": "00026",
+      "source_path": "/workspace/data/prepared/vid4_city/HR/00026.png",
+      "source_sha256": "7e7331423f83c577c16727df3f72ce2457935cb20f8629110a9801bcf22db47c",
+      "native_wh": [
+        704,
+        576
+      ],
+      "crop_xyxy": [
+        256,
+        192,
+        448,
+        384
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/vid4_city/00026/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/vid4_city/00026/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/vid4_city/00026/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/vid4_city/00026/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/vid4_city/00026/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/vid4_city/00026/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/vid4_city/00026/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/vid4_city/00026/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/vid4_city/00026/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/vid4_city/00026/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/vid4_city/00026/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/vid4_city/00026/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/vid4_city/00026/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/vid4_city/00026/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/vid4_city/00026/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/vid4_city/00026/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/vid4_city/00026/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/vid4_city/00026/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "vid4_city/00034",
+      "clip": "vid4_city",
+      "frame": "00034",
+      "source_path": "/workspace/data/prepared/vid4_city/HR/00034.png",
+      "source_sha256": "3355507dda42a5f904d18f5bf2985ba2173e1033c121d5716a9d7dacc3d98051",
+      "native_wh": [
+        704,
+        576
+      ],
+      "crop_xyxy": [
+        256,
+        192,
+        448,
+        384
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/vid4_city/00034/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/vid4_city/00034/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/vid4_city/00034/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/vid4_city/00034/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/vid4_city/00034/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/vid4_city/00034/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/vid4_city/00034/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/vid4_city/00034/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/vid4_city/00034/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/vid4_city/00034/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/vid4_city/00034/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/vid4_city/00034/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/vid4_city/00034/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/vid4_city/00034/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/vid4_city/00034/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/vid4_city/00034/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/vid4_city/00034/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/vid4_city/00034/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "vid4_foliage/00001",
+      "clip": "vid4_foliage",
+      "frame": "00001",
+      "source_path": "/workspace/data/prepared/vid4_foliage/HR/00001.png",
+      "source_sha256": "83face048ff4d6b800d1f221b472a6f91cbd351d2ff3c5d47db2c00bc70f4b24",
+      "native_wh": [
+        720,
+        480
+      ],
+      "crop_xyxy": [
+        264,
+        144,
+        456,
+        336
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/vid4_foliage/00001/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/vid4_foliage/00001/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/vid4_foliage/00001/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/vid4_foliage/00001/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/vid4_foliage/00001/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/vid4_foliage/00001/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/vid4_foliage/00001/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/vid4_foliage/00001/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/vid4_foliage/00001/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/vid4_foliage/00001/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/vid4_foliage/00001/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/vid4_foliage/00001/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/vid4_foliage/00001/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/vid4_foliage/00001/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/vid4_foliage/00001/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/vid4_foliage/00001/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/vid4_foliage/00001/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/vid4_foliage/00001/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "vid4_foliage/00013",
+      "clip": "vid4_foliage",
+      "frame": "00013",
+      "source_path": "/workspace/data/prepared/vid4_foliage/HR/00013.png",
+      "source_sha256": "0b91fd462cfcc794099fe211e9d9d9fc1c3e87238052c1ad62b74a66a17df014",
+      "native_wh": [
+        720,
+        480
+      ],
+      "crop_xyxy": [
+        264,
+        144,
+        456,
+        336
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/vid4_foliage/00013/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/vid4_foliage/00013/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/vid4_foliage/00013/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/vid4_foliage/00013/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/vid4_foliage/00013/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/vid4_foliage/00013/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/vid4_foliage/00013/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/vid4_foliage/00013/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/vid4_foliage/00013/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/vid4_foliage/00013/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/vid4_foliage/00013/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/vid4_foliage/00013/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/vid4_foliage/00013/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/vid4_foliage/00013/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/vid4_foliage/00013/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/vid4_foliage/00013/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/vid4_foliage/00013/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/vid4_foliage/00013/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "vid4_foliage/00025",
+      "clip": "vid4_foliage",
+      "frame": "00025",
+      "source_path": "/workspace/data/prepared/vid4_foliage/HR/00025.png",
+      "source_sha256": "b100089d9d3f9be21340fb9c54da00828b48187f9a2ef8b48536691d5e36a24d",
+      "native_wh": [
+        720,
+        480
+      ],
+      "crop_xyxy": [
+        264,
+        144,
+        456,
+        336
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/vid4_foliage/00025/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/vid4_foliage/00025/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/vid4_foliage/00025/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/vid4_foliage/00025/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/vid4_foliage/00025/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/vid4_foliage/00025/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/vid4_foliage/00025/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/vid4_foliage/00025/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/vid4_foliage/00025/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/vid4_foliage/00025/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/vid4_foliage/00025/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/vid4_foliage/00025/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/vid4_foliage/00025/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/vid4_foliage/00025/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/vid4_foliage/00025/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/vid4_foliage/00025/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/vid4_foliage/00025/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/vid4_foliage/00025/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "vid4_foliage/00037",
+      "clip": "vid4_foliage",
+      "frame": "00037",
+      "source_path": "/workspace/data/prepared/vid4_foliage/HR/00037.png",
+      "source_sha256": "9dfb4202efa97a4f9c55062955e2c52f575dba90bb90bacde3e3682a9e949836",
+      "native_wh": [
+        720,
+        480
+      ],
+      "crop_xyxy": [
+        264,
+        144,
+        456,
+        336
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/vid4_foliage/00037/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/vid4_foliage/00037/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/vid4_foliage/00037/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/vid4_foliage/00037/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/vid4_foliage/00037/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/vid4_foliage/00037/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/vid4_foliage/00037/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/vid4_foliage/00037/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/vid4_foliage/00037/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/vid4_foliage/00037/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/vid4_foliage/00037/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/vid4_foliage/00037/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/vid4_foliage/00037/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/vid4_foliage/00037/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/vid4_foliage/00037/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/vid4_foliage/00037/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/vid4_foliage/00037/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/vid4_foliage/00037/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "vid4_foliage/00049",
+      "clip": "vid4_foliage",
+      "frame": "00049",
+      "source_path": "/workspace/data/prepared/vid4_foliage/HR/00049.png",
+      "source_sha256": "f2801f164cc118625b8982ccea11eaf306579a7f5474ec8ae780a9afac41bdda",
+      "native_wh": [
+        720,
+        480
+      ],
+      "crop_xyxy": [
+        264,
+        144,
+        456,
+        336
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/vid4_foliage/00049/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/vid4_foliage/00049/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/vid4_foliage/00049/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/vid4_foliage/00049/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/vid4_foliage/00049/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/vid4_foliage/00049/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/vid4_foliage/00049/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/vid4_foliage/00049/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/vid4_foliage/00049/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/vid4_foliage/00049/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/vid4_foliage/00049/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/vid4_foliage/00049/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/vid4_foliage/00049/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/vid4_foliage/00049/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/vid4_foliage/00049/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/vid4_foliage/00049/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/vid4_foliage/00049/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/vid4_foliage/00049/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "vid4_walk/00001",
+      "clip": "vid4_walk",
+      "frame": "00001",
+      "source_path": "/workspace/data/prepared/vid4_walk/HR/00001.png",
+      "source_sha256": "0ef5d01a156c42c95a4c19b2601e2283168cfdcc8424f1d4ce82f99e211464e7",
+      "native_wh": [
+        720,
+        480
+      ],
+      "crop_xyxy": [
+        264,
+        144,
+        456,
+        336
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/vid4_walk/00001/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/vid4_walk/00001/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/vid4_walk/00001/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/vid4_walk/00001/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/vid4_walk/00001/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/vid4_walk/00001/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/vid4_walk/00001/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/vid4_walk/00001/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/vid4_walk/00001/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/vid4_walk/00001/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/vid4_walk/00001/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/vid4_walk/00001/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/vid4_walk/00001/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/vid4_walk/00001/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/vid4_walk/00001/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/vid4_walk/00001/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/vid4_walk/00001/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/vid4_walk/00001/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "vid4_walk/00013",
+      "clip": "vid4_walk",
+      "frame": "00013",
+      "source_path": "/workspace/data/prepared/vid4_walk/HR/00013.png",
+      "source_sha256": "11052556e1d304288719429b4e933ab2f731bc94ca8cbc59625abcc79f314881",
+      "native_wh": [
+        720,
+        480
+      ],
+      "crop_xyxy": [
+        264,
+        144,
+        456,
+        336
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/vid4_walk/00013/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/vid4_walk/00013/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/vid4_walk/00013/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/vid4_walk/00013/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/vid4_walk/00013/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/vid4_walk/00013/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/vid4_walk/00013/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/vid4_walk/00013/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/vid4_walk/00013/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/vid4_walk/00013/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/vid4_walk/00013/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/vid4_walk/00013/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/vid4_walk/00013/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/vid4_walk/00013/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/vid4_walk/00013/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/vid4_walk/00013/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/vid4_walk/00013/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/vid4_walk/00013/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "vid4_walk/00024",
+      "clip": "vid4_walk",
+      "frame": "00024",
+      "source_path": "/workspace/data/prepared/vid4_walk/HR/00024.png",
+      "source_sha256": "7397e39bc5d1ead8d9823149d3852d72feb49c124f30a682151c0c4c6672137b",
+      "native_wh": [
+        720,
+        480
+      ],
+      "crop_xyxy": [
+        264,
+        144,
+        456,
+        336
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/vid4_walk/00024/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/vid4_walk/00024/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/vid4_walk/00024/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/vid4_walk/00024/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/vid4_walk/00024/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/vid4_walk/00024/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/vid4_walk/00024/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/vid4_walk/00024/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/vid4_walk/00024/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/vid4_walk/00024/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/vid4_walk/00024/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/vid4_walk/00024/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/vid4_walk/00024/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/vid4_walk/00024/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/vid4_walk/00024/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/vid4_walk/00024/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/vid4_walk/00024/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/vid4_walk/00024/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "vid4_walk/00035",
+      "clip": "vid4_walk",
+      "frame": "00035",
+      "source_path": "/workspace/data/prepared/vid4_walk/HR/00035.png",
+      "source_sha256": "aca3419ef30f0681cbfe3a77427ad3967708c0298cb60da32a2997bfff2074b9",
+      "native_wh": [
+        720,
+        480
+      ],
+      "crop_xyxy": [
+        264,
+        144,
+        456,
+        336
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/vid4_walk/00035/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/vid4_walk/00035/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/vid4_walk/00035/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/vid4_walk/00035/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/vid4_walk/00035/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/vid4_walk/00035/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/vid4_walk/00035/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/vid4_walk/00035/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/vid4_walk/00035/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/vid4_walk/00035/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/vid4_walk/00035/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/vid4_walk/00035/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/vid4_walk/00035/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/vid4_walk/00035/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/vid4_walk/00035/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/vid4_walk/00035/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/vid4_walk/00035/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/vid4_walk/00035/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "vid4_walk/00047",
+      "clip": "vid4_walk",
+      "frame": "00047",
+      "source_path": "/workspace/data/prepared/vid4_walk/HR/00047.png",
+      "source_sha256": "654d542063912951486d16650eaf168694d60a8f7cde2d0858e1499b82fe17b9",
+      "native_wh": [
+        720,
+        480
+      ],
+      "crop_xyxy": [
+        264,
+        144,
+        456,
+        336
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/vid4_walk/00047/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/vid4_walk/00047/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/vid4_walk/00047/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/vid4_walk/00047/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/vid4_walk/00047/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/vid4_walk/00047/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/vid4_walk/00047/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/vid4_walk/00047/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/vid4_walk/00047/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/vid4_walk/00047/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/vid4_walk/00047/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/vid4_walk/00047/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/vid4_walk/00047/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/vid4_walk/00047/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/vid4_walk/00047/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/vid4_walk/00047/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/vid4_walk/00047/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/vid4_walk/00047/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "sunflower/00001",
+      "clip": "sunflower",
+      "frame": "00001",
+      "source_path": "/workspace/data/prepared/sunflower/HR/00001.png",
+      "source_sha256": "f609d95037edfb55495a0e50d1c88553af50daab362711d18ab7fbbb1fadaacb",
+      "native_wh": [
+        1920,
+        1080
+      ],
+      "crop_xyxy": [
+        864,
+        444,
+        1056,
+        636
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/sunflower/00001/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/sunflower/00001/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/sunflower/00001/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/sunflower/00001/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/sunflower/00001/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/sunflower/00001/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/sunflower/00001/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/sunflower/00001/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/sunflower/00001/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/sunflower/00001/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/sunflower/00001/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/sunflower/00001/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/sunflower/00001/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/sunflower/00001/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/sunflower/00001/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/sunflower/00001/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/sunflower/00001/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/sunflower/00001/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "sunflower/00013",
+      "clip": "sunflower",
+      "frame": "00013",
+      "source_path": "/workspace/data/prepared/sunflower/HR/00013.png",
+      "source_sha256": "2e206998e27b551b56804ac84ed0c6e9ac43c1bc5142bd488b78c791285f6e45",
+      "native_wh": [
+        1920,
+        1080
+      ],
+      "crop_xyxy": [
+        864,
+        444,
+        1056,
+        636
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/sunflower/00013/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/sunflower/00013/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/sunflower/00013/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/sunflower/00013/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/sunflower/00013/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/sunflower/00013/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/sunflower/00013/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/sunflower/00013/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/sunflower/00013/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/sunflower/00013/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/sunflower/00013/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/sunflower/00013/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/sunflower/00013/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/sunflower/00013/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/sunflower/00013/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/sunflower/00013/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/sunflower/00013/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/sunflower/00013/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "sunflower/00025",
+      "clip": "sunflower",
+      "frame": "00025",
+      "source_path": "/workspace/data/prepared/sunflower/HR/00025.png",
+      "source_sha256": "2ba37635108707d2740ad664c6a80b23f1d97f05f157b1bf8a7801a2d9dd1c4f",
+      "native_wh": [
+        1920,
+        1080
+      ],
+      "crop_xyxy": [
+        864,
+        444,
+        1056,
+        636
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/sunflower/00025/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/sunflower/00025/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/sunflower/00025/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/sunflower/00025/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/sunflower/00025/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/sunflower/00025/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/sunflower/00025/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/sunflower/00025/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/sunflower/00025/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/sunflower/00025/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/sunflower/00025/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/sunflower/00025/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/sunflower/00025/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/sunflower/00025/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/sunflower/00025/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/sunflower/00025/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/sunflower/00025/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/sunflower/00025/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "sunflower/00036",
+      "clip": "sunflower",
+      "frame": "00036",
+      "source_path": "/workspace/data/prepared/sunflower/HR/00036.png",
+      "source_sha256": "69160a681e8981545cc0cc722ea6400abc7a62fe4ea1f5ff8e0c8f024e9b4450",
+      "native_wh": [
+        1920,
+        1080
+      ],
+      "crop_xyxy": [
+        864,
+        444,
+        1056,
+        636
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/sunflower/00036/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/sunflower/00036/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/sunflower/00036/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/sunflower/00036/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/sunflower/00036/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/sunflower/00036/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/sunflower/00036/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/sunflower/00036/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/sunflower/00036/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/sunflower/00036/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/sunflower/00036/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/sunflower/00036/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/sunflower/00036/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/sunflower/00036/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/sunflower/00036/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/sunflower/00036/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/sunflower/00036/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/sunflower/00036/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "sunflower/00048",
+      "clip": "sunflower",
+      "frame": "00048",
+      "source_path": "/workspace/data/prepared/sunflower/HR/00048.png",
+      "source_sha256": "8c8a7cddfb38ce1740831173e4f884d6831c83f9426b3e603206eea772395b9e",
+      "native_wh": [
+        1920,
+        1080
+      ],
+      "crop_xyxy": [
+        864,
+        444,
+        1056,
+        636
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/sunflower/00048/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/sunflower/00048/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/sunflower/00048/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/sunflower/00048/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/sunflower/00048/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/sunflower/00048/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/sunflower/00048/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/sunflower/00048/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/sunflower/00048/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/sunflower/00048/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/sunflower/00048/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/sunflower/00048/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/sunflower/00048/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/sunflower/00048/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/sunflower/00048/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/sunflower/00048/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/sunflower/00048/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/sunflower/00048/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "rush_hour/00001",
+      "clip": "rush_hour",
+      "frame": "00001",
+      "source_path": "/workspace/data/prepared/rush_hour/HR/00001.png",
+      "source_sha256": "f7d95fae7576d6abb32922f984587a810c1413140db1e62b4adc81f03718cd50",
+      "native_wh": [
+        1920,
+        1080
+      ],
+      "crop_xyxy": [
+        864,
+        444,
+        1056,
+        636
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/rush_hour/00001/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/rush_hour/00001/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/rush_hour/00001/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/rush_hour/00001/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/rush_hour/00001/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/rush_hour/00001/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/rush_hour/00001/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/rush_hour/00001/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/rush_hour/00001/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/rush_hour/00001/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/rush_hour/00001/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/rush_hour/00001/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/rush_hour/00001/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/rush_hour/00001/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/rush_hour/00001/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/rush_hour/00001/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/rush_hour/00001/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/rush_hour/00001/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "rush_hour/00013",
+      "clip": "rush_hour",
+      "frame": "00013",
+      "source_path": "/workspace/data/prepared/rush_hour/HR/00013.png",
+      "source_sha256": "edc3fd5544727f37e2d1d04ad040541b420fe671d120f210cd37c69d1b8e0c75",
+      "native_wh": [
+        1920,
+        1080
+      ],
+      "crop_xyxy": [
+        864,
+        444,
+        1056,
+        636
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/rush_hour/00013/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/rush_hour/00013/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/rush_hour/00013/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/rush_hour/00013/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/rush_hour/00013/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/rush_hour/00013/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/rush_hour/00013/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/rush_hour/00013/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/rush_hour/00013/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/rush_hour/00013/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/rush_hour/00013/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/rush_hour/00013/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/rush_hour/00013/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/rush_hour/00013/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/rush_hour/00013/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/rush_hour/00013/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/rush_hour/00013/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/rush_hour/00013/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "rush_hour/00025",
+      "clip": "rush_hour",
+      "frame": "00025",
+      "source_path": "/workspace/data/prepared/rush_hour/HR/00025.png",
+      "source_sha256": "b1a240831d7f95d569dcbc469276f70aa719013e35b7f006268f8a4830c6312e",
+      "native_wh": [
+        1920,
+        1080
+      ],
+      "crop_xyxy": [
+        864,
+        444,
+        1056,
+        636
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/rush_hour/00025/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/rush_hour/00025/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/rush_hour/00025/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/rush_hour/00025/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/rush_hour/00025/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/rush_hour/00025/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/rush_hour/00025/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/rush_hour/00025/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/rush_hour/00025/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/rush_hour/00025/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/rush_hour/00025/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/rush_hour/00025/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/rush_hour/00025/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/rush_hour/00025/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/rush_hour/00025/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/rush_hour/00025/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/rush_hour/00025/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/rush_hour/00025/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "rush_hour/00036",
+      "clip": "rush_hour",
+      "frame": "00036",
+      "source_path": "/workspace/data/prepared/rush_hour/HR/00036.png",
+      "source_sha256": "fd7920438937e96d5ef06cd968cb59480806202803d673fcd6c5e89d73283240",
+      "native_wh": [
+        1920,
+        1080
+      ],
+      "crop_xyxy": [
+        864,
+        444,
+        1056,
+        636
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/rush_hour/00036/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/rush_hour/00036/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/rush_hour/00036/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/rush_hour/00036/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/rush_hour/00036/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/rush_hour/00036/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/rush_hour/00036/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/rush_hour/00036/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/rush_hour/00036/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/rush_hour/00036/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/rush_hour/00036/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/rush_hour/00036/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/rush_hour/00036/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/rush_hour/00036/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/rush_hour/00036/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/rush_hour/00036/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/rush_hour/00036/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/rush_hour/00036/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "rush_hour/00048",
+      "clip": "rush_hour",
+      "frame": "00048",
+      "source_path": "/workspace/data/prepared/rush_hour/HR/00048.png",
+      "source_sha256": "d7117bd6c8638f3409621856409aa8a51398ce383454569dce5551a082e5a1ae",
+      "native_wh": [
+        1920,
+        1080
+      ],
+      "crop_xyxy": [
+        864,
+        444,
+        1056,
+        636
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/rush_hour/00048/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/rush_hour/00048/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/rush_hour/00048/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/rush_hour/00048/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/rush_hour/00048/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/rush_hour/00048/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/rush_hour/00048/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/rush_hour/00048/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/rush_hour/00048/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/rush_hour/00048/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/rush_hour/00048/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/rush_hour/00048/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/rush_hour/00048/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/rush_hour/00048/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/rush_hour/00048/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/rush_hour/00048/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/rush_hour/00048/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/rush_hour/00048/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "bbb_t120/00001",
+      "clip": "bbb_t120",
+      "frame": "00001",
+      "source_path": "/workspace/data/prepared/bbb_t120/HR/00001.png",
+      "source_sha256": "9c406695892c44394cf30af66a04060f38bd3758b035b9f8a7a1b707c586d9bc",
+      "native_wh": [
+        1920,
+        1080
+      ],
+      "crop_xyxy": [
+        864,
+        444,
+        1056,
+        636
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/bbb_t120/00001/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/bbb_t120/00001/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/bbb_t120/00001/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/bbb_t120/00001/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/bbb_t120/00001/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/bbb_t120/00001/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/bbb_t120/00001/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/bbb_t120/00001/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/bbb_t120/00001/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/bbb_t120/00001/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/bbb_t120/00001/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/bbb_t120/00001/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/bbb_t120/00001/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/bbb_t120/00001/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/bbb_t120/00001/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/bbb_t120/00001/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/bbb_t120/00001/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/bbb_t120/00001/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "bbb_t120/00013",
+      "clip": "bbb_t120",
+      "frame": "00013",
+      "source_path": "/workspace/data/prepared/bbb_t120/HR/00013.png",
+      "source_sha256": "530316e6fc5fc76d5e3f6af65f4450dac99794d0cf70acf30c28807c2669f2cc",
+      "native_wh": [
+        1920,
+        1080
+      ],
+      "crop_xyxy": [
+        864,
+        444,
+        1056,
+        636
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/bbb_t120/00013/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/bbb_t120/00013/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/bbb_t120/00013/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/bbb_t120/00013/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/bbb_t120/00013/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/bbb_t120/00013/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/bbb_t120/00013/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/bbb_t120/00013/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/bbb_t120/00013/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/bbb_t120/00013/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/bbb_t120/00013/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/bbb_t120/00013/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/bbb_t120/00013/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/bbb_t120/00013/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/bbb_t120/00013/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/bbb_t120/00013/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/bbb_t120/00013/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/bbb_t120/00013/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "bbb_t120/00025",
+      "clip": "bbb_t120",
+      "frame": "00025",
+      "source_path": "/workspace/data/prepared/bbb_t120/HR/00025.png",
+      "source_sha256": "87c284afe5b5b75c07481e096a700a620add61f6716979283dd2763986c46da7",
+      "native_wh": [
+        1920,
+        1080
+      ],
+      "crop_xyxy": [
+        864,
+        444,
+        1056,
+        636
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/bbb_t120/00025/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/bbb_t120/00025/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/bbb_t120/00025/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/bbb_t120/00025/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/bbb_t120/00025/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/bbb_t120/00025/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/bbb_t120/00025/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/bbb_t120/00025/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/bbb_t120/00025/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/bbb_t120/00025/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/bbb_t120/00025/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/bbb_t120/00025/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/bbb_t120/00025/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/bbb_t120/00025/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/bbb_t120/00025/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/bbb_t120/00025/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/bbb_t120/00025/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/bbb_t120/00025/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "bbb_t120/00036",
+      "clip": "bbb_t120",
+      "frame": "00036",
+      "source_path": "/workspace/data/prepared/bbb_t120/HR/00036.png",
+      "source_sha256": "4ed91da4fc9ce0e3a4f6ca6ed4ea5f7fcc752b783f0228404e4788f214ba74c5",
+      "native_wh": [
+        1920,
+        1080
+      ],
+      "crop_xyxy": [
+        864,
+        444,
+        1056,
+        636
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/bbb_t120/00036/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/bbb_t120/00036/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/bbb_t120/00036/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/bbb_t120/00036/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/bbb_t120/00036/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/bbb_t120/00036/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/bbb_t120/00036/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/bbb_t120/00036/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/bbb_t120/00036/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/bbb_t120/00036/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/bbb_t120/00036/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/bbb_t120/00036/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/bbb_t120/00036/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/bbb_t120/00036/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/bbb_t120/00036/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/bbb_t120/00036/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/bbb_t120/00036/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/bbb_t120/00036/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "bbb_t120/00048",
+      "clip": "bbb_t120",
+      "frame": "00048",
+      "source_path": "/workspace/data/prepared/bbb_t120/HR/00048.png",
+      "source_sha256": "ce3f477df75f2109b761e834ed267f95661ad77c72dfa85fbd4138ead17ea67a",
+      "native_wh": [
+        1920,
+        1080
+      ],
+      "crop_xyxy": [
+        864,
+        444,
+        1056,
+        636
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/bbb_t120/00048/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/bbb_t120/00048/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/bbb_t120/00048/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/bbb_t120/00048/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/bbb_t120/00048/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/bbb_t120/00048/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/bbb_t120/00048/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/bbb_t120/00048/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/bbb_t120/00048/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/bbb_t120/00048/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/bbb_t120/00048/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/bbb_t120/00048/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/bbb_t120/00048/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/bbb_t120/00048/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/bbb_t120/00048/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/bbb_t120/00048/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/bbb_t120/00048/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/bbb_t120/00048/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "sintel_trailer/00001",
+      "clip": "sintel_trailer",
+      "frame": "00001",
+      "source_path": "/workspace/data/prepared/sintel_trailer/HR/00001.png",
+      "source_sha256": "4c6bd01dfc92bf23018bb13bac8e64f171acde64bc567c7b6b687d9d1dfc3aee",
+      "native_wh": [
+        1920,
+        1080
+      ],
+      "crop_xyxy": [
+        864,
+        444,
+        1056,
+        636
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/sintel_trailer/00001/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/sintel_trailer/00001/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/sintel_trailer/00001/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/sintel_trailer/00001/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/sintel_trailer/00001/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/sintel_trailer/00001/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/sintel_trailer/00001/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/sintel_trailer/00001/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/sintel_trailer/00001/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/sintel_trailer/00001/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/sintel_trailer/00001/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/sintel_trailer/00001/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/sintel_trailer/00001/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/sintel_trailer/00001/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/sintel_trailer/00001/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/sintel_trailer/00001/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/sintel_trailer/00001/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/sintel_trailer/00001/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "sintel_trailer/00013",
+      "clip": "sintel_trailer",
+      "frame": "00013",
+      "source_path": "/workspace/data/prepared/sintel_trailer/HR/00013.png",
+      "source_sha256": "acd1f6eee39da68c667dfa3199bcc3a0067f97bb630890216ae6f2562307db6d",
+      "native_wh": [
+        1920,
+        1080
+      ],
+      "crop_xyxy": [
+        864,
+        444,
+        1056,
+        636
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/sintel_trailer/00013/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/sintel_trailer/00013/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/sintel_trailer/00013/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/sintel_trailer/00013/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/sintel_trailer/00013/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/sintel_trailer/00013/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/sintel_trailer/00013/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/sintel_trailer/00013/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/sintel_trailer/00013/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/sintel_trailer/00013/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/sintel_trailer/00013/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/sintel_trailer/00013/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/sintel_trailer/00013/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/sintel_trailer/00013/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/sintel_trailer/00013/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/sintel_trailer/00013/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/sintel_trailer/00013/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/sintel_trailer/00013/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "sintel_trailer/00025",
+      "clip": "sintel_trailer",
+      "frame": "00025",
+      "source_path": "/workspace/data/prepared/sintel_trailer/HR/00025.png",
+      "source_sha256": "44bd4fdf3aa1d107463f39de85df098ceaaef2f2457be8f489473b59956c623d",
+      "native_wh": [
+        1920,
+        1080
+      ],
+      "crop_xyxy": [
+        864,
+        444,
+        1056,
+        636
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/sintel_trailer/00025/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/sintel_trailer/00025/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/sintel_trailer/00025/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/sintel_trailer/00025/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/sintel_trailer/00025/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/sintel_trailer/00025/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/sintel_trailer/00025/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/sintel_trailer/00025/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/sintel_trailer/00025/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/sintel_trailer/00025/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/sintel_trailer/00025/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/sintel_trailer/00025/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/sintel_trailer/00025/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/sintel_trailer/00025/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/sintel_trailer/00025/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/sintel_trailer/00025/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/sintel_trailer/00025/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/sintel_trailer/00025/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "sintel_trailer/00036",
+      "clip": "sintel_trailer",
+      "frame": "00036",
+      "source_path": "/workspace/data/prepared/sintel_trailer/HR/00036.png",
+      "source_sha256": "6a1ae60a5add0109ae801452143c19c28a545acf7e1ea5dde3162490c3c9fe65",
+      "native_wh": [
+        1920,
+        1080
+      ],
+      "crop_xyxy": [
+        864,
+        444,
+        1056,
+        636
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/sintel_trailer/00036/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/sintel_trailer/00036/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/sintel_trailer/00036/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/sintel_trailer/00036/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/sintel_trailer/00036/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/sintel_trailer/00036/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/sintel_trailer/00036/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/sintel_trailer/00036/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/sintel_trailer/00036/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/sintel_trailer/00036/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/sintel_trailer/00036/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/sintel_trailer/00036/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/sintel_trailer/00036/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/sintel_trailer/00036/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/sintel_trailer/00036/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/sintel_trailer/00036/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/sintel_trailer/00036/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/sintel_trailer/00036/sharpen_x2.png"
+        }
+      }
+    },
+    {
+      "id": "sintel_trailer/00048",
+      "clip": "sintel_trailer",
+      "frame": "00048",
+      "source_path": "/workspace/data/prepared/sintel_trailer/HR/00048.png",
+      "source_sha256": "5c7f3dd623153419999d91711aa00aabc3aaf93ebbaceeb6d5ad1b3cf6cbe1fe",
+      "native_wh": [
+        1920,
+        1080
+      ],
+      "crop_xyxy": [
+        864,
+        444,
+        1056,
+        636
+      ],
+      "images": {
+        "crop192": {
+          "hr": "/tmp/eg2-broad/images/crop192/sintel_trailer/00048/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/crop192/sintel_trailer/00048/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/crop192/sintel_trailer/00048/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/crop192/sintel_trailer/00048/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/crop192/sintel_trailer/00048/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/crop192/sintel_trailer/00048/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/crop192/sintel_trailer/00048/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/crop192/sintel_trailer/00048/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/crop192/sintel_trailer/00048/sharpen_x2.png"
+        },
+        "native": {
+          "hr": "/tmp/eg2-broad/images/native/sintel_trailer/00048/hr.png",
+          "bicubic_x2": "/tmp/eg2-broad/images/native/sintel_trailer/00048/bicubic_x2.png",
+          "bicubic_x4": "/tmp/eg2-broad/images/native/sintel_trailer/00048/bicubic_x4.png",
+          "bicubic_x8": "/tmp/eg2-broad/images/native/sintel_trailer/00048/bicubic_x8.png",
+          "h264_crf23": "/tmp/eg2-broad/images/native/sintel_trailer/00048/h264_crf23.png",
+          "h264_crf33": "/tmp/eg2-broad/images/native/sintel_trailer/00048/h264_crf33.png",
+          "shift_right1": "/tmp/eg2-broad/images/native/sintel_trailer/00048/shift_right1.png",
+          "sharpen_hr": "/tmp/eg2-broad/images/native/sintel_trailer/00048/sharpen_hr.png",
+          "sharpen_x2": "/tmp/eg2-broad/images/native/sintel_trailer/00048/sharpen_x2.png"
+        }
+      }
+    }
+  ],
+  "codec_commands": [
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-framerate",
+      "25.0",
+      "-start_number",
+      "1",
+      "-i",
+      "/workspace/data/prepared/vid4_calendar/HR/%05d.png",
+      "-frames:v",
+      "41",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "medium",
+      "-crf",
+      "23",
+      "-pix_fmt",
+      "yuv420p",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/vid4_calendar/crf23.mp4"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-threads",
+      "4",
+      "-i",
+      "/tmp/eg2-broad/codec/vid4_calendar/crf23.mp4",
+      "-vf",
+      "select=eq(n\\,0)+eq(n\\,10)+eq(n\\,20)+eq(n\\,30)+eq(n\\,40)",
+      "-fps_mode",
+      "vfr",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/vid4_calendar/crf23_%02d.png"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-framerate",
+      "25.0",
+      "-start_number",
+      "1",
+      "-i",
+      "/workspace/data/prepared/vid4_calendar/HR/%05d.png",
+      "-frames:v",
+      "41",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "medium",
+      "-crf",
+      "33",
+      "-pix_fmt",
+      "yuv420p",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/vid4_calendar/crf33.mp4"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-threads",
+      "4",
+      "-i",
+      "/tmp/eg2-broad/codec/vid4_calendar/crf33.mp4",
+      "-vf",
+      "select=eq(n\\,0)+eq(n\\,10)+eq(n\\,20)+eq(n\\,30)+eq(n\\,40)",
+      "-fps_mode",
+      "vfr",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/vid4_calendar/crf33_%02d.png"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-framerate",
+      "25.0",
+      "-start_number",
+      "1",
+      "-i",
+      "/workspace/data/prepared/vid4_city/HR/%05d.png",
+      "-frames:v",
+      "34",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "medium",
+      "-crf",
+      "23",
+      "-pix_fmt",
+      "yuv420p",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/vid4_city/crf23.mp4"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-threads",
+      "4",
+      "-i",
+      "/tmp/eg2-broad/codec/vid4_city/crf23.mp4",
+      "-vf",
+      "select=eq(n\\,0)+eq(n\\,8)+eq(n\\,16)+eq(n\\,25)+eq(n\\,33)",
+      "-fps_mode",
+      "vfr",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/vid4_city/crf23_%02d.png"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-framerate",
+      "25.0",
+      "-start_number",
+      "1",
+      "-i",
+      "/workspace/data/prepared/vid4_city/HR/%05d.png",
+      "-frames:v",
+      "34",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "medium",
+      "-crf",
+      "33",
+      "-pix_fmt",
+      "yuv420p",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/vid4_city/crf33.mp4"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-threads",
+      "4",
+      "-i",
+      "/tmp/eg2-broad/codec/vid4_city/crf33.mp4",
+      "-vf",
+      "select=eq(n\\,0)+eq(n\\,8)+eq(n\\,16)+eq(n\\,25)+eq(n\\,33)",
+      "-fps_mode",
+      "vfr",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/vid4_city/crf33_%02d.png"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-framerate",
+      "25.0",
+      "-start_number",
+      "1",
+      "-i",
+      "/workspace/data/prepared/vid4_foliage/HR/%05d.png",
+      "-frames:v",
+      "49",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "medium",
+      "-crf",
+      "23",
+      "-pix_fmt",
+      "yuv420p",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/vid4_foliage/crf23.mp4"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-threads",
+      "4",
+      "-i",
+      "/tmp/eg2-broad/codec/vid4_foliage/crf23.mp4",
+      "-vf",
+      "select=eq(n\\,0)+eq(n\\,12)+eq(n\\,24)+eq(n\\,36)+eq(n\\,48)",
+      "-fps_mode",
+      "vfr",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/vid4_foliage/crf23_%02d.png"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-framerate",
+      "25.0",
+      "-start_number",
+      "1",
+      "-i",
+      "/workspace/data/prepared/vid4_foliage/HR/%05d.png",
+      "-frames:v",
+      "49",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "medium",
+      "-crf",
+      "33",
+      "-pix_fmt",
+      "yuv420p",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/vid4_foliage/crf33.mp4"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-threads",
+      "4",
+      "-i",
+      "/tmp/eg2-broad/codec/vid4_foliage/crf33.mp4",
+      "-vf",
+      "select=eq(n\\,0)+eq(n\\,12)+eq(n\\,24)+eq(n\\,36)+eq(n\\,48)",
+      "-fps_mode",
+      "vfr",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/vid4_foliage/crf33_%02d.png"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-framerate",
+      "25.0",
+      "-start_number",
+      "1",
+      "-i",
+      "/workspace/data/prepared/vid4_walk/HR/%05d.png",
+      "-frames:v",
+      "47",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "medium",
+      "-crf",
+      "23",
+      "-pix_fmt",
+      "yuv420p",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/vid4_walk/crf23.mp4"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-threads",
+      "4",
+      "-i",
+      "/tmp/eg2-broad/codec/vid4_walk/crf23.mp4",
+      "-vf",
+      "select=eq(n\\,0)+eq(n\\,12)+eq(n\\,23)+eq(n\\,34)+eq(n\\,46)",
+      "-fps_mode",
+      "vfr",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/vid4_walk/crf23_%02d.png"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-framerate",
+      "25.0",
+      "-start_number",
+      "1",
+      "-i",
+      "/workspace/data/prepared/vid4_walk/HR/%05d.png",
+      "-frames:v",
+      "47",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "medium",
+      "-crf",
+      "33",
+      "-pix_fmt",
+      "yuv420p",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/vid4_walk/crf33.mp4"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-threads",
+      "4",
+      "-i",
+      "/tmp/eg2-broad/codec/vid4_walk/crf33.mp4",
+      "-vf",
+      "select=eq(n\\,0)+eq(n\\,12)+eq(n\\,23)+eq(n\\,34)+eq(n\\,46)",
+      "-fps_mode",
+      "vfr",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/vid4_walk/crf33_%02d.png"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-framerate",
+      "25.0",
+      "-start_number",
+      "1",
+      "-i",
+      "/workspace/data/prepared/sunflower/HR/%05d.png",
+      "-frames:v",
+      "48",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "medium",
+      "-crf",
+      "23",
+      "-pix_fmt",
+      "yuv420p",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/sunflower/crf23.mp4"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-threads",
+      "4",
+      "-i",
+      "/tmp/eg2-broad/codec/sunflower/crf23.mp4",
+      "-vf",
+      "select=eq(n\\,0)+eq(n\\,12)+eq(n\\,24)+eq(n\\,35)+eq(n\\,47)",
+      "-fps_mode",
+      "vfr",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/sunflower/crf23_%02d.png"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-framerate",
+      "25.0",
+      "-start_number",
+      "1",
+      "-i",
+      "/workspace/data/prepared/sunflower/HR/%05d.png",
+      "-frames:v",
+      "48",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "medium",
+      "-crf",
+      "33",
+      "-pix_fmt",
+      "yuv420p",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/sunflower/crf33.mp4"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-threads",
+      "4",
+      "-i",
+      "/tmp/eg2-broad/codec/sunflower/crf33.mp4",
+      "-vf",
+      "select=eq(n\\,0)+eq(n\\,12)+eq(n\\,24)+eq(n\\,35)+eq(n\\,47)",
+      "-fps_mode",
+      "vfr",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/sunflower/crf33_%02d.png"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-framerate",
+      "25.0",
+      "-start_number",
+      "1",
+      "-i",
+      "/workspace/data/prepared/rush_hour/HR/%05d.png",
+      "-frames:v",
+      "48",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "medium",
+      "-crf",
+      "23",
+      "-pix_fmt",
+      "yuv420p",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/rush_hour/crf23.mp4"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-threads",
+      "4",
+      "-i",
+      "/tmp/eg2-broad/codec/rush_hour/crf23.mp4",
+      "-vf",
+      "select=eq(n\\,0)+eq(n\\,12)+eq(n\\,24)+eq(n\\,35)+eq(n\\,47)",
+      "-fps_mode",
+      "vfr",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/rush_hour/crf23_%02d.png"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-framerate",
+      "25.0",
+      "-start_number",
+      "1",
+      "-i",
+      "/workspace/data/prepared/rush_hour/HR/%05d.png",
+      "-frames:v",
+      "48",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "medium",
+      "-crf",
+      "33",
+      "-pix_fmt",
+      "yuv420p",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/rush_hour/crf33.mp4"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-threads",
+      "4",
+      "-i",
+      "/tmp/eg2-broad/codec/rush_hour/crf33.mp4",
+      "-vf",
+      "select=eq(n\\,0)+eq(n\\,12)+eq(n\\,24)+eq(n\\,35)+eq(n\\,47)",
+      "-fps_mode",
+      "vfr",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/rush_hour/crf33_%02d.png"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-framerate",
+      "30.0",
+      "-start_number",
+      "1",
+      "-i",
+      "/workspace/data/prepared/bbb_t120/HR/%05d.png",
+      "-frames:v",
+      "48",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "medium",
+      "-crf",
+      "23",
+      "-pix_fmt",
+      "yuv420p",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/bbb_t120/crf23.mp4"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-threads",
+      "4",
+      "-i",
+      "/tmp/eg2-broad/codec/bbb_t120/crf23.mp4",
+      "-vf",
+      "select=eq(n\\,0)+eq(n\\,12)+eq(n\\,24)+eq(n\\,35)+eq(n\\,47)",
+      "-fps_mode",
+      "vfr",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/bbb_t120/crf23_%02d.png"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-framerate",
+      "30.0",
+      "-start_number",
+      "1",
+      "-i",
+      "/workspace/data/prepared/bbb_t120/HR/%05d.png",
+      "-frames:v",
+      "48",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "medium",
+      "-crf",
+      "33",
+      "-pix_fmt",
+      "yuv420p",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/bbb_t120/crf33.mp4"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-threads",
+      "4",
+      "-i",
+      "/tmp/eg2-broad/codec/bbb_t120/crf33.mp4",
+      "-vf",
+      "select=eq(n\\,0)+eq(n\\,12)+eq(n\\,24)+eq(n\\,35)+eq(n\\,47)",
+      "-fps_mode",
+      "vfr",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/bbb_t120/crf33_%02d.png"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-framerate",
+      "24.0",
+      "-start_number",
+      "1",
+      "-i",
+      "/workspace/data/prepared/sintel_trailer/HR/%05d.png",
+      "-frames:v",
+      "48",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "medium",
+      "-crf",
+      "23",
+      "-pix_fmt",
+      "yuv420p",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/sintel_trailer/crf23.mp4"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-threads",
+      "4",
+      "-i",
+      "/tmp/eg2-broad/codec/sintel_trailer/crf23.mp4",
+      "-vf",
+      "select=eq(n\\,0)+eq(n\\,12)+eq(n\\,24)+eq(n\\,35)+eq(n\\,47)",
+      "-fps_mode",
+      "vfr",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/sintel_trailer/crf23_%02d.png"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-framerate",
+      "24.0",
+      "-start_number",
+      "1",
+      "-i",
+      "/workspace/data/prepared/sintel_trailer/HR/%05d.png",
+      "-frames:v",
+      "48",
+      "-c:v",
+      "libx264",
+      "-preset",
+      "medium",
+      "-crf",
+      "33",
+      "-pix_fmt",
+      "yuv420p",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/sintel_trailer/crf33.mp4"
+    ],
+    [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-threads",
+      "4",
+      "-i",
+      "/tmp/eg2-broad/codec/sintel_trailer/crf33.mp4",
+      "-vf",
+      "select=eq(n\\,0)+eq(n\\,12)+eq(n\\,24)+eq(n\\,35)+eq(n\\,47)",
+      "-fps_mode",
+      "vfr",
+      "-threads",
+      "4",
+      "/tmp/eg2-broad/codec/sintel_trailer/crf33_%02d.png"
+    ]
+  ],
+  "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "prepare_seconds": 126.7555836590036
+}

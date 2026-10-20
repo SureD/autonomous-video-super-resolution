@@ -1,0 +1,489 @@
+{
+  "status": "complete",
+  "preflight": {
+    "utc": "2026-10-17T02:47:09.109956+00:00",
+    "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+    "disk_free_bytes": 118122184704,
+    "model_id": "google/embeddinggemma-2",
+    "model_revision": "914f7f89142e33e77833254d9c9b90c3cef7303b",
+    "expected_weight_bytes": 1488915288,
+    "reference_transformers_source_commit": "8498ed425fa01bbee7d086efdf1a6634c2962aed",
+    "dependencies": {
+      "torch": "2.14.1+cpu",
+      "torchvision": "0.29.1+cpu",
+      "transformers": "5.21.0.dev0",
+      "Pillow": "12.3.0",
+      "numpy": "2.5.2",
+      "lpips": null
+    },
+    "installed_transformers_direct_url": {
+      "url": "https://github.com/huggingface/transformers/archive/8498ed425fa01bbee7d086efdf1a6634c2962aed.zip",
+      "archive_info": {}
+    },
+    "hub": {
+      "id": "google/embeddinggemma-2",
+      "sha": "914f7f89142e33e77833254d9c9b90c3cef7303b",
+      "gated": false,
+      "private": false,
+      "safetensors": {
+        "parameters": {
+          "BF16": 744371512
+        },
+        "total": 744371512
+      }
+    },
+    "weight_http_status": 200,
+    "weight_content_length": 1488915288,
+    "natural_sample_paths": [
+      "/workspace/data/prepared/sunflower/HR/00001.png",
+      "/workspace/data/prepared/rush_hour/HR/00001.png"
+    ]
+  },
+  "weight_file_bytes": 1488915288,
+  "weight_sha256": "197a32965d4b1105faf060417baa899e193fb73cd401f42ec9295234d5553d79",
+  "load_seconds": 2.0880066669924418,
+  "loaded_parameters": 438760448,
+  "vision_parameters": 167364608,
+  "device": "cpu",
+  "dtype": "float32",
+  "audio_disabled": true,
+  "threads": 4,
+  "token_budget": 280,
+  "lpips": "not computed: optional learned metric requires extra weights; PSNR measured",
+  "protocol": {
+    "crop": 224,
+    "scales": [
+      2,
+      4,
+      8
+    ],
+    "degradation": "Pillow RGB bicubic antialiased downsample then bicubic upsample to identical HR size",
+    "global": "masked mean of final 768-d text-sequence states including boundary tokens; L2 normalize",
+    "pooled_vision": "final 3x3-spatially-pooled tower states, 768-d, valid tokens only, mean per-token cosine distance",
+    "raw_patch": "final vision encoder layer before 3x3 pooling, 768-d, valid 16x16 patch tokens only",
+    "dense_capture": "forward hooks on final vision encoder layer and vision tower during one complete image-only forward",
+    "statistics": "within-image Spearman between distance to HR and negative RGB PSNR, degraded images only; 3 levels is a screening statistic"
+  },
+  "frames": [
+    {
+      "path": "/workspace/data/prepared/sunflower/HR/00001.png",
+      "source_sha256": "f609d95037edfb55495a0e50d1c88553af50daab362711d18ab7fbbb1fadaacb",
+      "original_wh": [
+        1920,
+        1080
+      ],
+      "crop_xyxy": [
+        848,
+        428,
+        1072,
+        652
+      ],
+      "geometry": {
+        "input_wh": [
+          224,
+          224
+        ],
+        "pixel_values_shape": [
+          1,
+          2520,
+          768
+        ],
+        "resized_wh": [
+          768,
+          768
+        ],
+        "raw_grid_wh": [
+          48,
+          48
+        ],
+        "raw_valid_tokens": 2304,
+        "raw_padding_tokens": 216,
+        "pooled_valid_tokens": 256,
+        "text_valid_tokens": 260,
+        "raw_shape": [
+          1,
+          2520,
+          768
+        ],
+        "pooled_shape": [
+          256,
+          768
+        ]
+      },
+      "reference_seconds": 2.1820639119978296,
+      "degradations": [
+        {
+          "scale": 2,
+          "psnr_rgb_db": 38.473542872595736,
+          "global_cosine_distance": 0.018308625486151087,
+          "pooled_vision_cosine_distance": 0.17574599191875098,
+          "raw_patch_cosine_distance": 0.3570769816604169,
+          "processor_valid_pixel_mse": 0.00010652963101165369,
+          "seconds": 2.1645815079973545,
+          "geometry": {
+            "input_wh": [
+              224,
+              224
+            ],
+            "pixel_values_shape": [
+              1,
+              2520,
+              768
+            ],
+            "resized_wh": [
+              768,
+              768
+            ],
+            "raw_grid_wh": [
+              48,
+              48
+            ],
+            "raw_valid_tokens": 2304,
+            "raw_padding_tokens": 216,
+            "pooled_valid_tokens": 256,
+            "text_valid_tokens": 260,
+            "raw_shape": [
+              1,
+              2520,
+              768
+            ],
+            "pooled_shape": [
+              256,
+              768
+            ]
+          }
+        },
+        {
+          "scale": 4,
+          "psnr_rgb_db": 33.396116233366385,
+          "global_cosine_distance": 0.08001930383308375,
+          "pooled_vision_cosine_distance": 0.3939996313404437,
+          "raw_patch_cosine_distance": 0.592598270516759,
+          "processor_valid_pixel_mse": 0.0004130137385800481,
+          "seconds": 2.1927134540019324,
+          "geometry": {
+            "input_wh": [
+              224,
+              224
+            ],
+            "pixel_values_shape": [
+              1,
+              2520,
+              768
+            ],
+            "resized_wh": [
+              768,
+              768
+            ],
+            "raw_grid_wh": [
+              48,
+              48
+            ],
+            "raw_valid_tokens": 2304,
+            "raw_padding_tokens": 216,
+            "pooled_valid_tokens": 256,
+            "text_valid_tokens": 260,
+            "raw_shape": [
+              1,
+              2520,
+              768
+            ],
+            "pooled_shape": [
+              256,
+              768
+            ]
+          }
+        },
+        {
+          "scale": 8,
+          "psnr_rgb_db": 28.309635103004243,
+          "global_cosine_distance": 0.16313032179186926,
+          "pooled_vision_cosine_distance": 0.5296491649245708,
+          "raw_patch_cosine_distance": 0.705566599911719,
+          "processor_valid_pixel_mse": 0.0014291462721303105,
+          "seconds": 2.1958993110019946,
+          "geometry": {
+            "input_wh": [
+              224,
+              224
+            ],
+            "pixel_values_shape": [
+              1,
+              2520,
+              768
+            ],
+            "resized_wh": [
+              768,
+              768
+            ],
+            "raw_grid_wh": [
+              48,
+              48
+            ],
+            "raw_valid_tokens": 2304,
+            "raw_padding_tokens": 216,
+            "pooled_valid_tokens": 256,
+            "text_valid_tokens": 260,
+            "raw_shape": [
+              1,
+              2520,
+              768
+            ],
+            "pooled_shape": [
+              256,
+              768
+            ]
+          }
+        }
+      ],
+      "spearman_vs_negative_psnr": {
+        "global_cosine_distance": 1.0,
+        "pooled_vision_cosine_distance": 1.0,
+        "raw_patch_cosine_distance": 1.0
+      },
+      "spatially_shuffled_hr_features_control": {
+        "global_cosine_distance": 0.0,
+        "pooled_vision_cosine_distance": 0.6785251409508537,
+        "raw_patch_cosine_distance": 0.8428125207323226
+      },
+      "unchanged_repeat_control": {
+        "global_cosine_distance": 1.6294234850278144e-09,
+        "pooled_vision_cosine_distance": 3.171883642197337e-08,
+        "raw_patch_cosine_distance": 6.177711868641924e-08,
+        "processor_valid_pixel_mse": 0.0,
+        "seconds": 2.1777042239991715
+      },
+      "bf16_cache_roundtrip_control": {
+        "global_cosine_distance": 1.0633886506905554e-06,
+        "pooled_vision_cosine_distance": 1.359165596433523e-06,
+        "raw_patch_cosine_distance": 1.3650186168149652e-06
+      },
+      "all_outputs_finite": true
+    },
+    {
+      "path": "/workspace/data/prepared/rush_hour/HR/00001.png",
+      "source_sha256": "f7d95fae7576d6abb32922f984587a810c1413140db1e62b4adc81f03718cd50",
+      "original_wh": [
+        1920,
+        1080
+      ],
+      "crop_xyxy": [
+        848,
+        428,
+        1072,
+        652
+      ],
+      "geometry": {
+        "input_wh": [
+          224,
+          224
+        ],
+        "pixel_values_shape": [
+          1,
+          2520,
+          768
+        ],
+        "resized_wh": [
+          768,
+          768
+        ],
+        "raw_grid_wh": [
+          48,
+          48
+        ],
+        "raw_valid_tokens": 2304,
+        "raw_padding_tokens": 216,
+        "pooled_valid_tokens": 256,
+        "text_valid_tokens": 260,
+        "raw_shape": [
+          1,
+          2520,
+          768
+        ],
+        "pooled_shape": [
+          256,
+          768
+        ]
+      },
+      "reference_seconds": 2.365385224999045,
+      "degradations": [
+        {
+          "scale": 2,
+          "psnr_rgb_db": 42.57244381399197,
+          "global_cosine_distance": 0.010614234908742026,
+          "pooled_vision_cosine_distance": 0.1892977150852036,
+          "raw_patch_cosine_distance": 0.3867300335706176,
+          "processor_valid_pixel_mse": 4.161889592069201e-05,
+          "seconds": 2.296787347004283,
+          "geometry": {
+            "input_wh": [
+              224,
+              224
+            ],
+            "pixel_values_shape": [
+              1,
+              2520,
+              768
+            ],
+            "resized_wh": [
+              768,
+              768
+            ],
+            "raw_grid_wh": [
+              48,
+              48
+            ],
+            "raw_valid_tokens": 2304,
+            "raw_padding_tokens": 216,
+            "pooled_valid_tokens": 256,
+            "text_valid_tokens": 260,
+            "raw_shape": [
+              1,
+              2520,
+              768
+            ],
+            "pooled_shape": [
+              256,
+              768
+            ]
+          }
+        },
+        {
+          "scale": 4,
+          "psnr_rgb_db": 37.511349227893675,
+          "global_cosine_distance": 0.04632837164216497,
+          "pooled_vision_cosine_distance": 0.2782512289634381,
+          "raw_patch_cosine_distance": 0.5035563779208961,
+          "processor_valid_pixel_mse": 0.0001609177706995979,
+          "seconds": 2.2073766949906712,
+          "geometry": {
+            "input_wh": [
+              224,
+              224
+            ],
+            "pixel_values_shape": [
+              1,
+              2520,
+              768
+            ],
+            "resized_wh": [
+              768,
+              768
+            ],
+            "raw_grid_wh": [
+              48,
+              48
+            ],
+            "raw_valid_tokens": 2304,
+            "raw_padding_tokens": 216,
+            "pooled_valid_tokens": 256,
+            "text_valid_tokens": 260,
+            "raw_shape": [
+              1,
+              2520,
+              768
+            ],
+            "pooled_shape": [
+              256,
+              768
+            ]
+          }
+        },
+        {
+          "scale": 8,
+          "psnr_rgb_db": 28.916005590113,
+          "global_cosine_distance": 0.07189407783504576,
+          "pooled_vision_cosine_distance": 0.40713846481591875,
+          "raw_patch_cosine_distance": 0.6260938046196601,
+          "processor_valid_pixel_mse": 0.0012668579583987594,
+          "seconds": 2.2338697670056717,
+          "geometry": {
+            "input_wh": [
+              224,
+              224
+            ],
+            "pixel_values_shape": [
+              1,
+              2520,
+              768
+            ],
+            "resized_wh": [
+              768,
+              768
+            ],
+            "raw_grid_wh": [
+              48,
+              48
+            ],
+            "raw_valid_tokens": 2304,
+            "raw_padding_tokens": 216,
+            "pooled_valid_tokens": 256,
+            "text_valid_tokens": 260,
+            "raw_shape": [
+              1,
+              2520,
+              768
+            ],
+            "pooled_shape": [
+              256,
+              768
+            ]
+          }
+        }
+      ],
+      "spearman_vs_negative_psnr": {
+        "global_cosine_distance": 1.0,
+        "pooled_vision_cosine_distance": 1.0,
+        "raw_patch_cosine_distance": 1.0
+      },
+      "spatially_shuffled_hr_features_control": {
+        "global_cosine_distance": 3.3306690738754696e-16,
+        "pooled_vision_cosine_distance": 0.6796840088615508,
+        "raw_patch_cosine_distance": 0.8594328153874256
+      },
+      "unchanged_repeat_control": {
+        "global_cosine_distance": 3.3306690738754696e-16,
+        "pooled_vision_cosine_distance": 4.0766001685454967e-17,
+        "raw_patch_cosine_distance": 3.440534894020667e-17,
+        "processor_valid_pixel_mse": 0.0,
+        "seconds": 2.1573681750014657
+      },
+      "bf16_cache_roundtrip_control": {
+        "global_cosine_distance": 1.121581287844009e-06,
+        "pooled_vision_cosine_distance": 1.363628850704901e-06,
+        "raw_patch_cosine_distance": 1.3672296382025471e-06
+      },
+      "all_outputs_finite": true
+    }
+  ],
+  "different_image_hr_control": {
+    "global_cosine_distance": 0.25236579536588255,
+    "pooled_vision_cosine_distance": 0.8638884152360403,
+    "raw_patch_cosine_distance": 0.9111544437361285
+  },
+  "summary": {
+    "global_cosine_distance": {
+      "per_image_spearman": [
+        1.0,
+        1.0
+      ],
+      "median_spearman": 1.0
+    },
+    "pooled_vision_cosine_distance": {
+      "per_image_spearman": [
+        1.0,
+        1.0
+      ],
+      "median_spearman": 1.0
+    },
+    "raw_patch_cosine_distance": {
+      "per_image_spearman": [
+        1.0,
+        1.0
+      ],
+      "median_spearman": 1.0
+    }
+  },
+  "limitation": "Tiny blur-only screening; no SR training, LPIPS, matched-compute DINO/CLIP/SigLIP comparison, or statistical reliability claim. A pass licenses a larger probe only.",
+  "total_seconds": 28.52934301199275
+}

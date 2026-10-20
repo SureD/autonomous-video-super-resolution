@@ -1,0 +1,102 @@
+{
+  "status": "processor_only_complete",
+  "preflight": {
+    "utc": "2026-10-17T02:46:08.840278+00:00",
+    "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+    "disk_free_bytes": 118126997504,
+    "model_id": "google/embeddinggemma-2",
+    "model_revision": "914f7f89142e33e77833254d9c9b90c3cef7303b",
+    "expected_weight_bytes": 1488915288,
+    "reference_transformers_source_commit": "8498ed425fa01bbee7d086efdf1a6634c2962aed",
+    "dependencies": {
+      "torch": "2.14.1+cpu",
+      "torchvision": "0.29.1+cpu",
+      "transformers": "5.21.0.dev0",
+      "Pillow": "12.3.0",
+      "numpy": "2.5.2",
+      "lpips": null
+    },
+    "installed_transformers_direct_url": {
+      "url": "https://github.com/huggingface/transformers/archive/8498ed425fa01bbee7d086efdf1a6634c2962aed.zip",
+      "archive_info": {}
+    },
+    "hub": {
+      "id": "google/embeddinggemma-2",
+      "sha": "914f7f89142e33e77833254d9c9b90c3cef7303b",
+      "gated": false,
+      "private": false,
+      "safetensors": {
+        "parameters": {
+          "BF16": 744371512
+        },
+        "total": 744371512
+      }
+    },
+    "weight_http_status": 200,
+    "weight_content_length": 1488915288,
+    "natural_sample_paths": [
+      "/workspace/data/prepared/sunflower/HR/00001.png",
+      "/workspace/data/prepared/rush_hour/HR/00001.png"
+    ]
+  },
+  "frames": [
+    {
+      "path": "/workspace/data/prepared/sunflower/HR/00001.png",
+      "original_wh": [
+        1920,
+        1080
+      ],
+      "crop_xyxy": [
+        848,
+        428,
+        1072,
+        652
+      ],
+      "valid_raw_patches": 2304,
+      "degradations": [
+        {
+          "scale": 2,
+          "processor_valid_pixel_mse": 0.00010652963101165369
+        },
+        {
+          "scale": 4,
+          "processor_valid_pixel_mse": 0.0004130137385800481
+        },
+        {
+          "scale": 8,
+          "processor_valid_pixel_mse": 0.0014291462721303105
+        }
+      ]
+    },
+    {
+      "path": "/workspace/data/prepared/rush_hour/HR/00001.png",
+      "original_wh": [
+        1920,
+        1080
+      ],
+      "crop_xyxy": [
+        848,
+        428,
+        1072,
+        652
+      ],
+      "valid_raw_patches": 2304,
+      "degradations": [
+        {
+          "scale": 2,
+          "processor_valid_pixel_mse": 4.161889592069201e-05
+        },
+        {
+          "scale": 4,
+          "processor_valid_pixel_mse": 0.0001609177706995979
+        },
+        {
+          "scale": 8,
+          "processor_valid_pixel_mse": 0.0012668579583987594
+        }
+      ]
+    }
+  ],
+  "limitation": "No model weights loaded or feature sensitivity measured. Positive processed-pixel MSE only establishes that the degradation survived preprocessing.",
+  "total_seconds": 4.820501637994312
+}
