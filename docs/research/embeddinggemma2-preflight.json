@@ -1,0 +1,39 @@
+{
+  "status": "preflight",
+  "preflight": {
+    "utc": "2026-10-17T02:46:08.834732+00:00",
+    "python": "3.13.5 (main, Aug 10 2026, 12:06:59) [GCC 14.2.0]",
+    "disk_free_bytes": 118126997504,
+    "model_id": "google/embeddinggemma-2",
+    "model_revision": "914f7f89142e33e77833254d9c9b90c3cef7303b",
+    "expected_weight_bytes": 1488915288,
+    "reference_transformers_source_commit": "8498ed425fa01bbee7d086efdf1a6634c2962aed",
+    "dependencies": {
+      "torch": null,
+      "torchvision": null,
+      "transformers": null,
+      "Pillow": "12.3.0",
+      "numpy": "2.5.4",
+      "lpips": null
+    },
+    "hub": {
+      "id": "google/embeddinggemma-2",
+      "sha": "914f7f89142e33e77833254d9c9b90c3cef7303b",
+      "gated": false,
+      "private": false,
+      "safetensors": {
+        "parameters": {
+          "BF16": 744371512
+        },
+        "total": 744371512
+      }
+    },
+    "weight_http_status": 200,
+    "weight_content_length": 1488915288,
+    "natural_sample_paths": [
+      "/workspace/data/prepared/sunflower/HR/00001.png",
+      "/workspace/data/prepared/rush_hour/HR/00001.png"
+    ]
+  },
+  "total_seconds": 2.1040032152086496e-06
+}

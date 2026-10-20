@@ -1,0 +1,3873 @@
+{
+  "status": "complete",
+  "stage": "dino",
+  "records": [
+    {
+      "id": "vid4_calendar/00001",
+      "clip": "vid4_calendar",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {
+        "patch": 3.5369084204638234e-17
+      },
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.18776513178274368
+        },
+        "bicubic_x4": {
+          "patch": 0.33585820939248534
+        },
+        "bicubic_x8": {
+          "patch": 0.630608430252641
+        },
+        "h264_crf23": {
+          "patch": 0.03705651905116461
+        },
+        "h264_crf33": {
+          "patch": 0.16552806586456978
+        },
+        "shift_right1": {
+          "patch": 0.057803262256057475
+        },
+        "sharpen_hr": {
+          "patch": 0.015490532422525325
+        },
+        "sharpen_x2": {
+          "patch": 0.18129628255915323
+        }
+      },
+      "seconds": 30.667031158998725
+    },
+    {
+      "id": "vid4_calendar/00001",
+      "clip": "vid4_calendar",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          720,
+          576
+        ],
+        "resized_wh": [
+          756,
+          588
+        ],
+        "grid_wh": [
+          54,
+          42
+        ],
+        "valid_raw_tokens": 2268
+      },
+      "unchanged_repeat": {
+        "patch": 3.749695047896252e-17
+      },
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.05660089557588976
+        },
+        "bicubic_x4": {
+          "patch": 0.12074513769681466
+        },
+        "bicubic_x8": {
+          "patch": 0.3017975130445939
+        },
+        "h264_crf23": {
+          "patch": 0.019698408424546454
+        },
+        "h264_crf33": {
+          "patch": 0.05926360953453749
+        },
+        "shift_right1": {
+          "patch": 0.027269167800701807
+        },
+        "sharpen_hr": {
+          "patch": 0.009748373070343168
+        },
+        "sharpen_x2": {
+          "patch": 0.05451550816401771
+        }
+      },
+      "seconds": 19.84013322799001
+    },
+    {
+      "id": "vid4_calendar/00011",
+      "clip": "vid4_calendar",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.18863952800388634
+        },
+        "bicubic_x4": {
+          "patch": 0.3576441103482376
+        },
+        "bicubic_x8": {
+          "patch": 0.6242744017045639
+        },
+        "h264_crf23": {
+          "patch": 0.07589805975038323
+        },
+        "h264_crf33": {
+          "patch": 0.18841825924849565
+        },
+        "shift_right1": {
+          "patch": 0.06184118747193909
+        },
+        "sharpen_hr": {
+          "patch": 0.010938961093813836
+        },
+        "sharpen_x2": {
+          "patch": 0.18993434382859586
+        }
+      },
+      "seconds": 16.990081109004677
+    },
+    {
+      "id": "vid4_calendar/00011",
+      "clip": "vid4_calendar",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          720,
+          576
+        ],
+        "resized_wh": [
+          756,
+          588
+        ],
+        "grid_wh": [
+          54,
+          42
+        ],
+        "valid_raw_tokens": 2268
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.05270719469527755
+        },
+        "bicubic_x4": {
+          "patch": 0.12574115488085758
+        },
+        "bicubic_x8": {
+          "patch": 0.30684264783633036
+        },
+        "h264_crf23": {
+          "patch": 0.03000178606422536
+        },
+        "h264_crf33": {
+          "patch": 0.06826550575345829
+        },
+        "shift_right1": {
+          "patch": 0.027809369087098516
+        },
+        "sharpen_hr": {
+          "patch": 0.008909606642560018
+        },
+        "sharpen_x2": {
+          "patch": 0.0518269930343894
+        }
+      },
+      "seconds": 17.073289253996336
+    },
+    {
+      "id": "vid4_calendar/00021",
+      "clip": "vid4_calendar",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.17844892879661678
+        },
+        "bicubic_x4": {
+          "patch": 0.32227051012753544
+        },
+        "bicubic_x8": {
+          "patch": 0.5962160913048594
+        },
+        "h264_crf23": {
+          "patch": 0.06082572261527348
+        },
+        "h264_crf33": {
+          "patch": 0.17646846881812062
+        },
+        "shift_right1": {
+          "patch": 0.056997558447001634
+        },
+        "sharpen_hr": {
+          "patch": 0.013467774400694703
+        },
+        "sharpen_x2": {
+          "patch": 0.17345304919355695
+        }
+      },
+      "seconds": 16.942936191000626
+    },
+    {
+      "id": "vid4_calendar/00021",
+      "clip": "vid4_calendar",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          720,
+          576
+        ],
+        "resized_wh": [
+          756,
+          588
+        ],
+        "grid_wh": [
+          54,
+          42
+        ],
+        "valid_raw_tokens": 2268
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.051604806458589114
+        },
+        "bicubic_x4": {
+          "patch": 0.11752432514332244
+        },
+        "bicubic_x8": {
+          "patch": 0.28311050229016715
+        },
+        "h264_crf23": {
+          "patch": 0.024910820331840715
+        },
+        "h264_crf33": {
+          "patch": 0.0668313420134631
+        },
+        "shift_right1": {
+          "patch": 0.028199005874126246
+        },
+        "sharpen_hr": {
+          "patch": 0.00925742772742401
+        },
+        "sharpen_x2": {
+          "patch": 0.05053401782753952
+        }
+      },
+      "seconds": 16.507875533003244
+    },
+    {
+      "id": "vid4_calendar/00031",
+      "clip": "vid4_calendar",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.18672092863907366
+        },
+        "bicubic_x4": {
+          "patch": 0.32102516565899214
+        },
+        "bicubic_x8": {
+          "patch": 0.700413233730059
+        },
+        "h264_crf23": {
+          "patch": 0.07263904962102631
+        },
+        "h264_crf33": {
+          "patch": 0.17908658753402584
+        },
+        "shift_right1": {
+          "patch": 0.06294502876665206
+        },
+        "sharpen_hr": {
+          "patch": 0.015757685061346432
+        },
+        "sharpen_x2": {
+          "patch": 0.18088237387715195
+        }
+      },
+      "seconds": 16.783649611999863
+    },
+    {
+      "id": "vid4_calendar/00031",
+      "clip": "vid4_calendar",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          720,
+          576
+        ],
+        "resized_wh": [
+          756,
+          588
+        ],
+        "grid_wh": [
+          54,
+          42
+        ],
+        "valid_raw_tokens": 2268
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.05472957346144184
+        },
+        "bicubic_x4": {
+          "patch": 0.1289530392822873
+        },
+        "bicubic_x8": {
+          "patch": 0.30773374130062714
+        },
+        "h264_crf23": {
+          "patch": 0.029105090190762753
+        },
+        "h264_crf33": {
+          "patch": 0.07364020709859366
+        },
+        "shift_right1": {
+          "patch": 0.029612425865842527
+        },
+        "sharpen_hr": {
+          "patch": 0.010369061418068688
+        },
+        "sharpen_x2": {
+          "patch": 0.05379905143692163
+        }
+      },
+      "seconds": 19.04453387200192
+    },
+    {
+      "id": "vid4_calendar/00041",
+      "clip": "vid4_calendar",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.2680499251773912
+        },
+        "bicubic_x4": {
+          "patch": 0.4266135837939158
+        },
+        "bicubic_x8": {
+          "patch": 0.7274674608811225
+        },
+        "h264_crf23": {
+          "patch": 0.11004710676426742
+        },
+        "h264_crf33": {
+          "patch": 0.23189461314137524
+        },
+        "shift_right1": {
+          "patch": 0.05871820947806588
+        },
+        "sharpen_hr": {
+          "patch": 0.013837036853791698
+        },
+        "sharpen_x2": {
+          "patch": 0.25882066300726664
+        }
+      },
+      "seconds": 33.27714559799642
+    },
+    {
+      "id": "vid4_calendar/00041",
+      "clip": "vid4_calendar",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          720,
+          576
+        ],
+        "resized_wh": [
+          756,
+          588
+        ],
+        "grid_wh": [
+          54,
+          42
+        ],
+        "valid_raw_tokens": 2268
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.06105875710756837
+        },
+        "bicubic_x4": {
+          "patch": 0.12429822007807181
+        },
+        "bicubic_x8": {
+          "patch": 0.31742999713786857
+        },
+        "h264_crf23": {
+          "patch": 0.03392874168895428
+        },
+        "h264_crf33": {
+          "patch": 0.08074006896592918
+        },
+        "shift_right1": {
+          "patch": 0.029037820416414676
+        },
+        "sharpen_hr": {
+          "patch": 0.010846390468048682
+        },
+        "sharpen_x2": {
+          "patch": 0.05995196107521303
+        }
+      },
+      "seconds": 16.68160674298997
+    },
+    {
+      "id": "vid4_city/00001",
+      "clip": "vid4_city",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.14615461104631555
+        },
+        "bicubic_x4": {
+          "patch": 0.3678790707511807
+        },
+        "bicubic_x8": {
+          "patch": 0.5527615131717291
+        },
+        "h264_crf23": {
+          "patch": 0.08053024677126092
+        },
+        "h264_crf33": {
+          "patch": 0.4406834408560558
+        },
+        "shift_right1": {
+          "patch": 0.05456220517566683
+        },
+        "sharpen_hr": {
+          "patch": 0.005352806481277553
+        },
+        "sharpen_x2": {
+          "patch": 0.1598944897997534
+        }
+      },
+      "seconds": 16.997621364003862
+    },
+    {
+      "id": "vid4_city/00001",
+      "clip": "vid4_city",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          704,
+          576
+        ],
+        "resized_wh": [
+          756,
+          630
+        ],
+        "grid_wh": [
+          54,
+          45
+        ],
+        "valid_raw_tokens": 2430
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.03055718031699124
+        },
+        "bicubic_x4": {
+          "patch": 0.11353953528549246
+        },
+        "bicubic_x8": {
+          "patch": 0.21815899567461988
+        },
+        "h264_crf23": {
+          "patch": 0.015934730726707036
+        },
+        "h264_crf33": {
+          "patch": 0.07080160662542319
+        },
+        "shift_right1": {
+          "patch": 0.01399917643507323
+        },
+        "sharpen_hr": {
+          "patch": 0.0018565831885823548
+        },
+        "sharpen_x2": {
+          "patch": 0.030065565688770318
+        }
+      },
+      "seconds": 18.620420549006667
+    },
+    {
+      "id": "vid4_city/00009",
+      "clip": "vid4_city",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.1531429743806642
+        },
+        "bicubic_x4": {
+          "patch": 0.28209695767806253
+        },
+        "bicubic_x8": {
+          "patch": 0.47334966978698645
+        },
+        "h264_crf23": {
+          "patch": 0.08686671638000926
+        },
+        "h264_crf33": {
+          "patch": 0.33652981268099447
+        },
+        "shift_right1": {
+          "patch": 0.055114709844278326
+        },
+        "sharpen_hr": {
+          "patch": 0.004998760537542461
+        },
+        "sharpen_x2": {
+          "patch": 0.1662154256305254
+        }
+      },
+      "seconds": 16.811479502008297
+    },
+    {
+      "id": "vid4_city/00009",
+      "clip": "vid4_city",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          704,
+          576
+        ],
+        "resized_wh": [
+          756,
+          630
+        ],
+        "grid_wh": [
+          54,
+          45
+        ],
+        "valid_raw_tokens": 2430
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.03030968123498851
+        },
+        "bicubic_x4": {
+          "patch": 0.11033598651738791
+        },
+        "bicubic_x8": {
+          "patch": 0.21209629319139545
+        },
+        "h264_crf23": {
+          "patch": 0.019421749212686718
+        },
+        "h264_crf33": {
+          "patch": 0.07318066147031302
+        },
+        "shift_right1": {
+          "patch": 0.016083990798608807
+        },
+        "sharpen_hr": {
+          "patch": 0.0016774267794534142
+        },
+        "sharpen_x2": {
+          "patch": 0.029471135122104263
+        }
+      },
+      "seconds": 18.24433488700015
+    },
+    {
+      "id": "vid4_city/00017",
+      "clip": "vid4_city",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.17125133240263177
+        },
+        "bicubic_x4": {
+          "patch": 0.2926794402471182
+        },
+        "bicubic_x8": {
+          "patch": 0.4307102593306551
+        },
+        "h264_crf23": {
+          "patch": 0.085783155634623
+        },
+        "h264_crf33": {
+          "patch": 0.39529096572164707
+        },
+        "shift_right1": {
+          "patch": 0.05363610105374677
+        },
+        "sharpen_hr": {
+          "patch": 0.004669469767973727
+        },
+        "sharpen_x2": {
+          "patch": 0.17383587585715418
+        }
+      },
+      "seconds": 72.10792735300492
+    },
+    {
+      "id": "vid4_city/00017",
+      "clip": "vid4_city",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          704,
+          576
+        ],
+        "resized_wh": [
+          756,
+          630
+        ],
+        "grid_wh": [
+          54,
+          45
+        ],
+        "valid_raw_tokens": 2430
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.03207216428583122
+        },
+        "bicubic_x4": {
+          "patch": 0.11248557009130622
+        },
+        "bicubic_x8": {
+          "patch": 0.21293296791683572
+        },
+        "h264_crf23": {
+          "patch": 0.018569838570980646
+        },
+        "h264_crf33": {
+          "patch": 0.07335388095770072
+        },
+        "shift_right1": {
+          "patch": 0.015704789314469437
+        },
+        "sharpen_hr": {
+          "patch": 0.002180040527296157
+        },
+        "sharpen_x2": {
+          "patch": 0.031456949479847326
+        }
+      },
+      "seconds": 20.680239506007638
+    },
+    {
+      "id": "vid4_city/00026",
+      "clip": "vid4_city",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.13066120215982846
+        },
+        "bicubic_x4": {
+          "patch": 0.35030326549341656
+        },
+        "bicubic_x8": {
+          "patch": 0.4070134095201681
+        },
+        "h264_crf23": {
+          "patch": 0.10325369556405811
+        },
+        "h264_crf33": {
+          "patch": 0.4016540174580684
+        },
+        "shift_right1": {
+          "patch": 0.05320177422556179
+        },
+        "sharpen_hr": {
+          "patch": 0.005132419077095778
+        },
+        "sharpen_x2": {
+          "patch": 0.16174131123195126
+        }
+      },
+      "seconds": 17.9900787309889
+    },
+    {
+      "id": "vid4_city/00026",
+      "clip": "vid4_city",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          704,
+          576
+        ],
+        "resized_wh": [
+          756,
+          630
+        ],
+        "grid_wh": [
+          54,
+          45
+        ],
+        "valid_raw_tokens": 2430
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.03035430075339041
+        },
+        "bicubic_x4": {
+          "patch": 0.11171441202567164
+        },
+        "bicubic_x8": {
+          "patch": 0.21644799640484755
+        },
+        "h264_crf23": {
+          "patch": 0.024613692619581316
+        },
+        "h264_crf33": {
+          "patch": 0.07548600973735788
+        },
+        "shift_right1": {
+          "patch": 0.015975826597209187
+        },
+        "sharpen_hr": {
+          "patch": 0.0014246383502161143
+        },
+        "sharpen_x2": {
+          "patch": 0.029474408892464464
+        }
+      },
+      "seconds": 18.02148743699945
+    },
+    {
+      "id": "vid4_city/00034",
+      "clip": "vid4_city",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.12264558977226872
+        },
+        "bicubic_x4": {
+          "patch": 0.3323936412217161
+        },
+        "bicubic_x8": {
+          "patch": 0.4556961299108535
+        },
+        "h264_crf23": {
+          "patch": 0.11572432763416465
+        },
+        "h264_crf33": {
+          "patch": 0.286649210982177
+        },
+        "shift_right1": {
+          "patch": 0.05347634623150696
+        },
+        "sharpen_hr": {
+          "patch": 0.004351767569170265
+        },
+        "sharpen_x2": {
+          "patch": 0.1347485884003774
+        }
+      },
+      "seconds": 16.68030408800405
+    },
+    {
+      "id": "vid4_city/00034",
+      "clip": "vid4_city",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          704,
+          576
+        ],
+        "resized_wh": [
+          756,
+          630
+        ],
+        "grid_wh": [
+          54,
+          45
+        ],
+        "valid_raw_tokens": 2430
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.030889815797185895
+        },
+        "bicubic_x4": {
+          "patch": 0.1132980360972854
+        },
+        "bicubic_x8": {
+          "patch": 0.22330137487064303
+        },
+        "h264_crf23": {
+          "patch": 0.028274662027392868
+        },
+        "h264_crf33": {
+          "patch": 0.08886716212097623
+        },
+        "shift_right1": {
+          "patch": 0.016158015347729204
+        },
+        "sharpen_hr": {
+          "patch": 0.0018714637000506699
+        },
+        "sharpen_x2": {
+          "patch": 0.030028242562959717
+        }
+      },
+      "seconds": 19.32130252799834
+    },
+    {
+      "id": "vid4_foliage/00001",
+      "clip": "vid4_foliage",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.11307602835709513
+        },
+        "bicubic_x4": {
+          "patch": 0.2488572490253038
+        },
+        "bicubic_x8": {
+          "patch": 0.4153757531522134
+        },
+        "h264_crf23": {
+          "patch": 0.057050537843357264
+        },
+        "h264_crf33": {
+          "patch": 0.18792822834006365
+        },
+        "shift_right1": {
+          "patch": 0.07409460334435423
+        },
+        "sharpen_hr": {
+          "patch": 0.005672984555958512
+        },
+        "sharpen_x2": {
+          "patch": 0.1066997777152136
+        }
+      },
+      "seconds": 16.38261492799211
+    },
+    {
+      "id": "vid4_foliage/00001",
+      "clip": "vid4_foliage",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          720,
+          480
+        ],
+        "resized_wh": [
+          840,
+          546
+        ],
+        "grid_wh": [
+          60,
+          39
+        ],
+        "valid_raw_tokens": 2340
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.055193835945158636
+        },
+        "bicubic_x4": {
+          "patch": 0.1482073194204602
+        },
+        "bicubic_x8": {
+          "patch": 0.2779299655971463
+        },
+        "h264_crf23": {
+          "patch": 0.023759894312764842
+        },
+        "h264_crf33": {
+          "patch": 0.10321488621323803
+        },
+        "shift_right1": {
+          "patch": 0.030801650133373774
+        },
+        "sharpen_hr": {
+          "patch": 0.0024323112172375734
+        },
+        "sharpen_x2": {
+          "patch": 0.05358635174372112
+        }
+      },
+      "seconds": 16.462701450000168
+    },
+    {
+      "id": "vid4_foliage/00013",
+      "clip": "vid4_foliage",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.10709421864300792
+        },
+        "bicubic_x4": {
+          "patch": 0.24147814903614007
+        },
+        "bicubic_x8": {
+          "patch": 0.46158266374499174
+        },
+        "h264_crf23": {
+          "patch": 0.06739178833268394
+        },
+        "h264_crf33": {
+          "patch": 0.18877952984218027
+        },
+        "shift_right1": {
+          "patch": 0.06536049107876689
+        },
+        "sharpen_hr": {
+          "patch": 0.005654589300669903
+        },
+        "sharpen_x2": {
+          "patch": 0.10193335687393995
+        }
+      },
+      "seconds": 16.582911039993633
+    },
+    {
+      "id": "vid4_foliage/00013",
+      "clip": "vid4_foliage",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          720,
+          480
+        ],
+        "resized_wh": [
+          840,
+          546
+        ],
+        "grid_wh": [
+          60,
+          39
+        ],
+        "valid_raw_tokens": 2340
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.058393784230058206
+        },
+        "bicubic_x4": {
+          "patch": 0.14842900304506196
+        },
+        "bicubic_x8": {
+          "patch": 0.2892333209097133
+        },
+        "h264_crf23": {
+          "patch": 0.02719722741965351
+        },
+        "h264_crf33": {
+          "patch": 0.10464076586334402
+        },
+        "shift_right1": {
+          "patch": 0.03315295614781424
+        },
+        "sharpen_hr": {
+          "patch": 0.0025907467490965974
+        },
+        "sharpen_x2": {
+          "patch": 0.056846590155511974
+        }
+      },
+      "seconds": 16.705552907005767
+    },
+    {
+      "id": "vid4_foliage/00025",
+      "clip": "vid4_foliage",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.11173610631389606
+        },
+        "bicubic_x4": {
+          "patch": 0.25495425114465176
+        },
+        "bicubic_x8": {
+          "patch": 0.4809037718769615
+        },
+        "h264_crf23": {
+          "patch": 0.05488340227946193
+        },
+        "h264_crf33": {
+          "patch": 0.16880984920251935
+        },
+        "shift_right1": {
+          "patch": 0.07008073574284152
+        },
+        "sharpen_hr": {
+          "patch": 0.005370916209180818
+        },
+        "sharpen_x2": {
+          "patch": 0.106475801618916
+        }
+      },
+      "seconds": 15.935972958002822
+    },
+    {
+      "id": "vid4_foliage/00025",
+      "clip": "vid4_foliage",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          720,
+          480
+        ],
+        "resized_wh": [
+          840,
+          546
+        ],
+        "grid_wh": [
+          60,
+          39
+        ],
+        "valid_raw_tokens": 2340
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.05766709361243897
+        },
+        "bicubic_x4": {
+          "patch": 0.15928355220974663
+        },
+        "bicubic_x8": {
+          "patch": 0.2856858079448278
+        },
+        "h264_crf23": {
+          "patch": 0.029169576758126085
+        },
+        "h264_crf33": {
+          "patch": 0.10528145802453398
+        },
+        "shift_right1": {
+          "patch": 0.030973191146557433
+        },
+        "sharpen_hr": {
+          "patch": 0.0022060288210688215
+        },
+        "sharpen_x2": {
+          "patch": 0.05549555316275356
+        }
+      },
+      "seconds": 16.4936337370018
+    },
+    {
+      "id": "vid4_foliage/00037",
+      "clip": "vid4_foliage",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.09694852698117967
+        },
+        "bicubic_x4": {
+          "patch": 0.24651293038368424
+        },
+        "bicubic_x8": {
+          "patch": 0.48131399786134654
+        },
+        "h264_crf23": {
+          "patch": 0.05017914076918451
+        },
+        "h264_crf33": {
+          "patch": 0.15370688816005162
+        },
+        "shift_right1": {
+          "patch": 0.06477687250482275
+        },
+        "sharpen_hr": {
+          "patch": 0.0048137341412768115
+        },
+        "sharpen_x2": {
+          "patch": 0.09308661008046079
+        }
+      },
+      "seconds": 16.025964532003854
+    },
+    {
+      "id": "vid4_foliage/00037",
+      "clip": "vid4_foliage",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          720,
+          480
+        ],
+        "resized_wh": [
+          840,
+          546
+        ],
+        "grid_wh": [
+          60,
+          39
+        ],
+        "valid_raw_tokens": 2340
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.06152203777676486
+        },
+        "bicubic_x4": {
+          "patch": 0.16456069412164118
+        },
+        "bicubic_x8": {
+          "patch": 0.3058484931330708
+        },
+        "h264_crf23": {
+          "patch": 0.03214167757885611
+        },
+        "h264_crf33": {
+          "patch": 0.11080441498802687
+        },
+        "shift_right1": {
+          "patch": 0.02799041841707923
+        },
+        "sharpen_hr": {
+          "patch": 0.0023788895173887307
+        },
+        "sharpen_x2": {
+          "patch": 0.05957193756981847
+        }
+      },
+      "seconds": 16.39630869300163
+    },
+    {
+      "id": "vid4_foliage/00049",
+      "clip": "vid4_foliage",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.11712624735958377
+        },
+        "bicubic_x4": {
+          "patch": 0.27083220483799575
+        },
+        "bicubic_x8": {
+          "patch": 0.5532058128945594
+        },
+        "h264_crf23": {
+          "patch": 0.08357722144121718
+        },
+        "h264_crf33": {
+          "patch": 0.18204444281863555
+        },
+        "shift_right1": {
+          "patch": 0.06444540354332882
+        },
+        "sharpen_hr": {
+          "patch": 0.004853791668931862
+        },
+        "sharpen_x2": {
+          "patch": 0.11159094571617129
+        }
+      },
+      "seconds": 16.127879139996367
+    },
+    {
+      "id": "vid4_foliage/00049",
+      "clip": "vid4_foliage",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          720,
+          480
+        ],
+        "resized_wh": [
+          840,
+          546
+        ],
+        "grid_wh": [
+          60,
+          39
+        ],
+        "valid_raw_tokens": 2340
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.05963785607187644
+        },
+        "bicubic_x4": {
+          "patch": 0.1594928486030902
+        },
+        "bicubic_x8": {
+          "patch": 0.3032440474497179
+        },
+        "h264_crf23": {
+          "patch": 0.04570706833847015
+        },
+        "h264_crf33": {
+          "patch": 0.1281732069201408
+        },
+        "shift_right1": {
+          "patch": 0.033211023044616775
+        },
+        "sharpen_hr": {
+          "patch": 0.002391694483459451
+        },
+        "sharpen_x2": {
+          "patch": 0.05757220209207783
+        }
+      },
+      "seconds": 16.674966561011388
+    },
+    {
+      "id": "vid4_walk/00001",
+      "clip": "vid4_walk",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.0994759748627067
+        },
+        "bicubic_x4": {
+          "patch": 0.2791703638793945
+        },
+        "bicubic_x8": {
+          "patch": 0.455466579367769
+        },
+        "h264_crf23": {
+          "patch": 0.06955188888799643
+        },
+        "h264_crf33": {
+          "patch": 0.2016837888357036
+        },
+        "shift_right1": {
+          "patch": 0.056843349694791497
+        },
+        "sharpen_hr": {
+          "patch": 0.004795095408461025
+        },
+        "sharpen_x2": {
+          "patch": 0.09691095420613892
+        }
+      },
+      "seconds": 72.12079264500062
+    },
+    {
+      "id": "vid4_walk/00001",
+      "clip": "vid4_walk",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          720,
+          480
+        ],
+        "resized_wh": [
+          840,
+          546
+        ],
+        "grid_wh": [
+          60,
+          39
+        ],
+        "valid_raw_tokens": 2340
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.04179927404151538
+        },
+        "bicubic_x4": {
+          "patch": 0.14037543737181762
+        },
+        "bicubic_x8": {
+          "patch": 0.29481811936514096
+        },
+        "h264_crf23": {
+          "patch": 0.04526392000647823
+        },
+        "h264_crf33": {
+          "patch": 0.13176240644519643
+        },
+        "shift_right1": {
+          "patch": 0.023864310762320828
+        },
+        "sharpen_hr": {
+          "patch": 0.0016540581781956851
+        },
+        "sharpen_x2": {
+          "patch": 0.04087436567285539
+        }
+      },
+      "seconds": 18.16872998898907
+    },
+    {
+      "id": "vid4_walk/00013",
+      "clip": "vid4_walk",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.11000239893228644
+        },
+        "bicubic_x4": {
+          "patch": 0.2596485685478271
+        },
+        "bicubic_x8": {
+          "patch": 0.45036362187112594
+        },
+        "h264_crf23": {
+          "patch": 0.09470575290176847
+        },
+        "h264_crf33": {
+          "patch": 0.2314492551849604
+        },
+        "shift_right1": {
+          "patch": 0.05320335586976152
+        },
+        "sharpen_hr": {
+          "patch": 0.00563550797471897
+        },
+        "sharpen_x2": {
+          "patch": 0.10597698453526067
+        }
+      },
+      "seconds": 17.68500279499858
+    },
+    {
+      "id": "vid4_walk/00013",
+      "clip": "vid4_walk",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          720,
+          480
+        ],
+        "resized_wh": [
+          840,
+          546
+        ],
+        "grid_wh": [
+          60,
+          39
+        ],
+        "valid_raw_tokens": 2340
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.04045421592977571
+        },
+        "bicubic_x4": {
+          "patch": 0.1319468219145042
+        },
+        "bicubic_x8": {
+          "patch": 0.28120305483535163
+        },
+        "h264_crf23": {
+          "patch": 0.05298729964088127
+        },
+        "h264_crf33": {
+          "patch": 0.1379526383344413
+        },
+        "shift_right1": {
+          "patch": 0.021988605132516357
+        },
+        "sharpen_hr": {
+          "patch": 0.0020008367513809056
+        },
+        "sharpen_x2": {
+          "patch": 0.04008533596292032
+        }
+      },
+      "seconds": 18.075176850004937
+    },
+    {
+      "id": "vid4_walk/00024",
+      "clip": "vid4_walk",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.10093034068398483
+        },
+        "bicubic_x4": {
+          "patch": 0.28630814436532614
+        },
+        "bicubic_x8": {
+          "patch": 0.4563875342798338
+        },
+        "h264_crf23": {
+          "patch": 0.09107165369262131
+        },
+        "h264_crf33": {
+          "patch": 0.20165429310712302
+        },
+        "shift_right1": {
+          "patch": 0.04979224062446541
+        },
+        "sharpen_hr": {
+          "patch": 0.005173949684192911
+        },
+        "sharpen_x2": {
+          "patch": 0.10265785317539584
+        }
+      },
+      "seconds": 17.480130134994397
+    },
+    {
+      "id": "vid4_walk/00024",
+      "clip": "vid4_walk",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          720,
+          480
+        ],
+        "resized_wh": [
+          840,
+          546
+        ],
+        "grid_wh": [
+          60,
+          39
+        ],
+        "valid_raw_tokens": 2340
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.04075482232802135
+        },
+        "bicubic_x4": {
+          "patch": 0.1404225011420388
+        },
+        "bicubic_x8": {
+          "patch": 0.28436228915649947
+        },
+        "h264_crf23": {
+          "patch": 0.05148544255340786
+        },
+        "h264_crf33": {
+          "patch": 0.13056224702890118
+        },
+        "shift_right1": {
+          "patch": 0.022542049563599266
+        },
+        "sharpen_hr": {
+          "patch": 0.0015207908146928917
+        },
+        "sharpen_x2": {
+          "patch": 0.04081674990883646
+        }
+      },
+      "seconds": 18.593378223013133
+    },
+    {
+      "id": "vid4_walk/00035",
+      "clip": "vid4_walk",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.1132193635823381
+        },
+        "bicubic_x4": {
+          "patch": 0.3082204379434886
+        },
+        "bicubic_x8": {
+          "patch": 0.4363986147566953
+        },
+        "h264_crf23": {
+          "patch": 0.09188800983979485
+        },
+        "h264_crf33": {
+          "patch": 0.23445079225205256
+        },
+        "shift_right1": {
+          "patch": 0.05244667390154387
+        },
+        "sharpen_hr": {
+          "patch": 0.004489167868048547
+        },
+        "sharpen_x2": {
+          "patch": 0.107535007445766
+        }
+      },
+      "seconds": 16.52257375299814
+    },
+    {
+      "id": "vid4_walk/00035",
+      "clip": "vid4_walk",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          720,
+          480
+        ],
+        "resized_wh": [
+          840,
+          546
+        ],
+        "grid_wh": [
+          60,
+          39
+        ],
+        "valid_raw_tokens": 2340
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.03887780807326049
+        },
+        "bicubic_x4": {
+          "patch": 0.13792719614977256
+        },
+        "bicubic_x8": {
+          "patch": 0.28558722911450457
+        },
+        "h264_crf23": {
+          "patch": 0.054154857277762675
+        },
+        "h264_crf33": {
+          "patch": 0.1364835119330989
+        },
+        "shift_right1": {
+          "patch": 0.021232397632881417
+        },
+        "sharpen_hr": {
+          "patch": 0.001698255348050137
+        },
+        "sharpen_x2": {
+          "patch": 0.038005928759504606
+        }
+      },
+      "seconds": 16.963701015003608
+    },
+    {
+      "id": "vid4_walk/00047",
+      "clip": "vid4_walk",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.12922384202126969
+        },
+        "bicubic_x4": {
+          "patch": 0.3491893950825656
+        },
+        "bicubic_x8": {
+          "patch": 0.4525390615033703
+        },
+        "h264_crf23": {
+          "patch": 0.12448160288164223
+        },
+        "h264_crf33": {
+          "patch": 0.2788871063057196
+        },
+        "shift_right1": {
+          "patch": 0.05233634205189351
+        },
+        "sharpen_hr": {
+          "patch": 0.0054803903243618056
+        },
+        "sharpen_x2": {
+          "patch": 0.1272984390176051
+        }
+      },
+      "seconds": 16.52878661498835
+    },
+    {
+      "id": "vid4_walk/00047",
+      "clip": "vid4_walk",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          720,
+          480
+        ],
+        "resized_wh": [
+          840,
+          546
+        ],
+        "grid_wh": [
+          60,
+          39
+        ],
+        "valid_raw_tokens": 2340
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.038322604833516974
+        },
+        "bicubic_x4": {
+          "patch": 0.13530374424426173
+        },
+        "bicubic_x8": {
+          "patch": 0.2747997119351002
+        },
+        "h264_crf23": {
+          "patch": 0.06347671405156603
+        },
+        "h264_crf33": {
+          "patch": 0.15296669528025947
+        },
+        "shift_right1": {
+          "patch": 0.021991921953194243
+        },
+        "sharpen_hr": {
+          "patch": 0.0019661824229787804
+        },
+        "sharpen_x2": {
+          "patch": 0.038034020564906415
+        }
+      },
+      "seconds": 17.460956761002308
+    },
+    {
+      "id": "sunflower/00001",
+      "clip": "sunflower",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.09144748384146244
+        },
+        "bicubic_x4": {
+          "patch": 0.18225771108029842
+        },
+        "bicubic_x8": {
+          "patch": 0.31005802330172944
+        },
+        "h264_crf23": {
+          "patch": 0.17509021352730014
+        },
+        "h264_crf33": {
+          "patch": 0.28172146826804173
+        },
+        "shift_right1": {
+          "patch": 0.026972938083070844
+        },
+        "sharpen_hr": {
+          "patch": 0.007818876192980169
+        },
+        "sharpen_x2": {
+          "patch": 0.09006891939126047
+        }
+      },
+      "seconds": 17.147023546989658
+    },
+    {
+      "id": "sunflower/00001",
+      "clip": "sunflower",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          1920,
+          1080
+        ],
+        "resized_wh": [
+          924,
+          504
+        ],
+        "grid_wh": [
+          66,
+          36
+        ],
+        "valid_raw_tokens": 2376
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.001210472005371531
+        },
+        "bicubic_x4": {
+          "patch": 0.008275114092967644
+        },
+        "bicubic_x8": {
+          "patch": 0.06405106119326054
+        },
+        "h264_crf23": {
+          "patch": 0.017294322794492133
+        },
+        "h264_crf33": {
+          "patch": 0.05928057015687168
+        },
+        "shift_right1": {
+          "patch": 0.0030393704375057174
+        },
+        "sharpen_hr": {
+          "patch": 0.00020412116139218456
+        },
+        "sharpen_x2": {
+          "patch": 0.0011632564345551094
+        }
+      },
+      "seconds": 18.226826809011982
+    },
+    {
+      "id": "sunflower/00013",
+      "clip": "sunflower",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.0964400718320219
+        },
+        "bicubic_x4": {
+          "patch": 0.21061582144986138
+        },
+        "bicubic_x8": {
+          "patch": 0.369696110893154
+        },
+        "h264_crf23": {
+          "patch": 0.2296233395229209
+        },
+        "h264_crf33": {
+          "patch": 0.40138381775316573
+        },
+        "shift_right1": {
+          "patch": 0.02940175868633478
+        },
+        "sharpen_hr": {
+          "patch": 0.013847131431101025
+        },
+        "sharpen_x2": {
+          "patch": 0.0910008324094486
+        }
+      },
+      "seconds": 16.379815209991648
+    },
+    {
+      "id": "sunflower/00013",
+      "clip": "sunflower",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          1920,
+          1080
+        ],
+        "resized_wh": [
+          924,
+          504
+        ],
+        "grid_wh": [
+          66,
+          36
+        ],
+        "valid_raw_tokens": 2376
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.0012438641645297845
+        },
+        "bicubic_x4": {
+          "patch": 0.01574301966359096
+        },
+        "bicubic_x8": {
+          "patch": 0.10483157485797262
+        },
+        "h264_crf23": {
+          "patch": 0.026403447120479775
+        },
+        "h264_crf33": {
+          "patch": 0.09303349768916802
+        },
+        "shift_right1": {
+          "patch": 0.004325864642052841
+        },
+        "sharpen_hr": {
+          "patch": 0.0002223100967293064
+        },
+        "sharpen_x2": {
+          "patch": 0.0011795220419420457
+        }
+      },
+      "seconds": 18.11031214801187
+    },
+    {
+      "id": "sunflower/00025",
+      "clip": "sunflower",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.09061401266051596
+        },
+        "bicubic_x4": {
+          "patch": 0.2579337878139862
+        },
+        "bicubic_x8": {
+          "patch": 0.46023659934397254
+        },
+        "h264_crf23": {
+          "patch": 0.1997971556957695
+        },
+        "h264_crf33": {
+          "patch": 0.31796245796822137
+        },
+        "shift_right1": {
+          "patch": 0.029253397566745314
+        },
+        "sharpen_hr": {
+          "patch": 0.00938382564436018
+        },
+        "sharpen_x2": {
+          "patch": 0.08425848555303989
+        }
+      },
+      "seconds": 17.37524706100521
+    },
+    {
+      "id": "sunflower/00025",
+      "clip": "sunflower",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          1920,
+          1080
+        ],
+        "resized_wh": [
+          924,
+          504
+        ],
+        "grid_wh": [
+          66,
+          36
+        ],
+        "valid_raw_tokens": 2376
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.0011441272523540081
+        },
+        "bicubic_x4": {
+          "patch": 0.009853880470428976
+        },
+        "bicubic_x8": {
+          "patch": 0.07334685612709158
+        },
+        "h264_crf23": {
+          "patch": 0.021487230155409445
+        },
+        "h264_crf33": {
+          "patch": 0.07087931126971911
+        },
+        "shift_right1": {
+          "patch": 0.0034757998044164192
+        },
+        "sharpen_hr": {
+          "patch": 0.00023129001697785615
+        },
+        "sharpen_x2": {
+          "patch": 0.0011693506212129428
+        }
+      },
+      "seconds": 19.238296195995645
+    },
+    {
+      "id": "sunflower/00036",
+      "clip": "sunflower",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.08777959431337028
+        },
+        "bicubic_x4": {
+          "patch": 0.20170637381480863
+        },
+        "bicubic_x8": {
+          "patch": 0.47549332705379005
+        },
+        "h264_crf23": {
+          "patch": 0.1388087644992339
+        },
+        "h264_crf33": {
+          "patch": 0.2511070206143852
+        },
+        "shift_right1": {
+          "patch": 0.029963746799563793
+        },
+        "sharpen_hr": {
+          "patch": 0.007223904605040132
+        },
+        "sharpen_x2": {
+          "patch": 0.08275495931836378
+        }
+      },
+      "seconds": 17.118290414990042
+    },
+    {
+      "id": "sunflower/00036",
+      "clip": "sunflower",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          1920,
+          1080
+        ],
+        "resized_wh": [
+          924,
+          504
+        ],
+        "grid_wh": [
+          66,
+          36
+        ],
+        "valid_raw_tokens": 2376
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.001264037184608152
+        },
+        "bicubic_x4": {
+          "patch": 0.009903639820777441
+        },
+        "bicubic_x8": {
+          "patch": 0.08563583658406118
+        },
+        "h264_crf23": {
+          "patch": 0.02193767071117929
+        },
+        "h264_crf33": {
+          "patch": 0.07416576238638706
+        },
+        "shift_right1": {
+          "patch": 0.0037475652761518063
+        },
+        "sharpen_hr": {
+          "patch": 0.0002411713000689548
+        },
+        "sharpen_x2": {
+          "patch": 0.0011581933569128767
+        }
+      },
+      "seconds": 41.85436474799644
+    },
+    {
+      "id": "sunflower/00048",
+      "clip": "sunflower",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.08775971829840222
+        },
+        "bicubic_x4": {
+          "patch": 0.21188325588051063
+        },
+        "bicubic_x8": {
+          "patch": 0.40590265358934974
+        },
+        "h264_crf23": {
+          "patch": 0.20705502071328827
+        },
+        "h264_crf33": {
+          "patch": 0.3443211062366105
+        },
+        "shift_right1": {
+          "patch": 0.036870937396865575
+        },
+        "sharpen_hr": {
+          "patch": 0.007898051469741287
+        },
+        "sharpen_x2": {
+          "patch": 0.08519852374489954
+        }
+      },
+      "seconds": 23.253661565991933
+    },
+    {
+      "id": "sunflower/00048",
+      "clip": "sunflower",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          1920,
+          1080
+        ],
+        "resized_wh": [
+          924,
+          504
+        ],
+        "grid_wh": [
+          66,
+          36
+        ],
+        "valid_raw_tokens": 2376
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.0012923561237409762
+        },
+        "bicubic_x4": {
+          "patch": 0.013290020922472001
+        },
+        "bicubic_x8": {
+          "patch": 0.094018113522326
+        },
+        "h264_crf23": {
+          "patch": 0.03019524189302459
+        },
+        "h264_crf33": {
+          "patch": 0.08918316113285525
+        },
+        "shift_right1": {
+          "patch": 0.003955255323583942
+        },
+        "sharpen_hr": {
+          "patch": 0.00020585976483217478
+        },
+        "sharpen_x2": {
+          "patch": 0.0012094768988154556
+        }
+      },
+      "seconds": 18.194217853990267
+    },
+    {
+      "id": "rush_hour/00001",
+      "clip": "rush_hour",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.08594027914683783
+        },
+        "bicubic_x4": {
+          "patch": 0.18122666271574783
+        },
+        "bicubic_x8": {
+          "patch": 0.2809919054452291
+        },
+        "h264_crf23": {
+          "patch": 0.17509615764565145
+        },
+        "h264_crf33": {
+          "patch": 0.28728767274537936
+        },
+        "shift_right1": {
+          "patch": 0.02611174632954695
+        },
+        "sharpen_hr": {
+          "patch": 0.02021070366818586
+        },
+        "sharpen_x2": {
+          "patch": 0.08218642645641717
+        }
+      },
+      "seconds": 16.763434542008326
+    },
+    {
+      "id": "rush_hour/00001",
+      "clip": "rush_hour",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          1920,
+          1080
+        ],
+        "resized_wh": [
+          924,
+          504
+        ],
+        "grid_wh": [
+          66,
+          36
+        ],
+        "valid_raw_tokens": 2376
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.0025662208509666835
+        },
+        "bicubic_x4": {
+          "patch": 0.015235315489001628
+        },
+        "bicubic_x8": {
+          "patch": 0.06847098277593251
+        },
+        "h264_crf23": {
+          "patch": 0.03940658514936922
+        },
+        "h264_crf33": {
+          "patch": 0.11031223971058977
+        },
+        "shift_right1": {
+          "patch": 0.005628203414929401
+        },
+        "sharpen_hr": {
+          "patch": 0.0004717881663081361
+        },
+        "sharpen_x2": {
+          "patch": 0.0025930731740182534
+        }
+      },
+      "seconds": 18.667427776992554
+    },
+    {
+      "id": "rush_hour/00013",
+      "clip": "rush_hour",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.08864656036138678
+        },
+        "bicubic_x4": {
+          "patch": 0.15973034536093322
+        },
+        "bicubic_x8": {
+          "patch": 0.29106702700400916
+        },
+        "h264_crf23": {
+          "patch": 0.1831056888973689
+        },
+        "h264_crf33": {
+          "patch": 0.2610316152234707
+        },
+        "shift_right1": {
+          "patch": 0.0273485595453487
+        },
+        "sharpen_hr": {
+          "patch": 0.01981216900489307
+        },
+        "sharpen_x2": {
+          "patch": 0.0843686210701299
+        }
+      },
+      "seconds": 16.868158614001004
+    },
+    {
+      "id": "rush_hour/00013",
+      "clip": "rush_hour",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          1920,
+          1080
+        ],
+        "resized_wh": [
+          924,
+          504
+        ],
+        "grid_wh": [
+          66,
+          36
+        ],
+        "valid_raw_tokens": 2376
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.002559929879419841
+        },
+        "bicubic_x4": {
+          "patch": 0.017574459191338723
+        },
+        "bicubic_x8": {
+          "patch": 0.07188534724105344
+        },
+        "h264_crf23": {
+          "patch": 0.040665842613985384
+        },
+        "h264_crf33": {
+          "patch": 0.11155233643281524
+        },
+        "shift_right1": {
+          "patch": 0.006580555516279373
+        },
+        "sharpen_hr": {
+          "patch": 0.0005697749352509753
+        },
+        "sharpen_x2": {
+          "patch": 0.0025906783198923924
+        }
+      },
+      "seconds": 18.357046089993673
+    },
+    {
+      "id": "rush_hour/00025",
+      "clip": "rush_hour",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.08223728092692723
+        },
+        "bicubic_x4": {
+          "patch": 0.14765557725620748
+        },
+        "bicubic_x8": {
+          "patch": 0.2918888509076441
+        },
+        "h264_crf23": {
+          "patch": 0.17073444640314644
+        },
+        "h264_crf33": {
+          "patch": 0.21970092712066006
+        },
+        "shift_right1": {
+          "patch": 0.03254576012367474
+        },
+        "sharpen_hr": {
+          "patch": 0.01823822551260099
+        },
+        "sharpen_x2": {
+          "patch": 0.08141104640250929
+        }
+      },
+      "seconds": 17.46584735099168
+    },
+    {
+      "id": "rush_hour/00025",
+      "clip": "rush_hour",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          1920,
+          1080
+        ],
+        "resized_wh": [
+          924,
+          504
+        ],
+        "grid_wh": [
+          66,
+          36
+        ],
+        "valid_raw_tokens": 2376
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.0022181632821374146
+        },
+        "bicubic_x4": {
+          "patch": 0.015637464069316712
+        },
+        "bicubic_x8": {
+          "patch": 0.07274154092175329
+        },
+        "h264_crf23": {
+          "patch": 0.036648506218860205
+        },
+        "h264_crf33": {
+          "patch": 0.10513487121817525
+        },
+        "shift_right1": {
+          "patch": 0.005740160272416537
+        },
+        "sharpen_hr": {
+          "patch": 0.00039799352704251604
+        },
+        "sharpen_x2": {
+          "patch": 0.0022244792293052134
+        }
+      },
+      "seconds": 19.068672442997922
+    },
+    {
+      "id": "rush_hour/00036",
+      "clip": "rush_hour",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.10419300720763133
+        },
+        "bicubic_x4": {
+          "patch": 0.17199550276804576
+        },
+        "bicubic_x8": {
+          "patch": 0.31484178674692287
+        },
+        "h264_crf23": {
+          "patch": 0.23303598729050717
+        },
+        "h264_crf33": {
+          "patch": 0.318639315784581
+        },
+        "shift_right1": {
+          "patch": 0.030315419610749725
+        },
+        "sharpen_hr": {
+          "patch": 0.027927485875101125
+        },
+        "sharpen_x2": {
+          "patch": 0.10305774083755621
+        }
+      },
+      "seconds": 18.43051292799646
+    },
+    {
+      "id": "rush_hour/00036",
+      "clip": "rush_hour",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          1920,
+          1080
+        ],
+        "resized_wh": [
+          924,
+          504
+        ],
+        "grid_wh": [
+          66,
+          36
+        ],
+        "valid_raw_tokens": 2376
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.0020458143712706223
+        },
+        "bicubic_x4": {
+          "patch": 0.016403545563174502
+        },
+        "bicubic_x8": {
+          "patch": 0.07717654966945682
+        },
+        "h264_crf23": {
+          "patch": 0.039599767496827455
+        },
+        "h264_crf33": {
+          "patch": 0.10129425853911816
+        },
+        "shift_right1": {
+          "patch": 0.005588108064349526
+        },
+        "sharpen_hr": {
+          "patch": 0.0003725310752429877
+        },
+        "sharpen_x2": {
+          "patch": 0.0019992281902161254
+        }
+      },
+      "seconds": 19.078590516990516
+    },
+    {
+      "id": "rush_hour/00048",
+      "clip": "rush_hour",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.08913031818329029
+        },
+        "bicubic_x4": {
+          "patch": 0.14949580628922712
+        },
+        "bicubic_x8": {
+          "patch": 0.26480232452973396
+        },
+        "h264_crf23": {
+          "patch": 0.18226782844286837
+        },
+        "h264_crf33": {
+          "patch": 0.3516831596941467
+        },
+        "shift_right1": {
+          "patch": 0.03251899462709144
+        },
+        "sharpen_hr": {
+          "patch": 0.020693182918122967
+        },
+        "sharpen_x2": {
+          "patch": 0.08971408099658235
+        }
+      },
+      "seconds": 17.676957442003186
+    },
+    {
+      "id": "rush_hour/00048",
+      "clip": "rush_hour",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          1920,
+          1080
+        ],
+        "resized_wh": [
+          924,
+          504
+        ],
+        "grid_wh": [
+          66,
+          36
+        ],
+        "valid_raw_tokens": 2376
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.0023129449905205674
+        },
+        "bicubic_x4": {
+          "patch": 0.015489692802335217
+        },
+        "bicubic_x8": {
+          "patch": 0.0740563402319368
+        },
+        "h264_crf23": {
+          "patch": 0.039401740296221455
+        },
+        "h264_crf33": {
+          "patch": 0.1065876872506199
+        },
+        "shift_right1": {
+          "patch": 0.005613433679167053
+        },
+        "sharpen_hr": {
+          "patch": 0.000400977882236322
+        },
+        "sharpen_x2": {
+          "patch": 0.0022988652311292396
+        }
+      },
+      "seconds": 18.795516693004174
+    },
+    {
+      "id": "bbb_t120/00001",
+      "clip": "bbb_t120",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.0619806664670434
+        },
+        "bicubic_x4": {
+          "patch": 0.2050151415996364
+        },
+        "bicubic_x8": {
+          "patch": 0.2845787423035437
+        },
+        "h264_crf23": {
+          "patch": 0.047592185342722526
+        },
+        "h264_crf33": {
+          "patch": 0.1501912746690165
+        },
+        "shift_right1": {
+          "patch": 0.03346689126012853
+        },
+        "sharpen_hr": {
+          "patch": 0.00803846154068962
+        },
+        "sharpen_x2": {
+          "patch": 0.06365474605451096
+        }
+      },
+      "seconds": 16.584201187986764
+    },
+    {
+      "id": "bbb_t120/00001",
+      "clip": "bbb_t120",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          1920,
+          1080
+        ],
+        "resized_wh": [
+          924,
+          504
+        ],
+        "grid_wh": [
+          66,
+          36
+        ],
+        "valid_raw_tokens": 2376
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.003023552876899668
+        },
+        "bicubic_x4": {
+          "patch": 0.03243830707842182
+        },
+        "bicubic_x8": {
+          "patch": 0.11234812339812356
+        },
+        "h264_crf23": {
+          "patch": 0.01779784627199036
+        },
+        "h264_crf33": {
+          "patch": 0.04422340833954097
+        },
+        "shift_right1": {
+          "patch": 0.006411507736501418
+        },
+        "sharpen_hr": {
+          "patch": 0.0004743323433169178
+        },
+        "sharpen_x2": {
+          "patch": 0.0029697207365126654
+        }
+      },
+      "seconds": 17.311841495000408
+    },
+    {
+      "id": "bbb_t120/00013",
+      "clip": "bbb_t120",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.06234124347980604
+        },
+        "bicubic_x4": {
+          "patch": 0.20690159173865194
+        },
+        "bicubic_x8": {
+          "patch": 0.2853816256398352
+        },
+        "h264_crf23": {
+          "patch": 0.0439932799231655
+        },
+        "h264_crf33": {
+          "patch": 0.15019178211626497
+        },
+        "shift_right1": {
+          "patch": 0.03263948507757169
+        },
+        "sharpen_hr": {
+          "patch": 0.007898974904929352
+        },
+        "sharpen_x2": {
+          "patch": 0.06418486367248863
+        }
+      },
+      "seconds": 15.652705972999684
+    },
+    {
+      "id": "bbb_t120/00013",
+      "clip": "bbb_t120",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          1920,
+          1080
+        ],
+        "resized_wh": [
+          924,
+          504
+        ],
+        "grid_wh": [
+          66,
+          36
+        ],
+        "valid_raw_tokens": 2376
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.0032907130967893355
+        },
+        "bicubic_x4": {
+          "patch": 0.033088616916377114
+        },
+        "bicubic_x8": {
+          "patch": 0.10819222734567721
+        },
+        "h264_crf23": {
+          "patch": 0.014922646599307927
+        },
+        "h264_crf33": {
+          "patch": 0.048629119079938256
+        },
+        "shift_right1": {
+          "patch": 0.005994431602396695
+        },
+        "sharpen_hr": {
+          "patch": 0.0004777334366713369
+        },
+        "sharpen_x2": {
+          "patch": 0.0033627475529457913
+        }
+      },
+      "seconds": 17.35213634399406
+    },
+    {
+      "id": "bbb_t120/00025",
+      "clip": "bbb_t120",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.06296695412086797
+        },
+        "bicubic_x4": {
+          "patch": 0.20721271677303216
+        },
+        "bicubic_x8": {
+          "patch": 0.28579597180723787
+        },
+        "h264_crf23": {
+          "patch": 0.04417645475455467
+        },
+        "h264_crf33": {
+          "patch": 0.15001632393864753
+        },
+        "shift_right1": {
+          "patch": 0.03264471806566246
+        },
+        "sharpen_hr": {
+          "patch": 0.0078081121221345645
+        },
+        "sharpen_x2": {
+          "patch": 0.06464769721770336
+        }
+      },
+      "seconds": 47.80497808600194
+    },
+    {
+      "id": "bbb_t120/00025",
+      "clip": "bbb_t120",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          1920,
+          1080
+        ],
+        "resized_wh": [
+          924,
+          504
+        ],
+        "grid_wh": [
+          66,
+          36
+        ],
+        "valid_raw_tokens": 2376
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.003285494319448481
+        },
+        "bicubic_x4": {
+          "patch": 0.03392040038692975
+        },
+        "bicubic_x8": {
+          "patch": 0.10352785433078082
+        },
+        "h264_crf23": {
+          "patch": 0.017140613437449045
+        },
+        "h264_crf33": {
+          "patch": 0.046798771747184255
+        },
+        "shift_right1": {
+          "patch": 0.005823143014145893
+        },
+        "sharpen_hr": {
+          "patch": 0.0004838948487169103
+        },
+        "sharpen_x2": {
+          "patch": 0.003232551630719921
+        }
+      },
+      "seconds": 48.5852069370012
+    },
+    {
+      "id": "bbb_t120/00036",
+      "clip": "bbb_t120",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.062424231052154826
+        },
+        "bicubic_x4": {
+          "patch": 0.20715361756906864
+        },
+        "bicubic_x8": {
+          "patch": 0.28499223271276386
+        },
+        "h264_crf23": {
+          "patch": 0.044759696639427485
+        },
+        "h264_crf33": {
+          "patch": 0.1497070098506306
+        },
+        "shift_right1": {
+          "patch": 0.03300152293247729
+        },
+        "sharpen_hr": {
+          "patch": 0.0075794701480631065
+        },
+        "sharpen_x2": {
+          "patch": 0.06429038252962778
+        }
+      },
+      "seconds": 34.409177730995
+    },
+    {
+      "id": "bbb_t120/00036",
+      "clip": "bbb_t120",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          1920,
+          1080
+        ],
+        "resized_wh": [
+          924,
+          504
+        ],
+        "grid_wh": [
+          66,
+          36
+        ],
+        "valid_raw_tokens": 2376
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.002907647671143424
+        },
+        "bicubic_x4": {
+          "patch": 0.030884261188919467
+        },
+        "bicubic_x8": {
+          "patch": 0.09616580850931955
+        },
+        "h264_crf23": {
+          "patch": 0.01580484106259403
+        },
+        "h264_crf33": {
+          "patch": 0.04779328812949771
+        },
+        "shift_right1": {
+          "patch": 0.005493234229062489
+        },
+        "sharpen_hr": {
+          "patch": 0.00048048366523707975
+        },
+        "sharpen_x2": {
+          "patch": 0.0025318577997365133
+        }
+      },
+      "seconds": 30.933156404993497
+    },
+    {
+      "id": "bbb_t120/00048",
+      "clip": "bbb_t120",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.06231305208838525
+        },
+        "bicubic_x4": {
+          "patch": 0.20658664480401281
+        },
+        "bicubic_x8": {
+          "patch": 0.28552525334584583
+        },
+        "h264_crf23": {
+          "patch": 0.04473776608554113
+        },
+        "h264_crf33": {
+          "patch": 0.14925911818235893
+        },
+        "shift_right1": {
+          "patch": 0.03298510605363699
+        },
+        "sharpen_hr": {
+          "patch": 0.007689302043753393
+        },
+        "sharpen_x2": {
+          "patch": 0.06442965413591317
+        }
+      },
+      "seconds": 15.96386531299504
+    },
+    {
+      "id": "bbb_t120/00048",
+      "clip": "bbb_t120",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          1920,
+          1080
+        ],
+        "resized_wh": [
+          924,
+          504
+        ],
+        "grid_wh": [
+          66,
+          36
+        ],
+        "valid_raw_tokens": 2376
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.0032007289657379977
+        },
+        "bicubic_x4": {
+          "patch": 0.030645199041534017
+        },
+        "bicubic_x8": {
+          "patch": 0.10120360213691376
+        },
+        "h264_crf23": {
+          "patch": 0.016584222801724707
+        },
+        "h264_crf33": {
+          "patch": 0.05667896621538858
+        },
+        "shift_right1": {
+          "patch": 0.006023734496020312
+        },
+        "sharpen_hr": {
+          "patch": 0.00048696588593247
+        },
+        "sharpen_x2": {
+          "patch": 0.002725905016325415
+        }
+      },
+      "seconds": 17.461819390999153
+    },
+    {
+      "id": "sintel_trailer/00001",
+      "clip": "sintel_trailer",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.16688784645311608
+        },
+        "bicubic_x4": {
+          "patch": 0.3223062450919014
+        },
+        "bicubic_x8": {
+          "patch": 0.37633956736032204
+        },
+        "h264_crf23": {
+          "patch": 0.1506238231557374
+        },
+        "h264_crf33": {
+          "patch": 0.29067229745106854
+        },
+        "shift_right1": {
+          "patch": 0.06886424247177127
+        },
+        "sharpen_hr": {
+          "patch": 0.006001176296981988
+        },
+        "sharpen_x2": {
+          "patch": 0.16301151485196683
+        }
+      },
+      "seconds": 15.780762762005907
+    },
+    {
+      "id": "sintel_trailer/00001",
+      "clip": "sintel_trailer",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          1920,
+          1080
+        ],
+        "resized_wh": [
+          924,
+          504
+        ],
+        "grid_wh": [
+          66,
+          36
+        ],
+        "valid_raw_tokens": 2376
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.0035603999369457347
+        },
+        "bicubic_x4": {
+          "patch": 0.02504998242896703
+        },
+        "bicubic_x8": {
+          "patch": 0.094110417307221
+        },
+        "h264_crf23": {
+          "patch": 0.039929946989940505
+        },
+        "h264_crf33": {
+          "patch": 0.11949736210528236
+        },
+        "shift_right1": {
+          "patch": 0.003883641454834035
+        },
+        "sharpen_hr": {
+          "patch": 0.0005417148562609145
+        },
+        "sharpen_x2": {
+          "patch": 0.003073135117143032
+        }
+      },
+      "seconds": 17.412138521001907
+    },
+    {
+      "id": "sintel_trailer/00013",
+      "clip": "sintel_trailer",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.15428511326462468
+        },
+        "bicubic_x4": {
+          "patch": 0.2880908710343151
+        },
+        "bicubic_x8": {
+          "patch": 0.47528178721474945
+        },
+        "h264_crf23": {
+          "patch": 0.15085308731047262
+        },
+        "h264_crf33": {
+          "patch": 0.28821329922111194
+        },
+        "shift_right1": {
+          "patch": 0.06171381249366099
+        },
+        "sharpen_hr": {
+          "patch": 0.0052242477783847885
+        },
+        "sharpen_x2": {
+          "patch": 0.1461069626689444
+        }
+      },
+      "seconds": 15.568737053006771
+    },
+    {
+      "id": "sintel_trailer/00013",
+      "clip": "sintel_trailer",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          1920,
+          1080
+        ],
+        "resized_wh": [
+          924,
+          504
+        ],
+        "grid_wh": [
+          66,
+          36
+        ],
+        "valid_raw_tokens": 2376
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.003907608709032428
+        },
+        "bicubic_x4": {
+          "patch": 0.026710428628116324
+        },
+        "bicubic_x8": {
+          "patch": 0.09997892163100738
+        },
+        "h264_crf23": {
+          "patch": 0.04429516499710975
+        },
+        "h264_crf33": {
+          "patch": 0.12023385838722848
+        },
+        "shift_right1": {
+          "patch": 0.004572874669001611
+        },
+        "sharpen_hr": {
+          "patch": 0.0004993662765666934
+        },
+        "sharpen_x2": {
+          "patch": 0.003450321194067262
+        }
+      },
+      "seconds": 16.285379246997763
+    },
+    {
+      "id": "sintel_trailer/00025",
+      "clip": "sintel_trailer",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.13703688068286382
+        },
+        "bicubic_x4": {
+          "patch": 0.28344962054325834
+        },
+        "bicubic_x8": {
+          "patch": 0.4412101615955796
+        },
+        "h264_crf23": {
+          "patch": 0.17039422221655426
+        },
+        "h264_crf33": {
+          "patch": 0.32032541638546996
+        },
+        "shift_right1": {
+          "patch": 0.05928637114673044
+        },
+        "sharpen_hr": {
+          "patch": 0.005741541644375762
+        },
+        "sharpen_x2": {
+          "patch": 0.13236454886384663
+        }
+      },
+      "seconds": 15.26820948299428
+    },
+    {
+      "id": "sintel_trailer/00025",
+      "clip": "sintel_trailer",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          1920,
+          1080
+        ],
+        "resized_wh": [
+          924,
+          504
+        ],
+        "grid_wh": [
+          66,
+          36
+        ],
+        "valid_raw_tokens": 2376
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.0036449782066648477
+        },
+        "bicubic_x4": {
+          "patch": 0.028904189394694076
+        },
+        "bicubic_x8": {
+          "patch": 0.09633804518236665
+        },
+        "h264_crf23": {
+          "patch": 0.03674130836048645
+        },
+        "h264_crf33": {
+          "patch": 0.10685562290692185
+        },
+        "shift_right1": {
+          "patch": 0.004455581575644877
+        },
+        "sharpen_hr": {
+          "patch": 0.0004488013987661467
+        },
+        "sharpen_x2": {
+          "patch": 0.003188556688930557
+        }
+      },
+      "seconds": 16.815231112996116
+    },
+    {
+      "id": "sintel_trailer/00036",
+      "clip": "sintel_trailer",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.10044131807131085
+        },
+        "bicubic_x4": {
+          "patch": 0.1703690338313032
+        },
+        "bicubic_x8": {
+          "patch": 0.254865290201459
+        },
+        "h264_crf23": {
+          "patch": 0.09306441654370995
+        },
+        "h264_crf33": {
+          "patch": 0.2075672329305452
+        },
+        "shift_right1": {
+          "patch": 0.03205715029397102
+        },
+        "sharpen_hr": {
+          "patch": 0.005814923460997507
+        },
+        "sharpen_x2": {
+          "patch": 0.09326107724385163
+        }
+      },
+      "seconds": 15.458429004997015
+    },
+    {
+      "id": "sintel_trailer/00036",
+      "clip": "sintel_trailer",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          1920,
+          1080
+        ],
+        "resized_wh": [
+          924,
+          504
+        ],
+        "grid_wh": [
+          66,
+          36
+        ],
+        "valid_raw_tokens": 2376
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.004289373314066174
+        },
+        "bicubic_x4": {
+          "patch": 0.03043028622110508
+        },
+        "bicubic_x8": {
+          "patch": 0.09205770217655346
+        },
+        "h264_crf23": {
+          "patch": 0.021453887239979375
+        },
+        "h264_crf33": {
+          "patch": 0.07755888105688963
+        },
+        "shift_right1": {
+          "patch": 0.003984475795160189
+        },
+        "sharpen_hr": {
+          "patch": 0.0007392283227317622
+        },
+        "sharpen_x2": {
+          "patch": 0.004223832573868109
+        }
+      },
+      "seconds": 16.95605714499834
+    },
+    {
+      "id": "sintel_trailer/00048",
+      "clip": "sintel_trailer",
+      "view": "crop192",
+      "geometry": {
+        "input_wh": [
+          192,
+          192
+        ],
+        "resized_wh": [
+          672,
+          672
+        ],
+        "grid_wh": [
+          48,
+          48
+        ],
+        "valid_raw_tokens": 2304
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.09793886593398489
+        },
+        "bicubic_x4": {
+          "patch": 0.17316406391671105
+        },
+        "bicubic_x8": {
+          "patch": 0.377823526271962
+        },
+        "h264_crf23": {
+          "patch": 0.12705561828155254
+        },
+        "h264_crf33": {
+          "patch": 0.2678197961479736
+        },
+        "shift_right1": {
+          "patch": 0.034086438556812454
+        },
+        "sharpen_hr": {
+          "patch": 0.006698141542365907
+        },
+        "sharpen_x2": {
+          "patch": 0.0973371033250329
+        }
+      },
+      "seconds": 15.479444033000618
+    },
+    {
+      "id": "sintel_trailer/00048",
+      "clip": "sintel_trailer",
+      "view": "native",
+      "geometry": {
+        "input_wh": [
+          1920,
+          1080
+        ],
+        "resized_wh": [
+          924,
+          504
+        ],
+        "grid_wh": [
+          66,
+          36
+        ],
+        "valid_raw_tokens": 2376
+      },
+      "unchanged_repeat": {},
+      "values": {
+        "bicubic_x2": {
+          "patch": 0.004545791475473561
+        },
+        "bicubic_x4": {
+          "patch": 0.03067181276699575
+        },
+        "bicubic_x8": {
+          "patch": 0.09063524903732818
+        },
+        "h264_crf23": {
+          "patch": 0.028106427045455518
+        },
+        "h264_crf33": {
+          "patch": 0.09073108284278636
+        },
+        "shift_right1": {
+          "patch": 0.004243632966027722
+        },
+        "sharpen_hr": {
+          "patch": 0.000706917581583654
+        },
+        "sharpen_x2": {
+          "patch": 0.004467672075008923
+        }
+      },
+      "seconds": 16.70384753299004
+    }
+  ],
+  "cpu_threads": 2,
+  "device": "cpu",
+  "dtype": "float32",
+  "utc": "2026-10-17T04:28:19.484167+00:00",
+  "versions": {
+    "torch": "2.14.1+cpu",
+    "torchvision": "0.29.1+cpu",
+    "transformers": "5.21.0.dev0",
+    "numpy": "2.5.2",
+    "Pillow": "12.3.0",
+    "lpips": "0.1.4",
+    "scipy": "1.18.1"
+  },
+  "model": {
+    "checkpoint": "facebook/dinov2-base",
+    "sha256": "d73036b56966966d07975d696bde331762f37297e2f095de8cea0040c3aa0841",
+    "patch_size": 14,
+    "tokens": "last_hidden_state[:,1:], post-layernorm, CLS excluded",
+    "preprocessing": "full image bicubic/antialias resize to EG2 grid times 14; identical patch grid count, ImageNet normalization; no center crop",
+    "parameters": 86580480
+  },
+  "load_seconds": 6.8884458579996135,
+  "total_stage_seconds": 1651.6949257910019
+}

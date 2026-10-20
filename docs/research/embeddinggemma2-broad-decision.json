@@ -1,0 +1,63 @@
+{
+  "verdict": "NO-GO for spending EG2-specific training budget",
+  "criteria": "At least one EG2 arm must pass both views: within-level macro LPIPS Spearman improvement over its random-tower counterpart has a positive paired 95% CI; no statistically clear PSNR correlation deficit; >=75% strict x2<x4<x8 ordering; median one-pixel-shift distance < x2 distance.",
+  "arms": {
+    "eg2_global_": {
+      "pass_all": false,
+      "checks": [
+        {
+          "view": "crop192",
+          "lpips_control_superiority": false,
+          "no_significant_psnr_control_deficit": true,
+          "blur_order_75pct": true,
+          "shift_median_below_x2": true
+        },
+        {
+          "view": "native",
+          "lpips_control_superiority": false,
+          "no_significant_psnr_control_deficit": true,
+          "blur_order_75pct": true,
+          "shift_median_below_x2": true
+        }
+      ]
+    },
+    "eg2_pooled": {
+      "pass_all": false,
+      "checks": [
+        {
+          "view": "crop192",
+          "lpips_control_superiority": false,
+          "no_significant_psnr_control_deficit": false,
+          "blur_order_75pct": true,
+          "shift_median_below_x2": true
+        },
+        {
+          "view": "native",
+          "lpips_control_superiority": false,
+          "no_significant_psnr_control_deficit": false,
+          "blur_order_75pct": true,
+          "shift_median_below_x2": true
+        }
+      ]
+    },
+    "eg2_raw": {
+      "pass_all": false,
+      "checks": [
+        {
+          "view": "crop192",
+          "lpips_control_superiority": false,
+          "no_significant_psnr_control_deficit": false,
+          "blur_order_75pct": true,
+          "shift_median_below_x2": true
+        },
+        {
+          "view": "native",
+          "lpips_control_superiority": false,
+          "no_significant_psnr_control_deficit": false,
+          "blur_order_75pct": true,
+          "shift_median_below_x2": true
+        }
+      ]
+    }
+  }
+}
