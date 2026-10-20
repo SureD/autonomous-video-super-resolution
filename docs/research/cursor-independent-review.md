@@ -5,6 +5,10 @@
 - Scope: fixed-latency real-time video super-resolution, 540p→1080p ×2, RTX 3070 8GB, TensorRT, training-side methods that do not change the exported graph. Diffusion VSR is out of scope for any method this review recommends. No GPU was available. Nothing below is a measured result of this repository.
 - Citation rule: a paper is cited only if its full text or a full HTML/PDF rendering was opened in this session. Each citation has the arXiv id or the URL that was opened. Search snippets, abstracts seen only in a hit list, and the repository’s own bibliography are not evidence. Where a number is the paper’s, it is attributed. This review does not invent effect sizes for the 3070 setting.
 
+## Status note (2026-10-20)
+
+The audit below is the 2026-10-16 text, except the correction in §10.1 item 8. Two measurement bugs that §11.4 treats as current were fixed afterward by ADR 0002 and ADR 0003: training, preparation, and evaluation share Pillow antialiased bicubic downsampling, and Y metrics are BT.709 full range, peak 255, with no border crop. CRF 30 is still not in the staged E3 set (H.264 18/23/28/33, AV1 35/45).
+
 ## 0. How to read the verdicts
 
 | Verdict | Meaning used here |
@@ -244,7 +248,7 @@ Representation alignment and embedding losses:
 5. CLIP-SR. Text and image both enter the SR network; CLIP-ViT and a CLIP discriminator stay in the method. Target regime is 8×–16×, where semantics invent detail. Not a training-only loss, and not ×2 video. https://arxiv.org/abs/2412.11609
 6. “Can SAM Boost Video Super-Resolution?” SEEM reads SAM masks and is inserted into alignment, fusion, and reconstruction. Gains quoted in §5. Efficient tuning still leaves SEEM in the net. https://arxiv.org/abs/2305.06524
 7. InstructIR. Human instructions, encoded and fed to a NAFNet-style restorer. SISR is an added task (bicubic, then the network enhances an already-upsampled image). Text is an inference input. https://arxiv.org/abs/2401.16468
-8. HF-Diff. One-step diffusion SR with a high-frequency perceptual loss and a Jensen–Shannon match in DINOv2 embedding space. They claim, inside that diffusion setup, that the high-frequency loss beats LPIPS and VGG perceptual losses. Excluded as a method. Not evidence that DINOv2 matching helps ECBSR. https://arxiv.org/abs/2411.13548
+8. MGHF (arXiv 2411.13548). An invertible-network multi-granular high-frequency perceptual loss for image super-resolution (MGHF-n / MGHF-c), trained on ImageNet. An earlier draft of this review called this id “HF-Diff” and described a one-step diffusion sampler with a Jensen–Shannon match in DINOv2 space. That description does not match the abstract: this paper is not a diffusion method and is not evidence about DINOv2 matching. Excluded as a method. Not evidence that DINOv2 matching helps ECBSR. https://arxiv.org/abs/2411.13548
 9. V-JEPA. Latent feature prediction on video, no pixel reconstruction, compared by the authors with VideoMAE-style pixel prediction. No restoration loss, no SR experiment. The VideoMAE paper itself was **not** opened; only V-JEPA’s description of it was. https://arxiv.org/abs/2404.08471
 10. Vision–language backbones for no-reference IQA, including CLIP, SigLIP2, DINOv2, DINOv3. This is quality **assessment**, not a training loss for SR. No SigLIP SR-training paper was opened. https://arxiv.org/abs/2509.17374
 
@@ -273,7 +277,7 @@ Three different mechanisms are being conflated in the thesis. They should not be
 | Training loss: distance between a frozen encoder on the SR image and the same encoder on HR, head discarded | Unchanged | Not found for a classical VSR student. Closest discarded-head alignment is REPA, on a diffusion transformer | The experiment in §10.4 |
 | Distillation of a large **SR/VSR** teacher’s pixels or features | Unchanged if the teacher is offline | MTKD, FACD, DUKD, SPAN, RTSR, STD | This is H1, and it does not use CLIP/DINO |
 
-REPA’s head is an auxiliary projection of hidden states onto clean tokens. That pattern (train-time projector, frozen external encoder, clean target) is the one worth copying. Copying it onto a diffusion sampler (Align & Invert, HF-Diff) does not answer the question.
+REPA’s head is an auxiliary projection of hidden states onto clean tokens. That pattern (train-time projector, frozen external encoder, clean target) is the one worth copying. Copying it onto a diffusion sampler (Align & Invert) does not answer the question. MGHF is a high-frequency perceptual loss, not that experiment.
 
 ### 10.3 Novelty verdict
 
