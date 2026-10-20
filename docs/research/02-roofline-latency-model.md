@@ -4,7 +4,7 @@ Date: 2026-10-16. **All latencies below are predictions, not measurements.** No 
 
 ## Hardware and timing convention
 
-NVIDIA's [Ampere architecture whitepaper, Table 10, printed pp. 47–48](https://images.nvidia.com/aem-dam/en-zz/Solutions/geforce/ampere/pdf/NVIDIA-ampere-GA102-GPU-Architecture-Whitepaper-V1.pdf) was opened, including the table and footnotes. For the desktop RTX 3070 it lists:
+NVIDIA's [Ampere GA102 architecture whitepaper V1, Table 8, printed pp. 41–42](https://images.nvidia.com/aem-dam/en-zz/Solutions/geforce/ampere/pdf/NVIDIA-ampere-GA102-GPU-Architecture-Whitepaper-V1.pdf) was opened, including the table and footnotes. A later V2.0 revision of the same whitepaper numbers this comparison Table 10 on printed pp. 47–48; the linked file is V1, so the V1 table number is the one cited here. For the desktop RTX 3070 it lists:
 
 | Published quantity | Dense | With structured sparsity |
 |---|---:|---:|

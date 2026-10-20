@@ -127,7 +127,7 @@ The PC's free disk is **unknown** (not checked – no access allowed). Transfer 
 - Licences of Elephants Dream / Spring / Cosmos Laundromat / Sprite Fright; Netflix Chimera clips; Xiph hdgreetings clips (`dinner`, `factory`, `life` → `www.hdgreetings.com/copyright.txt` not fetched); Twitch capture sizes/resolution.
 - Pexels/Pixabay: explicit permission for ML training; bulk-download terms.
 - Whether ToS `ToS-4k-1920.mov.zip` is true 4K (name suggests 1920 wide).
-- `prepare_data.py --down cv2` path (no cv2 on the box); AV1 decoding relied on the box's ffmpeg 7.1.5 (libdav1d/libaom availability implicitly OK because decode worked).
+- AV1 decoding relied on the box's ffmpeg 7.1.5 (libdav1d/libaom availability implicitly OK because decode worked). `--down` accepts only `pil`; the old `cv2` choice is gone (ADR 0002).
 
 ## H3 implementation limits
 
